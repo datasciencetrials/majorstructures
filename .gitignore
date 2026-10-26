@@ -1,0 +1,4 @@
+.env
+.env.local
+tools/__pycache__/
+tools/nbms-local-*.png

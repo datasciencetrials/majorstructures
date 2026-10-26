@@ -1,0 +1,14 @@
+{
+  "class_names": [
+    "Critical",
+    "Poor",
+    "Satisfactory",
+    "Good"
+  ],
+  "class_to_index": {
+    "Critical": 0,
+    "Poor": 1,
+    "Satisfactory": 2,
+    "Good": 3
+  }
+}

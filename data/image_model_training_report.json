@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-06-26",
+  "status": "trained",
+  "model_kind": "pure_numpy_mlp_image_condition_classifier",
+  "model_path": "models/image_inspection/condition_mlp_v0.npz",
+  "label_map_path": "models/image_inspection/label_map.json",
+  "labels_path": "data/image_inspection_labels.json",
+  "image_size": [
+    32,
+    32
+  ],
+  "hidden_units": 96,
+  "epochs": 16,
+  "training_image_count": 2881,
+  "validation_image_count": 719,
+  "load_failure_count": 0,
+  "load_failure_sample": [],
+  "class_names": [
+    "Critical",
+    "Poor",
+    "Satisfactory",
+    "Good"
+  ],
+  "training_class_counts": {
+    "Critical": 720,
+    "Poor": 656,
+    "Satisfactory": 720,
+    "Good": 785
+  },
+  "validation_class_counts": {
+    "Critical": 180,
+    "Poor": 163,
+    "Satisfactory": 180,
+    "Good": 196
+  },
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "loss": 1.4916,
+      "train_accuracy": 0.2801,
+      "validation_accuracy": 0.2768
+    },
+    {
+      "epoch": 2,
+      "loss": 1.3818,
+      "train_accuracy": 0.2621,
+      "validation_accuracy": 0.2573
+    },
+    {
+      "epoch": 3,
+      "loss": 1.3817,
+      "train_accuracy": 0.2818,
+      "validation_accuracy": 0.2615
+    },
+    {
+      "epoch": 4,
+      "loss": 1.3739,
+      "train_accuracy": 0.303,
+      "validation_accuracy": 0.274
+    },
+    {
+      "epoch": 5,
+      "loss": 1.3697,
+      "train_accuracy": 0.2867,
+      "validation_accuracy": 0.274
+    },
+    {
+      "epoch": 6,
+      "loss": 1.3628,
+      "train_accuracy": 0.2881,
+      "validation_accuracy": 0.2851
+    },
+    {
+      "epoch": 7,
+      "loss": 1.3613,
+      "train_accuracy": 0.3256,
+      "validation_accuracy": 0.3199
+    },
+    {
+      "epoch": 8,
+      "loss": 1.3591,
+      "train_accuracy": 0.311,
+      "validation_accuracy": 0.3046
+    },
+    {
+      "epoch": 9,
+      "loss": 1.3543,
+      "train_accuracy": 0.3291,
+      "validation_accuracy": 0.3074
+    },
+    {
+      "epoch": 10,
+      "loss": 1.3556,
+      "train_accuracy": 0.3409,
+      "validation_accuracy": 0.3227
+    },
+    {
+      "epoch": 11,
+      "loss": 1.3477,
+      "train_accuracy": 0.3481,
+      "validation_accuracy": 0.299
+    },
+    {
+      "epoch": 12,
+      "loss": 1.345,
+      "train_accuracy": 0.3093,
+      "validation_accuracy": 0.274
+    },
+    {
+      "epoch": 13,
+      "loss": 1.3449,
+      "train_accuracy": 0.3551,
+      "validation_accuracy": 0.299
+    },
+    {
+      "epoch": 14,
+      "loss": 1.3411,
+      "train_accuracy": 0.3499,
+      "validation_accuracy": 0.2837
+    },
+    {
+      "epoch": 15,
+      "loss": 1.3388,
+      "train_accuracy": 0.3575,
+      "validation_accuracy": 0.3255
+    },
+    {
+      "epoch": 16,
+      "loss": 1.3401,
+      "train_accuracy": 0.3533,
+      "validation_accuracy": 0.3018
+    }
+  ],
+  "best_epoch": 15,
+  "best_validation_accuracy": 0.3255,
+  "final_train_accuracy": 0.3533,
+  "final_validation_accuracy": 0.3018,
+  "limitations": [
+    "This is a starter backend image-only inspection model trained from corrected NBMS labels.",
+    "It should be used for assisted triage and data-quality research until a larger reviewed image-label set is curated.",
+    "Inventory extraction tasks such as span count, material and defect localization need additional supervised labels before production use."
+  ]
+}
