@@ -1,0 +1,3072 @@
+[
+  {
+    "origin": "Abayita Ababiri",
+    "destination": "Kasenyi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 90536.0,
+    "estimatedAadt": 12933.714285714286,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Abim",
+    "destination": "Kilak",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 15024.0,
+    "estimatedAadt": 2146.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Acholibur",
+    "destination": "Kitgum",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 103776.0,
+    "estimatedAadt": 14825.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Adjumani",
+    "destination": "Sinyanyu Ferry Landing",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 39680.0,
+    "estimatedAadt": 5668.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Aduku",
+    "destination": "Lira",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23808.0,
+    "estimatedAadt": 3401.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Akwanamoru",
+    "destination": "Oreta",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 782.0,
+    "estimatedAadt": 111.71428571428571,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Aloi",
+    "destination": "Dokolo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16080.0,
+    "estimatedAadt": 2297.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Amenderin",
+    "destination": "Okude",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 47728.0,
+    "estimatedAadt": 6818.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Amudat",
+    "destination": "Kalita",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 1529.0,
+    "estimatedAadt": 218.42857142857142,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Angatun",
+    "destination": "Lokapel",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 6864.0,
+    "estimatedAadt": 980.5714285714286,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Angatun",
+    "destination": "Nabilatuk",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 1423.0,
+    "estimatedAadt": 203.28571428571428,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Anyeke",
+    "destination": "Minakulu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 41428.0,
+    "estimatedAadt": 5918.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Apac",
+    "destination": "Cegere",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 55388.0,
+    "estimatedAadt": 7912.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Apeitolim",
+    "destination": "Iriri",
+    "year": 2017,
+    "observedDays": 6,
+    "observedLinks": 2,
+    "totalCount": 140.0,
+    "estimatedAadt": 23.333333333333332,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Apetolim",
+    "destination": "Iriri",
+    "year": 2017,
+    "observedDays": 6,
+    "observedLinks": 1,
+    "totalCount": 35.0,
+    "estimatedAadt": 5.833333333333333,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Apokor",
+    "destination": "Tuba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11788.0,
+    "estimatedAadt": 1684.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Arapai",
+    "destination": "Amuria",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 27053.0,
+    "estimatedAadt": 3864.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Arapai",
+    "destination": "Iriri",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 45532.0,
+    "estimatedAadt": 6504.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Arua",
+    "destination": "Lia",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 34460.0,
+    "estimatedAadt": 4922.857142857143,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Aswa",
+    "destination": "Gulu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 70976.0,
+    "estimatedAadt": 10139.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Atiak",
+    "destination": "Moyo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 4419.0,
+    "estimatedAadt": 631.2857142857143,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Atiak",
+    "destination": "Palabek",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 21408.0,
+    "estimatedAadt": 3058.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ayer",
+    "destination": "Kamdini",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 75788.0,
+    "estimatedAadt": 10826.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "BIHARWE",
+    "destination": "KIKATSI",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 10652.0,
+    "estimatedAadt": 1521.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "BYANAMIRA",
+    "destination": "KASHWA",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 15560.0,
+    "estimatedAadt": 2222.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bihanga",
+    "destination": "Bwizibwera",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 28828.0,
+    "estimatedAadt": 4118.285714285715,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bihanga",
+    "destination": "Nsiika",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19068.0,
+    "estimatedAadt": 2724.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Biharwe",
+    "destination": "Bwizibwera",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16228.0,
+    "estimatedAadt": 2318.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Biliafe",
+    "destination": "Otrevu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 7716.0,
+    "estimatedAadt": 1102.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bombo",
+    "destination": "Kalasa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 39464.0,
+    "estimatedAadt": 5637.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Budaka",
+    "destination": "Kaderuna",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 43565.0,
+    "estimatedAadt": 6223.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bugambe",
+    "destination": "Kidoma",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 46400.0,
+    "estimatedAadt": 6628.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bugangari",
+    "destination": "Bwambara",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 46792.0,
+    "estimatedAadt": 6684.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bugiri",
+    "destination": "Kaluba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 65096.0,
+    "estimatedAadt": 9299.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bugiri",
+    "destination": "Naigaga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 47643.0,
+    "estimatedAadt": 6806.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bugiri",
+    "destination": "Nankoma",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 15790.0,
+    "estimatedAadt": 2255.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bugwara",
+    "destination": "Kikwaya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 20548.0,
+    "estimatedAadt": 2935.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bujuuko",
+    "destination": "Mityana",
+    "year": 2017,
+    "observedDays": 10,
+    "observedLinks": 3,
+    "totalCount": 146312.0,
+    "estimatedAadt": 14631.2,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Bukommero",
+    "destination": "Kyankwanzi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 8832.0,
+    "estimatedAadt": 1261.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bukuku",
+    "destination": "Rubona",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 26788.0,
+    "estimatedAadt": 3826.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bukumi",
+    "destination": "Bulisa",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11660.0,
+    "estimatedAadt": 1665.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Bulamagi",
+    "destination": "Buhimba",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 18573.0,
+    "estimatedAadt": 2653.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Buloba",
+    "destination": "Wakiso",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 53276.0,
+    "estimatedAadt": 7610.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Busega",
+    "destination": "Mpigi",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 368048.0,
+    "estimatedAadt": 46006.0,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "Busia",
+    "destination": "Majanji",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 116124.0,
+    "estimatedAadt": 16589.14285714286,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Busumba",
+    "destination": "Munamba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 5915.0,
+    "estimatedAadt": 845.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Busumbu",
+    "destination": "Munamba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 28684.0,
+    "estimatedAadt": 4097.714285714285,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Busunju",
+    "destination": "Bukwiri",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 122860.0,
+    "estimatedAadt": 17551.428571428572,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Butalangwa",
+    "destination": "R.Kafu",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11244.0,
+    "estimatedAadt": 1606.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Butobere",
+    "destination": "Rwamucucu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 27500.0,
+    "estimatedAadt": 3928.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Buwenge",
+    "destination": "Kamuli",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 76128.0,
+    "estimatedAadt": 10875.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Chosan",
+    "destination": "Amudat",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 6268.0,
+    "estimatedAadt": 895.4285714285714,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Dokolo",
+    "destination": "Ochero",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 17068.0,
+    "estimatedAadt": 2438.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Eruba",
+    "destination": "Vurra",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 66080.0,
+    "estimatedAadt": 9440.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Fortportal",
+    "destination": "Kijura",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 21668.0,
+    "estimatedAadt": 3095.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "GAYAZA",
+    "destination": "KALAGI",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 446700.0,
+    "estimatedAadt": 63814.28571428572,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "Gayaza",
+    "destination": "Zirobwe",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 230548.0,
+    "estimatedAadt": 32935.42857142857,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Gulu",
+    "destination": "Opit",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 35388.0,
+    "estimatedAadt": 5055.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Hoima",
+    "destination": "Biso",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 27744.0,
+    "estimatedAadt": 3963.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Hoima Road/Kituuma",
+    "destination": "Mutetema",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 24308.0,
+    "estimatedAadt": 3038.5,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "ISHAKA",
+    "destination": "KAGAMBA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 32760.0,
+    "estimatedAadt": 4680.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ibanda",
+    "destination": "Kamwenge",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 7420.0,
+    "estimatedAadt": 1060.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ibanda",
+    "destination": "Kamwenge",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 51780.0,
+    "estimatedAadt": 7397.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Ibanda",
+    "destination": "Kazo",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 49920.0,
+    "estimatedAadt": 7131.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Idudi",
+    "destination": "Busembatya",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 24361.0,
+    "estimatedAadt": 3480.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Iganga",
+    "destination": "Kaliro",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 73756.0,
+    "estimatedAadt": 10536.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Ikula",
+    "destination": "Kanyogoga",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 10876.0,
+    "estimatedAadt": 1553.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ikumba",
+    "destination": "Hama",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 3632.0,
+    "estimatedAadt": 518.8571428571429,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Ikumba",
+    "destination": "Kanungu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 22640.0,
+    "estimatedAadt": 3234.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Inde",
+    "destination": "Ocoko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 18820.0,
+    "estimatedAadt": 2688.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ishaka",
+    "destination": "Katunguru",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 51352.0,
+    "estimatedAadt": 7336.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Jinja",
+    "destination": "Kakira",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 86450.0,
+    "estimatedAadt": 12350.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Jinja",
+    "destination": "Kakira Junction(Dual section)",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 557688.0,
+    "estimatedAadt": 79669.71428571429,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "KAJANSI",
+    "destination": "ENTEBBE",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 182012.0,
+    "estimatedAadt": 26001.714285714286,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "KAWEMPE",
+    "destination": "MATUGGA",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 631304.0,
+    "estimatedAadt": 90186.28571428571,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "KERI",
+    "destination": "KERILA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 12884.0,
+    "estimatedAadt": 1840.5714285714287,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "KIGANDA",
+    "destination": "KITENGA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 93748.0,
+    "estimatedAadt": 13392.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "KIREKA",
+    "destination": "SEETA",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 313611.0,
+    "estimatedAadt": 44801.57142857143,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "KOBOKO",
+    "destination": "ORABA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 95220.0,
+    "estimatedAadt": 13602.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "KOBOKO",
+    "destination": "YUMBE",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 37608.0,
+    "estimatedAadt": 5372.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "KYABADAZA",
+    "destination": "KIBIBI",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 27628.0,
+    "estimatedAadt": 3946.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kaabong",
+    "destination": "Piire",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 1084.0,
+    "estimatedAadt": 154.85714285714286,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kabaremaido",
+    "destination": "Dokolo",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 22223.0,
+    "estimatedAadt": 3174.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kabimbiri",
+    "destination": "Misindye",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 27648.0,
+    "estimatedAadt": 3949.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kabingo",
+    "destination": "Kyezi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 24484.0,
+    "estimatedAadt": 3497.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kabujogera",
+    "destination": "Mahyoro landing site",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 37188.0,
+    "estimatedAadt": 5312.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kabulasoke",
+    "destination": "Madu",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 3,
+    "totalCount": 35620.0,
+    "estimatedAadt": 4452.5,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kabwohe",
+    "destination": "Bihanga",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 45876.0,
+    "estimatedAadt": 6553.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kabwoya",
+    "destination": "Kituti",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 19980.0,
+    "estimatedAadt": 2854.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kagadi",
+    "destination": "Kabwoya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 22088.0,
+    "estimatedAadt": 3155.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kagamba",
+    "destination": "Kebisoni",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 45788.0,
+    "estimatedAadt": 6541.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kaitabawaala",
+    "destination": "Namagera",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 106530.0,
+    "estimatedAadt": 15218.57142857143,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Kakabala",
+    "destination": "Katooke",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 26500.0,
+    "estimatedAadt": 3785.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kakira",
+    "destination": "Iganga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 23212.0,
+    "estimatedAadt": 3316.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kakira",
+    "destination": "Namasiga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 49969.0,
+    "estimatedAadt": 7138.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kakira junction",
+    "destination": "Iganga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 220572.0,
+    "estimatedAadt": 31510.285714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Kakiri",
+    "destination": "Mawale",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 33064.0,
+    "estimatedAadt": 4723.428571428572,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kakumiro",
+    "destination": "Kibale",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 36044.0,
+    "estimatedAadt": 5149.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kakumiro",
+    "destination": "Nkooko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 36500.0,
+    "estimatedAadt": 5214.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kalangala HQ",
+    "destination": "Mulabana",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 256.0,
+    "estimatedAadt": 128.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kalangala HQ",
+    "destination": "Mulabana",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11304.0,
+    "estimatedAadt": 1614.857142857143,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kalapata",
+    "destination": "Piire",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 224.0,
+    "estimatedAadt": 32.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kaliro",
+    "destination": "Iganga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 15018.0,
+    "estimatedAadt": 2145.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kaliro",
+    "destination": "Namwiwa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 33912.0,
+    "estimatedAadt": 4844.571428571428,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kalisizo",
+    "destination": "Bikira",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 1092.0,
+    "estimatedAadt": 546.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kalisizo",
+    "destination": "Bikira",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 26840.0,
+    "estimatedAadt": 3834.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kalongo",
+    "destination": "Kitgum",
+    "year": 2018,
+    "observedDays": 13,
+    "observedLinks": 3,
+    "totalCount": 12800.0,
+    "estimatedAadt": 984.6153846153846,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kalule",
+    "destination": "Bowa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 36564.0,
+    "estimatedAadt": 5223.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kamuli",
+    "destination": "Nabirumba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 93637.0,
+    "estimatedAadt": 13376.714285714286,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kamuli",
+    "destination": "Namasagali",
+    "year": 2017,
+    "observedDays": 9,
+    "observedLinks": 3,
+    "totalCount": 24893.0,
+    "estimatedAadt": 2765.8888888888887,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kamwenge",
+    "destination": "Bugusyo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11376.0,
+    "estimatedAadt": 1625.142857142857,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kanoni",
+    "destination": "Kabulasoke",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 43000.0,
+    "estimatedAadt": 5375.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kanungu",
+    "destination": "Kabaranga",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 18740.0,
+    "estimatedAadt": 2677.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kapeka",
+    "destination": "Butalangwa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23980.0,
+    "estimatedAadt": 3425.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kapelimoru",
+    "destination": "Kotido",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 26408.0,
+    "estimatedAadt": 3772.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Karrugutu",
+    "destination": "Ntoroko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 6960.0,
+    "estimatedAadt": 994.2857142857143,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Karuma",
+    "destination": "Olwiyo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 17512.0,
+    "estimatedAadt": 2501.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kasambya",
+    "destination": "Lusalira",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 47132.0,
+    "estimatedAadt": 6733.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kasanda",
+    "destination": "Bukuya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 31996.0,
+    "estimatedAadt": 4570.857142857143,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kasanda",
+    "destination": "Madudu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 66088.0,
+    "estimatedAadt": 9441.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Katakwi",
+    "destination": "Toroma",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 19645.0,
+    "estimatedAadt": 2806.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katete",
+    "destination": "Isingiro",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 66076.0,
+    "estimatedAadt": 9439.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Katikamu",
+    "destination": "Kikyusa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 32168.0,
+    "estimatedAadt": 4595.428571428572,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katikati",
+    "destination": "Nwoya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 76160.0,
+    "estimatedAadt": 10880.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Katine",
+    "destination": "Ochero",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 28868.0,
+    "estimatedAadt": 4124.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katoke",
+    "destination": "Kagadi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 22792.0,
+    "estimatedAadt": 3256.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katulikile",
+    "destination": "Mutunda/Atura",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 27856.0,
+    "estimatedAadt": 3979.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katuna",
+    "destination": "Muko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 15944.0,
+    "estimatedAadt": 2277.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Katunguru",
+    "destination": "Ishasha",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 4584.0,
+    "estimatedAadt": 654.8571428571429,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Katuugo",
+    "destination": "Kinyogogga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 14064.0,
+    "estimatedAadt": 2009.142857142857,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kayabwe",
+    "destination": "Wab",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 19104.0,
+    "estimatedAadt": 2388.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kayunga",
+    "destination": "Lake Kyoga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 105488.0,
+    "estimatedAadt": 15069.714285714286,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Kayunga",
+    "destination": "River Nile",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 52340.0,
+    "estimatedAadt": 7477.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kazo",
+    "destination": "Buremba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 14396.0,
+    "estimatedAadt": 2056.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kenya border",
+    "destination": "Kotein",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 721.0,
+    "estimatedAadt": 103.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Keriri",
+    "destination": "Midigo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 4,
+    "totalCount": 24256.0,
+    "estimatedAadt": 3465.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kigumba",
+    "destination": "Karuma",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 64716.0,
+    "estimatedAadt": 9245.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kigumba",
+    "destination": "Masindi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 45932.0,
+    "estimatedAadt": 6561.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kihihi",
+    "destination": "Burama",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 82988.0,
+    "estimatedAadt": 11855.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kihuura",
+    "destination": "Bwizi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 13708.0,
+    "estimatedAadt": 1958.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kikagati",
+    "destination": "Nsongezi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 34928.0,
+    "estimatedAadt": 4989.714285714285,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kikoloto",
+    "destination": "Bukwiri",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 21144.0,
+    "estimatedAadt": 3020.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kikyusa",
+    "destination": "Nakasong",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 42644.0,
+    "estimatedAadt": 6092.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kisanja",
+    "destination": "Buliisa cont",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 2172.0,
+    "estimatedAadt": 310.2857142857143,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kisule",
+    "destination": "Kapeeka",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 43448.0,
+    "estimatedAadt": 6206.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kitagata",
+    "destination": "Rukungiri",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19916.0,
+    "estimatedAadt": 2845.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kitagata",
+    "destination": "Rukungiri",
+    "year": 2018,
+    "observedDays": 4,
+    "observedLinks": 2,
+    "totalCount": 2460.0,
+    "estimatedAadt": 615.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kitenga",
+    "destination": "Lusalira",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 273100.0,
+    "estimatedAadt": 39014.28571428572,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Kitgum",
+    "destination": "Orom",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16072.0,
+    "estimatedAadt": 2296.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kokeris",
+    "destination": "Lopei",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 14380.0,
+    "estimatedAadt": 2054.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Koputh",
+    "destination": "Koputh",
+    "year": 2017,
+    "observedDays": 6,
+    "observedLinks": 1,
+    "totalCount": 62.0,
+    "estimatedAadt": 10.333333333333334,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Koputh",
+    "destination": "Koputh Junction",
+    "year": 2017,
+    "observedDays": 6,
+    "observedLinks": 2,
+    "totalCount": 264.0,
+    "estimatedAadt": 44.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Korir",
+    "destination": "Kumi",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 3,
+    "totalCount": 13240.0,
+    "estimatedAadt": 1655.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Korir",
+    "destination": "Sironko",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 30121.0,
+    "estimatedAadt": 4303.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kotein",
+    "destination": "Kenya Border",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 4176.0,
+    "estimatedAadt": 596.5714285714286,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kotido",
+    "destination": "Abim",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 13648.0,
+    "estimatedAadt": 1949.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kotido",
+    "destination": "Kaabong",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 834.0,
+    "estimatedAadt": 119.14285714285714,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kotido",
+    "destination": "Kabong",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 4932.0,
+    "estimatedAadt": 704.5714285714286,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kotido",
+    "destination": "Layoro",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 3172.0,
+    "estimatedAadt": 453.14285714285717,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kwapa",
+    "destination": "Tuba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 2701.0,
+    "estimatedAadt": 385.85714285714283,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kyabakuza",
+    "destination": "Matete",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 32956.0,
+    "estimatedAadt": 4708.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kyabakuza",
+    "destination": "Namabal",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 692.0,
+    "estimatedAadt": 346.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Kyabakuza",
+    "destination": "Namabal",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 30004.0,
+    "estimatedAadt": 4286.285714285715,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kyegegwa",
+    "destination": "Kyenjojo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 44916.0,
+    "estimatedAadt": 6416.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Kyempene",
+    "destination": "Rubirizi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23664.0,
+    "estimatedAadt": 3380.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Kyenjojo",
+    "destination": "Fortportal",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 47460.0,
+    "estimatedAadt": 6780.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "LUGAZI",
+    "destination": "NJERU",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 370515.0,
+    "estimatedAadt": 52930.71428571428,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "LUSALIRA",
+    "destination": "NABINGOOLA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 66536.0,
+    "estimatedAadt": 9505.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Lira",
+    "destination": "Abim",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 10292.0,
+    "estimatedAadt": 1470.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Lira",
+    "destination": "Puranga",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 45380.0,
+    "estimatedAadt": 6482.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Lokapel",
+    "destination": "Adilang",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 8244.0,
+    "estimatedAadt": 1177.7142857142858,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Lokapel",
+    "destination": "Ariamoi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 5456.0,
+    "estimatedAadt": 779.4285714285714,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Lokitanyara",
+    "destination": "Amudat",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 4076.0,
+    "estimatedAadt": 582.2857142857143,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Lomogi",
+    "destination": "Amuru junction",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 28184.0,
+    "estimatedAadt": 4026.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Loroo",
+    "destination": "Amudat",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 640.0,
+    "estimatedAadt": 91.42857142857143,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Loslang",
+    "destination": "Loyoru",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 700.0,
+    "estimatedAadt": 100.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Lukaya",
+    "destination": "Kagologolo",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 5392.0,
+    "estimatedAadt": 2696.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Lukaya",
+    "destination": "Kagologolo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 46636.0,
+    "estimatedAadt": 6662.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Luku Pier",
+    "destination": "Kalangala HQ",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 1024.0,
+    "estimatedAadt": 512.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Luku Pier",
+    "destination": "Kalangala HQ",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 21676.0,
+    "estimatedAadt": 3096.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Luwero",
+    "destination": "Nakasongola",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 141120.0,
+    "estimatedAadt": 20160.0,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Lwampanga",
+    "destination": "Lwabyata",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 12208.0,
+    "estimatedAadt": 1744.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Lwemiyaga junction",
+    "destination": "Kasambya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 22560.0,
+    "estimatedAadt": 3222.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Lweza",
+    "destination": "Kigo Prison",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 40084.0,
+    "estimatedAadt": 5726.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Lyantonde",
+    "destination": "Lumbugu",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 1680.0,
+    "estimatedAadt": 840.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Lyantonde",
+    "destination": "Lumbugu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 83520.0,
+    "estimatedAadt": 11931.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "MABONWA",
+    "destination": "KASHESHE",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 54348.0,
+    "estimatedAadt": 7764.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "MADU",
+    "destination": "KASAMBYA",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 89360.0,
+    "estimatedAadt": 11170.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "MIDIGO",
+    "destination": "KERWA",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 21916.0,
+    "estimatedAadt": 3130.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "MUKONO",
+    "destination": "KALAGI ROAD",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 305080.0,
+    "estimatedAadt": 43582.857142857145,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "Madu",
+    "destination": "R.Katonga",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 21216.0,
+    "estimatedAadt": 2652.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Madudu",
+    "destination": "Kiyuya",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 63356.0,
+    "estimatedAadt": 9050.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Magodes",
+    "destination": "Nabumali",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 18929.0,
+    "estimatedAadt": 2704.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Malaba",
+    "destination": "Apokor",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 37308.0,
+    "estimatedAadt": 5329.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Manibe",
+    "destination": "Koboko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 77144.0,
+    "estimatedAadt": 11020.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Masaka",
+    "destination": "Kyana",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 699.0,
+    "estimatedAadt": 349.5,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Masaka",
+    "destination": "Kyana",
+    "year": 2018,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 41125.0,
+    "estimatedAadt": 5140.625,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Masaka round about",
+    "destination": "Kyotera",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 11460.0,
+    "estimatedAadt": 5730.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Masaka round about",
+    "destination": "Kyotera",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 267848.0,
+    "estimatedAadt": 38264.0,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Masindi",
+    "destination": "Biiso",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 11400.0,
+    "estimatedAadt": 1628.5714285714287,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Masindi Port",
+    "destination": "Aduku",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19712.0,
+    "estimatedAadt": 2816.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Masoode",
+    "destination": "Nkooko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23908.0,
+    "estimatedAadt": 3415.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Matete",
+    "destination": "Kaliro",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 46880.0,
+    "estimatedAadt": 6697.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Matete",
+    "destination": "Mbirizi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 32620.0,
+    "estimatedAadt": 4660.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Matuga",
+    "destination": "Wobulenzi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 196572.0,
+    "estimatedAadt": 28081.714285714286,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Matugga",
+    "destination": "Kasangati",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 65488.0,
+    "estimatedAadt": 9355.42857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mayuge",
+    "destination": "Bugadde",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 87112.0,
+    "estimatedAadt": 12444.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mayuge",
+    "destination": "Kaluuba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 19843.0,
+    "estimatedAadt": 2834.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Mbale",
+    "destination": "Kumi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 116442.0,
+    "estimatedAadt": 16634.571428571428,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Minakulu",
+    "destination": "Gulu",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 80588.0,
+    "estimatedAadt": 11512.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "MitalaMaria",
+    "destination": "Kanoni",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 56552.0,
+    "estimatedAadt": 7069.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mityana",
+    "destination": "Busunju",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 39952.0,
+    "estimatedAadt": 4994.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Mityana",
+    "destination": "Kanoni",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 23592.0,
+    "estimatedAadt": 2949.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Mityana",
+    "destination": "Myanzi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 153624.0,
+    "estimatedAadt": 21946.285714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Moyo",
+    "destination": "Obongi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 19456.0,
+    "estimatedAadt": 2779.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Moyo",
+    "destination": "Yumbe",
+    "year": 2018,
+    "observedDays": 14,
+    "observedLinks": 5,
+    "totalCount": 106307.0,
+    "estimatedAadt": 7593.357142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mpigi",
+    "destination": "Kanoni",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 108080.0,
+    "estimatedAadt": 13510.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mubende",
+    "destination": "Kakumiro",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 29120.0,
+    "estimatedAadt": 4160.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Muhooro",
+    "destination": "L.Albert",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 15792.0,
+    "estimatedAadt": 2256.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Mukono",
+    "destination": "Lugazi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 569748.0,
+    "estimatedAadt": 81392.57142857143,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "Musita",
+    "destination": "Lumino",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 50244.0,
+    "estimatedAadt": 7177.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Musita",
+    "destination": "Mayuge",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 79557.0,
+    "estimatedAadt": 11365.285714285714,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Mutetema",
+    "destination": "Kyamusisi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16656.0,
+    "estimatedAadt": 2379.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Muyembe",
+    "destination": "Kaserem",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 35258.0,
+    "estimatedAadt": 5036.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Muyembe",
+    "destination": "Namalu",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16568.0,
+    "estimatedAadt": 2366.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "NAKAWUKA",
+    "destination": "BUJUKO",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 22232.0,
+    "estimatedAadt": 2779.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "NEBBI",
+    "destination": "GOLI",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23632.0,
+    "estimatedAadt": 3376.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "NEBBI",
+    "destination": "OLEVU",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 22108.0,
+    "estimatedAadt": 3158.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "NSONGEZI",
+    "destination": "KYAKA ROAD",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19612.0,
+    "estimatedAadt": 2801.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nabiganda",
+    "destination": "Malukhu",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 29811.0,
+    "estimatedAadt": 4258.714285714285,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nabingoola",
+    "destination": "kyegegwa",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 61780.0,
+    "estimatedAadt": 8825.714285714286,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nagongera",
+    "destination": "Kidoko",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 23133.0,
+    "estimatedAadt": 3304.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Najanankumbi",
+    "destination": "Busabala",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 109724.0,
+    "estimatedAadt": 15674.857142857143,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Nakaloke",
+    "destination": "Butebo",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 68202.0,
+    "estimatedAadt": 9743.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nakaseke",
+    "destination": "Kiwoko",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 27376.0,
+    "estimatedAadt": 3910.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nakasongola",
+    "destination": "Kafu",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 74888.0,
+    "estimatedAadt": 10698.285714285714,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Namagera",
+    "destination": "Lubanyi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 43375.0,
+    "estimatedAadt": 6196.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Namagumba",
+    "destination": "Budadiri",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 42607.0,
+    "estimatedAadt": 6086.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Namalu",
+    "destination": "Muyembe",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 2285.0,
+    "estimatedAadt": 326.42857142857144,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Namasale",
+    "destination": "Alemere",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 25124.0,
+    "estimatedAadt": 3589.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Namataba",
+    "destination": "Kyampisi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 31808.0,
+    "estimatedAadt": 4544.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Namayumba",
+    "destination": "Kamuli",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19940.0,
+    "estimatedAadt": 2848.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nambole",
+    "destination": "Mukono",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 134568.0,
+    "estimatedAadt": 19224.0,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Namunsi",
+    "destination": "Sironko",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 129948.0,
+    "estimatedAadt": 18564.0,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Namutere",
+    "destination": "Busia",
+    "year": 2017,
+    "observedDays": 14,
+    "observedLinks": 2,
+    "totalCount": 150578.0,
+    "estimatedAadt": 10755.57142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Namyumba",
+    "destination": "Semuto",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19116.0,
+    "estimatedAadt": 2730.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nankoma",
+    "destination": "Kaluba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 19342.0,
+    "estimatedAadt": 2763.1428571428573,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nankoma",
+    "destination": "Lumino",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 11771.0,
+    "estimatedAadt": 1681.5714285714287,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Natete",
+    "destination": "Kisubi",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 100724.0,
+    "estimatedAadt": 14389.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Ngetta",
+    "destination": "Apala",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 39580.0,
+    "estimatedAadt": 5654.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Njeru",
+    "destination": "Buikwe",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 83943.0,
+    "estimatedAadt": 11991.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nkenda",
+    "destination": "Nyakalingijo",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 48832.0,
+    "estimatedAadt": 6976.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nsambya",
+    "destination": "Gaba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 777240.0,
+    "estimatedAadt": 111034.28571428571,
+    "corridorClassification": "Metropolitan High Capacity Corridor"
+  },
+  {
+    "origin": "Ntungamo",
+    "destination": "Kakukuru",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 49168.0,
+    "estimatedAadt": 7024.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Ntungamo",
+    "destination": "Rubaale",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 42216.0,
+    "estimatedAadt": 6030.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nyabwishenya",
+    "destination": "Nteko",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 9452.0,
+    "estimatedAadt": 1350.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nyakabirizi",
+    "destination": "Nsiika",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 42508.0,
+    "estimatedAadt": 6072.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Nyakahita",
+    "destination": "Rushere",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 33544.0,
+    "estimatedAadt": 4792.0,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nyakiraguju",
+    "destination": "Ruzinga (Bugamba) Chitwe",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 25832.0,
+    "estimatedAadt": 3690.285714285714,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nyendo",
+    "destination": "Lambu port Junction",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 1080.0,
+    "estimatedAadt": 540.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Nyendo",
+    "destination": "Lambu port Junction",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 26428.0,
+    "estimatedAadt": 3775.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Nyendo",
+    "destination": "Villa Maria",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 135988.0,
+    "estimatedAadt": 19426.85714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Old Masaka Road (Kyengera",
+    "destination": "Kabojja Secon",
+    "year": 2017,
+    "observedDays": 8,
+    "observedLinks": 2,
+    "totalCount": 185736.0,
+    "estimatedAadt": 23217.0,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Olevu",
+    "destination": "Manibe",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 188596.0,
+    "estimatedAadt": 26942.285714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "PAIDHA",
+    "destination": "ZOMBO",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 18576.0,
+    "estimatedAadt": 2653.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "PAKAWACHI",
+    "destination": "NEBBI",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 67956.0,
+    "estimatedAadt": 9708.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "PANYIMUR",
+    "destination": "VURA CUSTOMS",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 8240.0,
+    "estimatedAadt": 1177.142857142857,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Pader",
+    "destination": "Kwonkwic(Palwo)",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 40584.0,
+    "estimatedAadt": 5797.714285714285,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Padibe",
+    "destination": "Paloga",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 4063.0,
+    "estimatedAadt": 580.4285714285714,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Pakele",
+    "destination": "Pabbo",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 25808.0,
+    "estimatedAadt": 3686.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Paloga",
+    "destination": "Madiopie",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 14508.0,
+    "estimatedAadt": 2072.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Parajwoki",
+    "destination": "Buseruka",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 44760.0,
+    "estimatedAadt": 6394.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Puranga Bridge",
+    "destination": "Acholibur",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 28668.0,
+    "estimatedAadt": 4095.4285714285716,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "R. Katonga",
+    "destination": "Sembabule",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 32672.0,
+    "estimatedAadt": 4667.428571428572,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Rekunye",
+    "destination": "Masindi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 9200.0,
+    "estimatedAadt": 1314.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Rubongi",
+    "destination": "Mulanda",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 48226.0,
+    "estimatedAadt": 6889.428571428572,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rugaga",
+    "destination": "Rwentaha",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 78996.0,
+    "estimatedAadt": 11285.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rugendabara",
+    "destination": "Kaswangali",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 63652.0,
+    "estimatedAadt": 9093.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rugombe",
+    "destination": "Katooke",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 31456.0,
+    "estimatedAadt": 4493.714285714285,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Rukungiri",
+    "destination": "Ruhinda",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 19620.0,
+    "estimatedAadt": 2802.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Ruti",
+    "destination": "Kikagati",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 42876.0,
+    "estimatedAadt": 6125.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rwashamaire",
+    "destination": "Rwahi",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 68220.0,
+    "estimatedAadt": 9745.714285714286,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rwekunye",
+    "destination": "Masindi Port",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 16568.0,
+    "estimatedAadt": 2366.8571428571427,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Rwenjaza",
+    "destination": "Kabujogera",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 40072.0,
+    "estimatedAadt": 5724.571428571428,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Rwera",
+    "destination": "Kaseeta",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 9692.0,
+    "estimatedAadt": 1384.5714285714287,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Rwimi(bridge)",
+    "destination": "Mubuku",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 105604.0,
+    "estimatedAadt": 15086.285714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Serere",
+    "destination": "Pingire",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 24414.0,
+    "estimatedAadt": 3487.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Sironko",
+    "destination": "Muyembe",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 4,
+    "totalCount": 104286.0,
+    "estimatedAadt": 14898.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Soroti",
+    "destination": "Arapai",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 183376.0,
+    "estimatedAadt": 26196.571428571428,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Soroti",
+    "destination": "Serere",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 48132.0,
+    "estimatedAadt": 6876.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Soroti",
+    "destination": "Toroma",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 23006.0,
+    "estimatedAadt": 3286.5714285714284,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Taba",
+    "destination": "Ddimo Landing site",
+    "year": 2017,
+    "observedDays": 2,
+    "observedLinks": 2,
+    "totalCount": 1260.0,
+    "estimatedAadt": 630.0,
+    "corridorClassification": "Feeder and Rural Access Corridor"
+  },
+  {
+    "origin": "Taba",
+    "destination": "Ddimo Landing site",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 36632.0,
+    "estimatedAadt": 5233.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Tirinyi",
+    "destination": "Pallisa",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 4,
+    "totalCount": 51835.0,
+    "estimatedAadt": 7405.0,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Tororo",
+    "destination": "Busia",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 8962.0,
+    "estimatedAadt": 1280.2857142857142,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Tororo",
+    "destination": "Malaba",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 21355.0,
+    "estimatedAadt": 3050.714285714286,
+    "corridorClassification": "Secondary Connecting Corridor"
+  },
+  {
+    "origin": "Tororo",
+    "destination": "Nabumali",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 110420.0,
+    "estimatedAadt": 15774.285714285714,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Tororo",
+    "destination": "Nagongera",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 93113.0,
+    "estimatedAadt": 13301.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Tororo junction",
+    "destination": "Malaba(Uganda/Kenya border)",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 132304.0,
+    "estimatedAadt": 18900.571428571428,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "Tororo(Malaba junction)",
+    "destination": "Busia",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 44732.0,
+    "estimatedAadt": 6390.285714285715,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Villa Maria",
+    "destination": "Lwemiyaga junction",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 47088.0,
+    "estimatedAadt": 6726.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Wakiso",
+    "destination": "Matugga",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 42608.0,
+    "estimatedAadt": 6086.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Wakitundu",
+    "destination": "Mutetema",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 46892.0,
+    "estimatedAadt": 6698.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Wobulenzi",
+    "destination": "L uweero",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 185508.0,
+    "estimatedAadt": 26501.14285714286,
+    "corridorClassification": "Primary Inter-Regional Trunk Corridor"
+  },
+  {
+    "origin": "YUMBE",
+    "destination": "MANIBE",
+    "year": 2018,
+    "observedDays": 7,
+    "observedLinks": 3,
+    "totalCount": 64912.0,
+    "estimatedAadt": 9273.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "ZANA",
+    "destination": "ENTEBBE",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 1,
+    "totalCount": 91006.0,
+    "estimatedAadt": 13000.857142857143,
+    "corridorClassification": "Major District Link Corridor"
+  },
+  {
+    "origin": "Zirobwe",
+    "destination": "Luweero",
+    "year": 2017,
+    "observedDays": 7,
+    "observedLinks": 2,
+    "totalCount": 96860.0,
+    "estimatedAadt": 13837.142857142857,
+    "corridorClassification": "Major District Link Corridor"
+  }
+]
