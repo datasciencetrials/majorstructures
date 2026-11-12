@@ -6,6 +6,8 @@
     culverts: null,
     gallery: null,
     works: null,
+    workflow: null,
+    workflowPromise: null,
     polishTimer: null,
   };
   const REVIEW_ONLY_IDS = new Set(["B005","B017","B018","B045","B046","B048","B063","B064","B065","B066","B083","B084","B086","B100","B120","B132","B133","B157","B161","B162","B171","B184","B186","B191","B193","B194","B204","B219","B221","B224","B226","B242","B243","B244","B245","B247","B250","B254","B257","B262","B273","B280","B304","B305","B306","B307","B309","B310","B311","B312","B322","B326","B329","B341","B342","B343","B350","B351","B353","B356","B358","B371","B374","B375","B376","B377","B382","B385","B386","B387","B388","B389","B391","B398","B400","B403","B404","B405","B409","B410","B412","B416","B417","B418","B419","B421","B422","B462","B545","B608","B631","B633","B636","B640","B641","B642","B643","B721","B722","B723","B726","B727","B738","B752","B762","B765","B768","B862","B871","B880","B886","B888","B889"]);
@@ -127,6 +129,132 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 16px;
+      }
+      .nbms-workflow-button {
+        min-height: 38px;
+        padding: 0 14px;
+        border: 1px solid #93C5FD;
+        border-radius: 8px;
+        background: #EFF6FF;
+        color: #1D4ED8;
+        font: 700 13px/1 Arial, sans-serif;
+        cursor: pointer;
+      }
+      .nbms-workflow-button:hover,
+      .nbms-workflow-button[aria-pressed="true"] {
+        border-color: #2563EB;
+        background: #DBEAFE;
+      }
+      .nbms-workflow-panel {
+        margin: 0 0 18px;
+        padding: 18px;
+        border: 1px solid #BFDBFE;
+        border-radius: 10px;
+        background: #F8FBFF;
+        color: #0F172A;
+        font-family: Arial, sans-serif;
+      }
+      .nbms-workflow-panel h2,
+      .nbms-workflow-panel h3,
+      .nbms-workflow-panel p { margin-top: 0; }
+      .nbms-workflow-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 16px;
+      }
+      .nbms-workflow-head h2 { margin-bottom: 6px; font-size: 22px; }
+      .nbms-workflow-head p { margin-bottom: 0; color: #475569; line-height: 1.5; }
+      .nbms-workflow-select {
+        min-width: 240px;
+        height: 42px;
+        border: 1px solid #94A3B8;
+        border-radius: 8px;
+        background: #FFFFFF;
+        color: #0F172A;
+        padding: 0 12px;
+        font: 600 14px Arial, sans-serif;
+      }
+      .nbms-type-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(150px, 1fr));
+        gap: 10px;
+      }
+      .nbms-type-card {
+        padding: 14px;
+        border: 1px solid #CBD5E1;
+        border-radius: 9px;
+        background: #FFFFFF;
+      }
+      .nbms-type-card[data-active="true"] {
+        border-color: #2563EB;
+        box-shadow: 0 0 0 2px #DBEAFE;
+      }
+      .nbms-type-card h3 { margin-bottom: 8px; font-size: 15px; }
+      .nbms-type-card p { margin-bottom: 8px; color: #475569; font-size: 13px; line-height: 1.45; }
+      .nbms-type-status {
+        display: inline-flex;
+        margin-bottom: 9px;
+        padding: 4px 7px;
+        border-radius: 999px;
+        background: #E2E8F0;
+        color: #334155;
+        font-size: 11px;
+        font-weight: 800;
+      }
+      .nbms-type-status.proposed { background: #FEF3C7; color: #92400E; }
+      .nbms-workflow-detail {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr 1fr;
+        gap: 12px;
+        margin-top: 14px;
+      }
+      .nbms-workflow-detail > div {
+        padding: 14px;
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+        background: #FFFFFF;
+      }
+      .nbms-workflow-detail strong { display: block; margin-bottom: 7px; color: #1E3A8A; }
+      .nbms-workflow-detail p,
+      .nbms-workflow-detail ul { margin: 0; color: #475569; font-size: 13px; line-height: 1.5; }
+      .nbms-workflow-steps {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(180px, 1fr));
+        gap: 10px;
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: workflow-step;
+      }
+      .nbms-workflow-steps li {
+        min-height: 74px;
+        padding: 12px;
+        border-left: 4px solid #2563EB;
+        border-radius: 6px;
+        background: #FFFFFF;
+        color: #334155;
+        font-size: 13px;
+        line-height: 1.45;
+        counter-increment: workflow-step;
+      }
+      .nbms-workflow-steps li::before {
+        content: "Step " counter(workflow-step);
+        display: block;
+        margin-bottom: 5px;
+        color: #1D4ED8;
+        font-weight: 800;
+      }
+      @media (max-width: 1050px) {
+        .nbms-type-grid { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
+        .nbms-workflow-detail, .nbms-workflow-steps { grid-template-columns: 1fr; }
+      }
+      @media (max-width: 640px) {
+        .nbms-workflow-head { display: block; }
+        .nbms-workflow-select { width: 100%; min-width: 0; margin-top: 12px; }
+        .nbms-type-grid { grid-template-columns: 1fr; }
+        .nbms-workflow-panel { padding: 14px; }
       }
       .nbms-critical-card {
         min-width: 0;
@@ -602,7 +730,104 @@
     content?.classList.remove("nbms-critical-route-overridden");
   }
 
+  function workflowPanel(reference) {
+    const types = reference.types || [];
+    return `
+      <section id="nbms-inspection-workflow" class="nbms-workflow-panel" aria-label="Bridge inspection workflow">
+        <div class="nbms-workflow-head">
+          <div>
+            <h2>${escapeHtml(reference.title || "Bridge inspection workflow")}</h2>
+            <p>${escapeHtml(reference.scopeNote || "")}</p>
+          </div>
+          <label>
+            <span class="nbms-rescue-kicker">Inspection type</span>
+            <select class="nbms-workflow-select" aria-label="Inspection type">
+              ${types.map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.name)}</option>`).join("")}
+            </select>
+          </label>
+        </div>
+        <div class="nbms-type-grid">
+          ${types.map((item, index) => `
+            <article class="nbms-type-card" data-type="${escapeAttr(item.id)}" data-active="${index === 0}">
+              <span class="nbms-type-status ${item.status?.toLowerCase().includes("proposed") ? "proposed" : ""}">${escapeHtml(item.status)}</span>
+              <h3>${escapeHtml(item.name)}</h3>
+              <p><strong>${escapeHtml(item.timing)}</strong></p>
+              <p>${escapeHtml(item.purpose)}</p>
+            </article>
+          `).join("")}
+        </div>
+        <div class="nbms-workflow-detail" aria-live="polite"></div>
+        <h3 style="margin:18px 0 8px">Capture and review sequence</h3>
+        <ol class="nbms-workflow-steps">
+          ${(reference.captureSteps || []).map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
+        </ol>
+      </section>
+    `;
+  }
+
+  function paintWorkflowDetail(panel, reference, id) {
+    const item = (reference.types || []).find((entry) => entry.id === id) || reference.types?.[0];
+    if (!item) return;
+    $$(".nbms-type-card", panel).forEach((card) => {
+      card.dataset.active = String(card.dataset.type === item.id);
+    });
+    const detail = $(".nbms-workflow-detail", panel);
+    detail.innerHTML = `
+      <div><strong>Purpose</strong><p>${escapeHtml(item.purpose)}</p></div>
+      <div><strong>Field activity</strong><p>${escapeHtml(item.activities)}</p></div>
+      <div><strong>Required outputs</strong><ul>${(item.outputs || []).map((output) => `<li>${escapeHtml(output)}</li>`).join("")}</ul></div>
+    `;
+  }
+
+  function openWorkflow(reference, button) {
+    const content = $(".page-content");
+    if (!content) return;
+    const existing = $("#nbms-inspection-workflow", content);
+    if (existing) {
+      existing.remove();
+      button.setAttribute("aria-pressed", "false");
+      return;
+    }
+    content.insertAdjacentHTML("afterbegin", workflowPanel(reference));
+    const panel = $("#nbms-inspection-workflow", content);
+    const select = $(".nbms-workflow-select", panel);
+    paintWorkflowDetail(panel, reference, select.value);
+    select.addEventListener("change", () => paintWorkflowDetail(panel, reference, select.value));
+    $$(".nbms-type-card", panel).forEach((card) => card.addEventListener("click", () => {
+      select.value = card.dataset.type;
+      paintWorkflowDetail(panel, reference, select.value);
+    }));
+    button.setAttribute("aria-pressed", "true");
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  async function ensureWorkflowTools() {
+    const inspectBridge = $$('button').find((button) => button.textContent.trim() === "Inspect Bridge");
+    if (!inspectBridge) {
+      $("#nbms-inspection-workflow")?.remove();
+      return;
+    }
+    if (!state.workflowPromise) {
+      state.workflowPromise = json("data/inspection_workflow.json").then((value) => {
+        state.workflow = value;
+        return value;
+      });
+    }
+    const reference = state.workflow || await state.workflowPromise;
+    const tabGroup = inspectBridge.parentElement;
+    if (!tabGroup || $("#nbms-workflow-button", tabGroup)) return;
+    const button = document.createElement("button");
+    button.id = "nbms-workflow-button";
+    button.className = "nbms-workflow-button";
+    button.type = "button";
+    button.textContent = "Inspection Workflow";
+    button.setAttribute("aria-pressed", "false");
+    button.addEventListener("click", () => openWorkflow(reference, button));
+    tabGroup.appendChild(button);
+  }
+
   async function rescueRoutes() {
+    ensureWorkflowTools().catch((error) => console.error("NBMS workflow tools failed:", error));
     const label = activeTabLabel();
     if (label !== "Critical Structures") {
       clearCriticalOverlay();

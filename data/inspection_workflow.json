@@ -1,0 +1,65 @@
+{
+  "title": "Bridge inspection workflow",
+  "scopeNote": "Workflow guidance for this learning portal. It does not replace an approved inspection plan or signed engineering assessment.",
+  "types": [
+    {
+      "id": "casual",
+      "name": "Casual Inspection",
+      "status": "Proposed field practice",
+      "timing": "Frequent patrol check",
+      "purpose": "Identify visible abnormal conditions early.",
+      "activities": "Patrol-based visual checking without specialist equipment.",
+      "outputs": ["Inspection report"]
+    },
+    {
+      "id": "routine",
+      "name": "Routine Inspection",
+      "status": "Manual-defined",
+      "timing": "1 to 2 times each year",
+      "purpose": "Check the general condition of the structure.",
+      "activities": "Close-up visual inspection of bridge condition.",
+      "outputs": ["Inspection report"]
+    },
+    {
+      "id": "regular",
+      "name": "Regular Inspection",
+      "status": "Manual-defined",
+      "timing": "Every 2 to 3 years",
+      "purpose": "Identify damage and defects for maintenance planning.",
+      "activities": "Defect investigation and condition evaluation.",
+      "outputs": ["Inspection report", "Inspection drawings"]
+    },
+    {
+      "id": "principal",
+      "name": "Principal Inspection",
+      "status": "Manual-defined",
+      "timing": "Every 5 to 10 years",
+      "purpose": "Complete a detailed structural safety evaluation.",
+      "activities": "Detailed investigation and structural safety assessment.",
+      "outputs": ["Inspection report", "Inspection drawings"]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency Inspection",
+      "status": "Manual-defined",
+      "timing": "Triggered by an event",
+      "purpose": "Check safety immediately after a damaging event.",
+      "activities": "Immediate inspection after a flood, collision, collapse or other damaging event.",
+      "outputs": ["Inspection report"]
+    }
+  ],
+  "captureSteps": [
+    "Select the approved structure record and inspection type.",
+    "Review the inspection plan, member hierarchy and previous observations.",
+    "Record the affected member, damage type, measured quantity and location.",
+    "Attach photographs or drawings only through the governed inspection system.",
+    "Review condition grades, repair needs and completeness before submission.",
+    "Apply approved results to the maintenance history after technical review."
+  ],
+  "maintenanceViews": [
+    "Inspection history",
+    "Damage quantities",
+    "Condition grades",
+    "Repair and reinforcement plans"
+  ]
+}
