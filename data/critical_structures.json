@@ -2023,7 +2023,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C753",
-    "BridgeName": "Nakalama - Namutumba - Mpologoma bridge",
+    "BridgeName": "Nakalama - Namutumba - Mpologoma Bridge",
     "LinkID": "A012_Link01",
     "LinkName": "Nakalama - Namutumba - Mpologoma bridge",
     "MaintenanceStation": "Jinja",
@@ -2043,7 +2043,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C754",
-    "BridgeName": "Nakalama - Namutumba - Mpologoma bridge",
+    "BridgeName": "Nakalama - Namutumba - Mpologoma Bridge",
     "LinkID": "A012_Link01",
     "LinkName": "Nakalama - Namutumba - Mpologoma bridge",
     "MaintenanceStation": "Jinja",
@@ -2063,7 +2063,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C760",
-    "BridgeName": "Nakalama - Namutumba - Mpologoma bridge",
+    "BridgeName": "Nakalama - Namutumba - Mpologoma Bridge",
     "LinkID": "A012_Link01",
     "LinkName": "Nakalama - Namutumba - Mpologoma bridge",
     "MaintenanceStation": "Jinja",
@@ -2083,7 +2083,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C763",
-    "BridgeName": "Nakalama - Namutumba - Mpologoma bridge",
+    "BridgeName": "Nakalama - Namutumba - Mpologoma Bridge",
     "LinkID": "A012_Link01",
     "LinkName": "Nakalama - Namutumba - Mpologoma bridge",
     "MaintenanceStation": "Jinja",
@@ -2103,7 +2103,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C772",
-    "BridgeName": "Namutere - Tororo junction",
+    "BridgeName": "Namutere - Tororo Junction",
     "LinkID": "A001_Link10",
     "LinkName": "Namutere - Tororo junction",
     "MaintenanceStation": "Tororo",
@@ -2123,7 +2123,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C773",
-    "BridgeName": "Namutere - Tororo junction",
+    "BridgeName": "Namutere - Tororo Junction",
     "LinkID": "A001_Link10",
     "LinkName": "Namutere - Tororo junction",
     "MaintenanceStation": "Tororo",
@@ -3005,7 +3005,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C494",
-    "BridgeName": "Kisanja-Park jctn - Buliisa",
+    "BridgeName": "Kisanja-Park Jctn - Buliisa",
     "LinkID": "C625_Link02",
     "LinkName": "Kisanja-Park jctn - Buliisa",
     "MaintenanceStation": "Masindi",
@@ -3199,7 +3199,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C786",
-    "BridgeName": "Bubulo-Bududa Circle road",
+    "BridgeName": "Bubulo-Bududa Circle Road",
     "LinkID": "C867_Link02",
     "LinkName": "Bubulo-Bududa Circle road",
     "MaintenanceStation": "Mbale",
@@ -3239,7 +3239,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C800",
-    "BridgeName": "Simu corner - Kaserem",
+    "BridgeName": "Simu Corner - Kaserem",
     "LinkID": "C871_Link01",
     "LinkName": "Simu corner - Kaserem",
     "MaintenanceStation": "Mbale",
@@ -3450,7 +3450,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C558",
-    "BridgeName": "Adjumani - Sinyanya Ferry landing",
+    "BridgeName": "Adjumani - Sinyanya Ferry Landing",
     "LinkID": "C726_Link01",
     "LinkName": "Adjumani - Sinyanya Ferry landing",
     "MaintenanceStation": "Moyo",
@@ -3491,7 +3491,7 @@
   {
     "StructureType": "Bridge",
     "BridgeNumber": "B861",
-    "BridgeName": "Road Over Sugarcane Plantation",
+    "BridgeName": "Road over Sugarcane Plantation",
     "ResolvedConditionBridgeNo": "B861",
     "LinkID": "A001_Link06",
     "LinkName": "Kakira junction - Iganga",
@@ -4664,7 +4664,7 @@
   {
     "StructureType": "Major Culvert",
     "BridgeNumber": "C787",
-    "BridgeName": "Bubulo-Bududa Circle road",
+    "BridgeName": "Bubulo-Bududa Circle Road",
     "LinkID": "C867_Link02",
     "LinkName": "Bubulo-Bududa Circle road",
     "MaintenanceStation": "Mbale",

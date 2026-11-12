@@ -1,0 +1,177 @@
+{
+  "inspection_types": [
+    {
+      "id": "casual",
+      "name": "Casual Inspection",
+      "frequency": "Daily / Weekly Patrol",
+      "purpose": "Quickly identify abnormal conditions, debris, or obvious traffic obstacles.",
+      "equipment": "Visual patrol vehicle, handheld camera.",
+      "deliverable": "Patrol Log Entry"
+    },
+    {
+      "id": "routine",
+      "name": "Routine Inspection",
+      "frequency": "1 - 2 Times per Year",
+      "purpose": "Check general element condition and identify early-stage maintenance needs.",
+      "equipment": "Visual inspection checklist, measuring tape, crack card.",
+      "deliverable": "Routine Inspection Report with Element Status"
+    },
+    {
+      "id": "regular",
+      "name": "Regular Inspection",
+      "frequency": "Every 2 - 3 Years",
+      "purpose": "Systematic damage mapping, defect measurement, and maintenance quantification.",
+      "equipment": "BMS Mobile Client (MC), CAD drawing tablets, optical crack microscopes.",
+      "deliverable": "Full Inspection Report & As-built Drawing Defect Overlay"
+    },
+    {
+      "id": "principal",
+      "name": "Principal Inspection",
+      "frequency": "Every 5 - 10 Years",
+      "purpose": "Comprehensive structural safety and load carrying capacity assessment.",
+      "equipment": "Under-bridge inspection units (UBIU), ultrasonic pulse, rebound hammer, coring, half-cell potential.",
+      "deliverable": "Detailed Structural Safety Assessment & Calculation Statement"
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency / Special Inspection",
+      "frequency": "Triggered by Disasters or Accidents",
+      "purpose": "Immediate assessment of structural integrity and traffic restriction requirements.",
+      "equipment": "Emergency response team kit, laser distancemeter, dynamic displacement sensors.",
+      "deliverable": "Emergency Safety Report with Immediate Action Plan & Lane Restriction"
+    }
+  ],
+  "sample_routine_checklist": {
+    "bridge_name": "Busega Viaduct",
+    "direction": "To Entebbe",
+    "location": "Span 1",
+    "inspection_date": "2026-09-17",
+    "inspector": "Prisca",
+    "items": [
+      {
+        "member": "Girder",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Cross beam",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Deck",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Pier",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Abutment",
+        "result": "Efflorescence on surface - west face",
+        "photo": "assets/bms/checklists/Abutment_Efflorescence.png",
+        "action": "Monitor efflorescence"
+      },
+      {
+        "member": "Foundation",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Bearing",
+        "result": "No defect",
+        "photo": null,
+        "action": "None"
+      },
+      {
+        "member": "Pavement",
+        "result": "Pothole on surfacing (0.4m x 0.3m)",
+        "photo": "assets/bms/checklists/Pavement_Pothole.png",
+        "action": "Immediate pothole patching"
+      }
+    ],
+    "notes": "Pothole on pavement and efflorescence on west face observed.",
+    "inspector_opinion": "Repair of pothole and monitoring of abutment efflorescence are recommended."
+  },
+  "sample_emergency_checklist": {
+    "bridge_name": "Busega Viaduct",
+    "direction": "To Kampala",
+    "location": "Span 3",
+    "inspection_date": "2026-09-17",
+    "inspector": "Prisca",
+    "incident_overview": "Large heavy truck rollover at Span 3 with impact on bridge accessories.",
+    "items": [
+      {
+        "member": "Girder",
+        "problem": "No",
+        "result": "No structural deformation detected",
+        "photo": null
+      },
+      {
+        "member": "Cross beam",
+        "problem": "No",
+        "result": "Intact",
+        "photo": null
+      },
+      {
+        "member": "Deck",
+        "problem": "No",
+        "result": "No punching shear",
+        "photo": null
+      },
+      {
+        "member": "Pier",
+        "problem": "No",
+        "result": "No contact damage",
+        "photo": null
+      },
+      {
+        "member": "Abutment",
+        "problem": "No",
+        "result": "Intact",
+        "photo": null
+      },
+      {
+        "member": "Foundation",
+        "problem": "No",
+        "result": "No settlement",
+        "photo": null
+      },
+      {
+        "member": "Bearing",
+        "problem": "No",
+        "result": "No bearing displacement",
+        "photo": null
+      },
+      {
+        "member": "Pavement",
+        "problem": "Yes",
+        "result": "Pavement surface severely deformed and gouged",
+        "photo": "assets/bms/checklists/Pavement.png"
+      },
+      {
+        "member": "Guardrail",
+        "problem": "Yes",
+        "result": "Guardrail severely bent and crushed",
+        "photo": "assets/bms/checklists/Guardrail.png"
+      }
+    ],
+    "action_plan": {
+      "usage_restrictions_required": true,
+      "restriction_details": "One lane restricted at Span 3 with traffic safety cones and temporary signage.",
+      "repair_necessary": true,
+      "urgency": "Urgent Repair Required",
+      "selected_repair_methods": [
+        "Replacement Method (Guardrail)",
+        "Filling Method (Pavement Patching)"
+      ]
+    }
+  }
+}

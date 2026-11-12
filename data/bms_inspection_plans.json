@@ -1,0 +1,93 @@
+[
+  {
+    "plan_id": 19,
+    "plan_code": "PBRBSG260012",
+    "plan_name": "Regular/Busega/2026/1st",
+    "bridge_name": "Busega Viaduct",
+    "plan_type": "Regular Inspection",
+    "seq": 1,
+    "start_date": "2026-09-23",
+    "end_date": "2026-12-23",
+    "status": "In Progress",
+    "inspector": "Prisca / Field Team 1",
+    "scope": "Comprehensive regular inspection of Spans 1 to 8, Deck, Girders, Piers, Bearings and Expansion Joints"
+  },
+  {
+    "plan_id": 20,
+    "plan_code": "PBRBSG260013",
+    "plan_name": "Principal/Busega/2026/1st",
+    "bridge_name": "Busega Viaduct",
+    "plan_type": "Principal Inspection",
+    "seq": 1,
+    "start_date": "2026-10-01",
+    "end_date": "2026-11-15",
+    "status": "Completed",
+    "inspector": "Senior Bridge Specialist Team",
+    "scope": "Detailed structural safety evaluation, rebound hammer testing on piers P1-P4, and ultrasonic pulse velocity on deck slab"
+  },
+  {
+    "plan_id": 21,
+    "plan_code": "PBRBSG260014",
+    "plan_name": "Routine/Busega/2026/To-Entebbe",
+    "bridge_name": "Busega Viaduct",
+    "plan_type": "Routine Inspection",
+    "seq": 2,
+    "start_date": "2026-09-17",
+    "end_date": "2026-09-17",
+    "status": "Completed",
+    "inspector": "Prisca",
+    "scope": "Annual routine check of Span 1 components, drainage channels and approach pavement"
+  },
+  {
+    "plan_id": 22,
+    "plan_code": "PBRBSG260015",
+    "plan_name": "Emergency/Busega/2026/Truck-Rollover",
+    "bridge_name": "Busega Viaduct",
+    "plan_type": "Emergency Inspection",
+    "seq": 1,
+    "start_date": "2026-09-17",
+    "end_date": "2026-09-18",
+    "status": "Completed",
+    "inspector": "Emergency Response Unit",
+    "scope": "Crash site inspection at Span 3 to determine structural integrity, guardrail crushing and lane restriction measures"
+  },
+  {
+    "plan_id": 23,
+    "plan_code": "PBRKAJ260011",
+    "plan_name": "Routine/Kajjansi-IC/2026/Span1",
+    "bridge_name": "Kajjansi IC Interchange Bridge",
+    "plan_type": "Routine Inspection",
+    "seq": 1,
+    "start_date": "2026-09-24",
+    "end_date": "2026-09-24",
+    "status": "Completed",
+    "inspector": "Prisca",
+    "scope": "Routine visual examination of bearings, curved superstructure and ramp approach expansion joints"
+  },
+  {
+    "plan_id": 24,
+    "plan_code": "PBRNLK260010",
+    "plan_name": "Regular/Nalukolongo/2026/1st",
+    "bridge_name": "Nalukolongo Viaduct",
+    "plan_type": "Regular Inspection",
+    "seq": 1,
+    "start_date": "2026-09-10",
+    "end_date": "2026-10-30",
+    "status": "Completed",
+    "inspector": "KEC Technical Inspectorate",
+    "scope": "Mobile Client defect mapping across all 20 spans and 19 piers, as-built ledger synchronization"
+  },
+  {
+    "plan_id": 25,
+    "plan_code": "PBRNAM260008",
+    "plan_name": "Principal/Nambigirwa/2026/1st",
+    "bridge_name": "Nambigirwa Long-Span Viaduct",
+    "plan_type": "Principal Inspection",
+    "seq": 1,
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-30",
+    "status": "Completed",
+    "inspector": "National Bridge Assessment Board",
+    "scope": "Multi-span wetland viaduct structural survey, underwater foundation acoustic sounding, and modular expansion joint dynamic displacement tests"
+  }
+]

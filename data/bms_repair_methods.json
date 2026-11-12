@@ -1,0 +1,382 @@
+[
+  {
+    "id": "M01",
+    "code": "RM-ANC",
+    "name": "Anchor Method",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Main body breakage",
+      "Displacement",
+      "Bearing dislocation"
+    ],
+    "applicable_members": [
+      "Bearing Seat",
+      "Pier Cap",
+      "Abutment Breast Wall"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 4850000,
+    "overview": "Installation of high-tensile anchor rods and chemical anchors to securely fasten displaced structural elements or fix seismic tie-backs.",
+    "principle": "Mechanical shear and tension transfer across the contact interface using resin capsules or epoxy injection anchors.",
+    "diagram": "assets/bms/methods/Anchor method.jpg"
+  },
+  {
+    "id": "M02",
+    "code": "RM-BOLT",
+    "name": "Bolt Replacement Method",
+    "category": "Repair",
+    "target_damages": [
+      "Steel Corrosion",
+      "Bolt loosening",
+      "Breakage"
+    ],
+    "applicable_members": [
+      "Steel Girders",
+      "Splice Joints",
+      "Cross Bracings"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 185000,
+    "overview": "Removal of rusted, yielded, or sheared high-strength friction grip (HSFG) bolts and replacement with torque-calibrated Grade 10.9 assemblies.",
+    "principle": "Restores full frictional and shear load transfer across splice plates through precise calibrated torque tightening.",
+    "diagram": "assets/bms/methods/Fastening method using reinforcement bolts.jpg"
+  },
+  {
+    "id": "M03",
+    "code": "RM-CORR",
+    "name": "Correction Method",
+    "category": "Repair",
+    "target_damages": [
+      "Deformation",
+      "Out-of-plumb alignment",
+      "Impact distortion"
+    ],
+    "applicable_members": [
+      "Steel Girders",
+      "Guardrails",
+      "Parapets"
+    ],
+    "unit": "m",
+    "unit_rate_ugx": 1250000,
+    "overview": "Hydraulic jacking, mechanical realigning, and localized heat straightening to restore bent or deflected members to design tolerances.",
+    "principle": "Controlled plastic deformation under hydraulic pressure accompanied by cooling flame straightening cycles.",
+    "diagram": "assets/bms/methods/Correction method.jpg"
+  },
+  {
+    "id": "M04",
+    "code": "RM-SECT",
+    "name": "Cross-Sectional Restoration Method",
+    "category": "Repair",
+    "target_damages": [
+      "Spalling",
+      "Rebar exposure",
+      "Delamination",
+      "Breakage"
+    ],
+    "applicable_members": [
+      "Deck Soffit",
+      "Girders",
+      "Pier Columns",
+      "Abutment Walls"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 890000,
+    "overview": "Removal of delaminated concrete, anti-corrosion passivation of exposed steel reinforcement, and polymer-modified mortar or micro-concrete patching.",
+    "principle": "Restores structural protective cover and cross-sectional geometry, arresting environmental chloride and moisture ingress.",
+    "diagram": "assets/bms/damages/Pier_Rebar exp.png"
+  },
+  {
+    "id": "M05",
+    "code": "RM-CBL",
+    "name": "External Cable Installation Method",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Deflection",
+      "Flexural Cracking",
+      "Loss of prestress",
+      "Tendon fracture"
+    ],
+    "applicable_members": [
+      "PSC Box Girders",
+      "T-Girders",
+      "Continuous Decks"
+    ],
+    "unit": "m",
+    "unit_rate_ugx": 14500000,
+    "overview": "Installation of external high-tensile post-tensioning strands anchored to steel cross-beams or internal deviation blocks inside girder cells.",
+    "principle": "Imparts positive upward camber and compression to counteract excessive dead/live load mid-span flexural moments.",
+    "diagram": "assets/bms/methods/External cable installation method.jpg"
+  },
+  {
+    "id": "M06",
+    "code": "RM-FAST",
+    "name": "Fastening Method Using Reinforcement Bolts",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Joint separation",
+      "Shear slippage",
+      "Flange fatigue"
+    ],
+    "applicable_members": [
+      "Steel-Concrete Composite Connections",
+      "Expansion Joint Anchorages"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 320000,
+    "overview": "Reinforcing loose or undersized joints using high-strength through-bolts and heavy backing plates.",
+    "principle": "Clamping force generation preventing relative micro-movement and fatigue tearing under dynamic traffic pulses.",
+    "diagram": "assets/bms/methods/Fastening method using reinforcement bolts.jpg"
+  },
+  {
+    "id": "M07",
+    "code": "RM-CFRP-P",
+    "name": "Fiber Plate Adhesive Method (CFRP Plates)",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Flexural Cracking",
+      "Load capacity deficiency",
+      "High live load strain"
+    ],
+    "applicable_members": [
+      "Girder Bottom Flanges",
+      "Deck Soffit Tension Zones"
+    ],
+    "unit": "m",
+    "unit_rate_ugx": 3800000,
+    "overview": "Bonding pultruded Carbon Fiber Reinforced Polymer (CFRP) plates to tension zones using high-modulus thixotropic structural epoxy.",
+    "principle": "External tension reinforcement with 2,800+ MPa tensile strength, dramatically increasing moment capacity without dead weight penalty.",
+    "diagram": "assets/bms/methods/Plate bonding method.jpg"
+  },
+  {
+    "id": "M08",
+    "code": "RM-CFRP-S",
+    "name": "Fiber Sheet Adhesive Method (CFRP/GFRP Wrap)",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Shear Cracks",
+      "Seismic confinement deficit",
+      "Pier spalling"
+    ],
+    "applicable_members": [
+      "Pier Columns",
+      "Girder Web Shear Zones",
+      "Pier Caps"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 2400000,
+    "overview": "Wet lay-up of bi-directional or uni-directional carbon fiber fabrics wrapped around circular or rectangular pier shafts.",
+    "principle": "Provides hoop confinement stress to concrete cores, increasing axial load ductility and shear resistance.",
+    "diagram": "assets/bms/methods/Plate bonding method.jpg"
+  },
+  {
+    "id": "M09",
+    "code": "RM-FILL",
+    "name": "Filling Method",
+    "category": "Repair",
+    "target_damages": [
+      "Scaling",
+      "Map crack",
+      "Porous concrete",
+      "Surface voids"
+    ],
+    "applicable_members": [
+      "Deck Tops",
+      "Sidewalks",
+      "Wingwalls"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 420000,
+    "overview": "Cleaning and scraping shallow surface depressions, then filling with self-leveling cementitious or polyurethane grout compounds.",
+    "principle": "Eliminates standing water retention zones and prevents freeze-thaw/moisture erosion cycles.",
+    "diagram": "assets/bms/checklists/Pavement_Pothole.png"
+  },
+  {
+    "id": "M10",
+    "code": "RM-INJ",
+    "name": "Injection Method (Epoxy / Polyurethane)",
+    "category": "Repair",
+    "target_damages": [
+      "Crack",
+      "Leakage",
+      "Efflorescence"
+    ],
+    "applicable_members": [
+      "RC Decks",
+      "Girders",
+      "Piers",
+      "Abutments"
+    ],
+    "unit": "m",
+    "unit_rate_ugx": 650000,
+    "overview": "Low-pressure continuous injection of low-viscosity structural epoxy or hydrophilic expanding polyurethane into cracks >= 0.2mm.",
+    "principle": "Re-bonds cracked concrete monolithic sections and seals interior rebar from moisture, oxygen, and carbon dioxide.",
+    "diagram": "assets/bms/damages/Girder_Crack.png"
+  },
+  {
+    "id": "M11",
+    "code": "RM-PLT",
+    "name": "Plate Bonding Method (Steel Plate Bonding)",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Severe Flexural Cracks",
+      "Punching Shear",
+      "Excessive Deflection"
+    ],
+    "applicable_members": [
+      "Steel-Concrete Composite Girders",
+      "Deck Slabs"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 4900000,
+    "overview": "Epoxy-adhering and chemical-anchor bolting 6mm to 12mm structural steel plates to concrete faces under uniform pressure.",
+    "principle": "Direct composite load sharing, boosting section modulus and limiting crack opening under overload vehicle passages.",
+    "diagram": "assets/bms/methods/Plate bonding method.jpg"
+  },
+  {
+    "id": "M12",
+    "code": "RM-PREST",
+    "name": "Prestressing Method",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Tendon relaxation",
+      "Long-term sag",
+      "Tendon fracture"
+    ],
+    "applicable_members": [
+      "Prestressed Girders",
+      "Cross Beams"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 18200000,
+    "overview": "Re-tensioning existing adjustable post-tensioning anchors or adding supplemental unbonded monostrand tendons.",
+    "principle": "Restores designed residual compressive pre-stress into tension zones.",
+    "diagram": "assets/bms/methods/External cable installation method.jpg"
+  },
+  {
+    "id": "M13",
+    "code": "RM-INST",
+    "name": "Reinforcement by Installation Method",
+    "category": "Reinforcement",
+    "target_damages": [
+      "Excessive Pier Sway",
+      "Scour instability",
+      "Overload vulnerability"
+    ],
+    "applicable_members": [
+      "Piers",
+      "Abutment Slopes",
+      "Scour Protection Aprons"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 12000000,
+    "overview": "Erecting supplemental structural steel props, bracing trusses, or gabion rock-mattress aprons at critical nodes.",
+    "principle": "Redistributes critical load paths away from fatigued or undermined elements.",
+    "diagram": "assets/bms/damages/Pier_Crack.png"
+  },
+  {
+    "id": "M14",
+    "code": "RM-REPL",
+    "name": "Replacement Method (Bearings & Joints)",
+    "category": "Repair",
+    "target_damages": [
+      "Rubber damage",
+      "Main body breakage",
+      "Corroded Bearings",
+      "Joint Leakage"
+    ],
+    "applicable_members": [
+      "Bearings",
+      "Expansion Joints",
+      "Guardrails"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 8600000,
+    "overview": "Hydraulic synchronized bridge deck jacking (500t jacks), extraction of damaged elastomeric/pot bearings, and seating of new type-tested bearings.",
+    "principle": "Restores frictionless thermal expansion/contraction movement and seismic damping.",
+    "diagram": "assets/bms/checklists/Bearing_corrosion.png"
+  },
+  {
+    "id": "M15",
+    "code": "RM-PAINT",
+    "name": "Steel Bridge Painting",
+    "category": "Repair",
+    "target_damages": [
+      "Steel Corrosion",
+      "Discoloration",
+      "Coating peeling"
+    ],
+    "applicable_members": [
+      "Steel Girders",
+      "Cross Frames",
+      "Bearings",
+      "Pedestrian Railings"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 195000,
+    "overview": "Grit blasting to Sa 2.5 standard, followed by zinc-rich primer, epoxy intermediate micaceous iron oxide coat, and aliphatic polyurethane topcoat.",
+    "principle": "High-durability barrier and cathodic protection preventing atmospheric oxidation.",
+    "diagram": "assets/bms/methods/Steel bridge painting.jpg"
+  },
+  {
+    "id": "M16",
+    "code": "RM-STOP",
+    "name": "Stop-Hole Method",
+    "category": "Repair",
+    "target_damages": [
+      "Fatigue Crack Tip Propagation",
+      "Plate Tearing"
+    ],
+    "applicable_members": [
+      "Steel Web Plates",
+      "Gusset Connections"
+    ],
+    "unit": "EA",
+    "unit_rate_ugx": 450000,
+    "overview": "Precision magnetic core drilling of a 16mm-25mm hole exactly at the detected fatigue crack tip to eliminate notch stress concentration.",
+    "principle": "Transforms singular infinite stress notch into a blunt circular boundary with low elastic stress concentration factor.",
+    "diagram": "assets/bms/methods/Stop hole method.jpg"
+  },
+  {
+    "id": "M17",
+    "code": "RM-SURF",
+    "name": "Surface Treatment Method (Silane Impregnation)",
+    "category": "Repair",
+    "target_damages": [
+      "Efflorescence",
+      "Scaling",
+      "Deterioration",
+      "Moisture ingress"
+    ],
+    "applicable_members": [
+      "Parapets",
+      "Pier Splash Zones",
+      "Abutment Faces"
+    ],
+    "unit": "m²",
+    "unit_rate_ugx": 145000,
+    "overview": "High-pressure water jet cleaning followed by spray flooding of 100% active octyltriethoxysilane deep-penetrating water repellent.",
+    "principle": "Chemically bonds inside concrete pore walls creating a hydrophobic microscopic barrier permeable to vapor but impermeable to liquid water and salts.",
+    "diagram": "assets/bms/damages/Girder_Efflor.png"
+  },
+  {
+    "id": "M18",
+    "code": "RM-WELD",
+    "name": "Welding Repair Method",
+    "category": "Repair",
+    "target_damages": [
+      "Steel Breakage",
+      "Torn connection plates",
+      "Fracture"
+    ],
+    "applicable_members": [
+      "Steel Diaphragms",
+      "Drainage Grating Mounts",
+      "Bearing Plinths"
+    ],
+    "unit": "m",
+    "unit_rate_ugx": 780000,
+    "overview": "Carbon-arc gouging of cracked weld seams, preheating to 150°C, and manual shielded metal arc welding (SMAW) with low-hydrogen E7018 electrodes.",
+    "principle": "Restores full metallurgical continuity and parent metal yield strength.",
+    "diagram": "assets/bms/methods/Welding repair method.jpg"
+  }
+]

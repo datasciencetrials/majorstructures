@@ -1776,3 +1776,33 @@ tr:hover td {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.25) !important;
 }
+
+
+/* Ensure proper casing across all bridge titles, drawer titles, table cells, and labels */
+.bridge-item strong,
+.bdc-title,
+.nbms-critical-body h3,
+.data-table td:nth-child(2),
+[class*="bridge-name"],
+.twin-asset-name,
+.nbms-rescue-bridge-title,
+.bms-structure-top strong,
+.bms-table td strong {
+  text-transform: capitalize !important;
+}
+
+/* Strict suppression of forbidden evidence, archive health, and source audit metrics */
+.nbms-native-photo-health,
+[aria-label="Bridge photo archive health"],
+.photo-library-header,
+.evidence-library,
+.sources-evidence,
+[data-screen="evidence"],
+[data-screen="sources"],
+.nbms-photo-health {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

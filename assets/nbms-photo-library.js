@@ -337,15 +337,10 @@
           <select data-photo-availability>
             <option value="Available" ${STATE.availability === "Available" ? "selected" : ""}>Available images</option>
             <option value="All" ${STATE.availability === "All" ? "selected" : ""}>All indexed records</option>
-            <option value="Missing" ${STATE.availability === "Missing" ? "selected" : ""}>Missing source records</option>
+            
           </select>
         </div>
-        <div class="nbms-photo-health">
-          <strong>${(STATE.audit?.web_available_records ?? STATE.records.filter((item) => item.webAvailable).length).toLocaleString()}</strong>
-          <span>records have web-ready evidence</span>
-          <strong>${(STATE.audit?.web_missing_sources ?? STATE.records.filter((item) => !item.webAvailable).length).toLocaleString()}</strong>
-          <span>source records are still missing from the local archive</span>
-        </div>
+        
 
         ${photo ? `
           <div class="nbms-photo-stage">
@@ -581,45 +576,7 @@
   }
 
   function enhanceNativePhotoSummary(root = document) {
-    const library = root.querySelector?.(".photo-library.evidence-library") || document.querySelector(".photo-library.evidence-library");
-    if (!library) return;
-    const audit = REPAIR.audit;
-    const kpiGrid = library.querySelector(".photo-kpi-grid");
-    if (!audit && !kpiGrid) return;
-    const publishable = Number(audit?.publishable_images ?? audit?.web_available_records ?? 0);
-    const webReady = Number(audit?.web_available_records ?? audit?.thumbnails_generated ?? 0);
-    const fullReady = Number(audit?.full_available_records ?? 0);
-    const missing = Number(audit?.web_missing_sources ?? 0);
-    const sourceImages = Number(audit?.source_repository_images ?? 0);
-    const localImages = Number(audit?.local_gallery_images ?? 0);
-    const values = [
-      ["Web-ready evidence", webReady],
-      ["Full-size photos", fullReady],
-      ["Missing source records", missing],
-      ["Repository images", sourceImages || localImages],
-    ];
-    const markup = `
-      <section class="nbms-native-photo-health" aria-label="Bridge photo archive health">
-        <div>
-          <strong>${publishable ? publishable.toLocaleString() : "7,794"}</strong>
-          <span>publishable indexed photo records</span>
-        </div>
-        ${values.map(([label, value]) => `
-          <div>
-            <strong>${Number(value || 0).toLocaleString()}</strong>
-            <span>${esc(label)}</span>
-          </div>`).join("")}
-      </section>`;
-    let panel = library.querySelector(".nbms-native-photo-health");
-    if (panel) {
-      panel.outerHTML = markup;
-      return;
-    }
-    if (kpiGrid) {
-      kpiGrid.insertAdjacentHTML("afterend", markup);
-    } else {
-      library.insertAdjacentHTML("afterbegin", markup);
-    }
+    return;
   }
 
   function centerMapToolbars(root = document) {
