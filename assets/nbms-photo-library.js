@@ -325,7 +325,7 @@
             <h2 class="nbms-photo-title">Indexed inspection gallery</h2>
             <p class="nbms-photo-copy">
               Search the national bridge photo archive by structure ID, filename, source folder, or bridge name.
-              Optimized web images and thumbnails are generated from the MoWT bridge photo repository.
+              Optimized web images and thumbnails are generated from the national bridge photo repository.
             </p>
           </div>
           <div class="nbms-photo-stats">${statsMarkup(groups)}</div>

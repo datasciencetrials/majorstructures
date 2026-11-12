@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-24",
-  "source": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+  "source": "National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
   "condition_overall": {
     "Good": 254,
     "Critical": 102,
@@ -79,7 +79,7 @@
     "verified_no_data_condition": 6
   },
   "bms_manual_analytics": {
-    "manual": "UNRA_AssetManagementSystem_6_BMS_User_Manual.pdf",
+    "manual": "National_AssetManagementSystem_6_BMS_User_Manual.pdf",
     "manual_section": "10 Ranking for Bridges / 10.1 Overall Rate Calculation",
     "manual_rules_applied": [
       "Overall rate is computed from approach, waterway, substructure, superstructure and roadway component ratings using the manual component weighting table.",

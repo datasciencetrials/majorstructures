@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-26",
-  "source_workbook": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+  "source_workbook": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
   "identity_resolution_stats": {
     "verified_alias": 25,
     "verified_same_number": 416,
@@ -598,7 +598,7 @@
     "display_rating": 7,
     "resolved_condition_bridge_no": "B395",
     "latest_condition_date": "2021-11-03",
-    "condition_provenance": "Latest verified condition matched by structure identity to historical bridge B395 (Kisaasi flyover) from UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx / Bridge_Analysis: Good; adopted rating 8."
+    "condition_provenance": "Latest verified condition matched by structure identity to historical bridge B395 (Kisaasi flyover) from National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx / Bridge_Analysis: Good; adopted rating 8."
   },
   "historical_validation_report": "data/historical_validation_report.json",
   "source_files_checked_count": 14,
@@ -941,7 +941,7 @@
     "note": "Former Bridge at this location is no longer under use and a new Bridge structure has been put in place with the recorded cordinates"
   },
   "bms_manual_analytics": {
-    "manual": "UNRA_AssetManagementSystem_6_BMS_User_Manual.pdf",
+    "manual": "National_AssetManagementSystem_6_BMS_User_Manual.pdf",
     "manual_section": "10 Ranking for Bridges / 10.1 Overall Rate Calculation",
     "manual_rules_applied": [
       "Overall rate is computed from approach, waterway, substructure, superstructure and roadway component ratings using the manual component weighting table.",

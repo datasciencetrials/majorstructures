@@ -28,7 +28,7 @@
   --accent-emerald: var(--nbms-neon-green) !important;
   --gradient-primary: linear-gradient(135deg, #00f5ff 0%, #4d9fff 46%, #b967ff 100%) !important;
   --gradient-card: linear-gradient(135deg, rgba(0, 245, 255, 0.1), rgba(6, 13, 24, 0.86) 58%, rgba(185, 103, 255, 0.1)) !important;
-  --gradient-unra: linear-gradient(90deg, #00f5ff 0%, #00ff88 34%, #ffd23f 67%, #ff3366 100%) !important;
+  --gradient-brand: linear-gradient(90deg, #00f5ff 0%, #00ff88 34%, #ffd23f 67%, #ff3366 100%) !important;
   --shadow-glow: 0 0 0 1px rgba(0, 245, 255, 0.14), 0 18px 48px rgba(0, 0, 0, 0.54), 0 0 38px rgba(0, 245, 255, 0.12) !important;
 }
 
@@ -75,7 +75,7 @@ body::before {
 
 .horiz-nav-logo,
 .brand-logo,
-img[alt*="MoWT"],
+img[alt*="Logo"],
 img[alt*="Logo"] {
   filter: drop-shadow(0 0 12px rgba(0, 245, 255, 0.45));
 }
