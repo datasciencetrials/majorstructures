@@ -5,7 +5,7 @@
   "source_files_checked": [
     {
       "path": "7.Bridge Inventory and Condition Data/National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
-      "resolved_path": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -43,7 +43,7 @@
     },
     {
       "path": "7.Bridge Inventory and Condition Data/Bridge condition rating 2022.xlsx",
-      "resolved_path": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridge condition rating 2022.xlsx",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridge condition rating 2022.xlsx",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "path": "arcgis-unra-curated/National structures/List of bridges from BMS database(2019).xlsx",
+      "path": "arcgis-national-curated/National structures/List of bridges from BMS database(2019).xlsx",
       "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\List of bridges from BMS database(2019).xlsx",
       "kind": "bridge_inventory_condition",
       "exists": true,
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "path": "arcgis-unra-curated/National structures/List of bridges from BMS database(2015).xlsx",
+      "path": "arcgis-national-curated/National structures/List of bridges from BMS database(2015).xlsx",
       "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\List of bridges from BMS database(2015).xlsx",
       "kind": "bridge_inventory",
       "exists": true,
@@ -113,7 +113,7 @@
     },
     {
       "path": "7.Bridge Inventory and Condition Data/Bridges 18062025.xlsx",
-      "resolved_path": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridges 18062025.xlsx",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridges 18062025.xlsx",
       "kind": "bridge_inventory",
       "exists": true,
       "sheets": [
@@ -213,7 +213,7 @@
     },
     {
       "path": "7.Bridge Inventory and Condition Data/Major culvert condition rating 2022.xlsx",
-      "resolved_path": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major culvert condition rating 2022.xlsx",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major culvert condition rating 2022.xlsx",
       "kind": "culvert_condition",
       "exists": true,
       "sheets": [
@@ -241,7 +241,7 @@
     },
     {
       "path": "7.Bridge Inventory and Condition Data/Major Culverts 18062025.xlsx",
-      "resolved_path": "G:\\My Drive\\MOWT\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major Culverts 18062025.xlsx",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major Culverts 18062025.xlsx",
       "kind": "culvert_inventory",
       "exists": true,
       "sheets": [
