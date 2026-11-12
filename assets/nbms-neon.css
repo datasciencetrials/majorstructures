@@ -1806,3 +1806,366 @@ tr:hover td {
   opacity: 0 !important;
   pointer-events: none !important;
 }
+
+
+/* ==========================================================================
+   APPLE DESIGN LANGUAGE - CANONICAL LIGHT THEME & VISIBILITY POLISH
+   ========================================================================== */
+
+/* Top Navigation Bar */
+.horiz-nav-bar {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid #E5E5EA !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+  height: 60px !important;
+  min-height: 60px !important;
+  padding: 0 24px !important;
+}
+
+.horiz-nav-brand-text strong {
+  color: #1D1D1F !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.2px !important;
+}
+
+.horiz-nav-brand-text span {
+  color: #86868B !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.horiz-nav-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+.horiz-nav-link {
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 7px 16px !important;
+  border-radius: 9999px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #48484A !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  cursor: pointer !important;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  height: auto !important;
+}
+
+.horiz-nav-link:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: #1D1D1F !important;
+  border-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.horiz-nav-link.active {
+  background: #0071E3 !important;
+  color: #FFFFFF !important;
+  border-color: #0071E3 !important;
+  font-weight: 600 !important;
+  box-shadow: 0 2px 8px rgba(0, 113, 227, 0.28) !important;
+}
+
+.horiz-nav-link.active * {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
+}
+
+.horiz-nav-link svg,
+.horiz-nav-link img {
+  flex-shrink: 0 !important;
+}
+
+/* Secondary Context Subnav */
+.context-subnav {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E5E5EA !important;
+  min-height: 48px !important;
+  padding: 0 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  overflow-x: auto !important;
+}
+
+.context-subnav-title span {
+  color: #1D1D1F !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+}
+
+.context-subnav button {
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 6px 14px !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #48484A !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+.context-subnav button:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: #1D1D1F !important;
+}
+
+.context-subnav button.active {
+  background: rgba(0, 113, 227, 0.1) !important;
+  color: #0071E3 !important;
+  font-weight: 600 !important;
+  border-color: rgba(0, 113, 227, 0.22) !important;
+}
+
+.context-subnav button.active * {
+  color: #0071E3 !important;
+  fill: #0071E3 !important;
+}
+
+/* Apple Segmented Control (Bridges Registry / Major Culverts) */
+.inventory-layout .subnav,
+.modern-theme-root .subnav {
+  display: inline-flex !important;
+  align-items: center !important;
+  background: rgba(118, 118, 128, 0.12) !important;
+  padding: 3px !important;
+  border-radius: 9px !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 18px !important;
+  width: auto !important;
+  gap: 2px !important;
+}
+
+.inventory-layout .subnav button,
+.modern-theme-root .subnav button {
+  background: transparent !important;
+  color: #6E6E73 !important;
+  border: none !important;
+  padding: 6px 18px !important;
+  border-radius: 7px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  box-shadow: none !important;
+  white-space: nowrap !important;
+}
+
+.inventory-layout .subnav button:hover,
+.modern-theme-root .subnav button:hover {
+  color: #1D1D1F !important;
+}
+
+.inventory-layout .subnav button[style*="var(--accent-blue)"],
+.inventory-layout .subnav button[style*="#fff"],
+.inventory-layout .subnav button.active,
+.modern-theme-root .subnav button.active {
+  background: #FFFFFF !important;
+  color: #1D1D1F !important;
+  font-weight: 600 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Bridges Registry Header & Search */
+.inventory-layout {
+  padding: 8px 4px !important;
+}
+
+input[type="text"],
+input[placeholder*="Search"],
+.search-box input {
+  background: #FFFFFF !important;
+  color: #1D1D1F !important;
+  border: 1px solid #D1D1D6 !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  padding: 8px 14px 8px 36px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03) !important;
+  outline: none !important;
+}
+
+input[type="text"]:focus,
+input[placeholder*="Search"]:focus {
+  border-color: #0071E3 !important;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.16) !important;
+}
+
+/* Bridges & Culverts Data Tables */
+.data-table-container {
+  background: #FFFFFF !important;
+  border: 1px solid #E5E5EA !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03) !important;
+  overflow: auto !important;
+  max-height: calc(100vh - 240px) !important;
+}
+
+.data-table {
+  width: 100% !important;
+  min-width: 1500px !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.data-table th {
+  background: #F8FAFC !important;
+  color: #1E293B !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.6px !important;
+  text-transform: uppercase !important;
+  padding: 12px 16px !important;
+  border-bottom: 2px solid #E2E8F0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10 !important;
+  white-space: nowrap !important;
+}
+
+.table-sort-button {
+  color: #1E293B !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  background: transparent !important;
+  border: none !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+}
+
+.data-table td {
+  padding: 11px 16px !important;
+  color: #1D1D1F !important;
+  font-size: 13px !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  white-space: nowrap !important;
+  background: #FFFFFF !important;
+}
+
+.data-table tr:hover td {
+  background: #F8FAFC !important;
+}
+
+/* Sticky Bridge No column */
+.data-table th:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 12 !important;
+  background: #F8FAFC !important;
+  border-right: 2px solid #E2E8F0 !important;
+  font-weight: 700 !important;
+}
+
+.data-table td:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 11 !important;
+  background: #FFFFFF !important;
+  border-right: 2px solid #E2E8F0 !important;
+  font-weight: 600 !important;
+  color: #0071E3 !important;
+}
+
+.data-table tr:hover td:first-child {
+  background: #F8FAFC !important;
+}
+
+/* Capitalize bridge and road names */
+.data-table td:nth-child(2),
+.data-table td:nth-child(5) {
+  text-transform: capitalize !important;
+}
+
+/* Digital Twin & Photo Sidebar Lists */
+.twin-asset-list button,
+.structure-list button,
+.evidence-structure-list button {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  color: #0F172A !important;
+  margin-bottom: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  text-align: left !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+.twin-asset-list button strong,
+.structure-list strong,
+.evidence-structure-list strong {
+  color: #0F172A !important;
+  font-weight: 600 !important;
+}
+
+.twin-asset-list button small,
+.structure-list small,
+.evidence-structure-list small {
+  color: #64748B !important;
+}
+
+.twin-asset-list button:hover,
+.structure-list button:hover,
+.evidence-structure-list button:hover {
+  background: #F1F5F9 !important;
+  border-color: #CBD5E1 !important;
+}
+
+.twin-asset-list button.active,
+.structure-list button.active,
+.evidence-structure-list button.active {
+  background: #EFF6FF !important;
+  border-color: #3B82F6 !important;
+  color: #1D4ED8 !important;
+}
+
+.twin-asset-list button.active strong,
+.twin-asset-list button.active small {
+  color: #1D4ED8 !important;
+}
+
+/* Complete CSS suppression of forbidden pipeline evidence / sources */
+.photo-kpi-grid,
+.nbms-native-photo-health,
+.nbms-photo-health,
+.sources-hero,
+.sources-kpis,
+.sources-evidence,
+[data-photo-availability] option[value="Missing"],
+.evidence-library .photo-kpi-grid {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

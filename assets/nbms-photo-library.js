@@ -279,16 +279,9 @@
   };
 
   function statsMarkup(groups) {
-    const audit = STATE.audit || {};
-    const available = audit.web_images_generated ?? STATE.records.filter((photo) => photo.webAvailable).length;
-    const thumbs = audit.thumbnails_generated ?? STATE.records.filter((photo) => photo.webAvailable).length;
-    const missing = audit.web_missing_sources ?? STATE.records.filter((photo) => !photo.webAvailable).length;
     return [
-      ["Photos", STATE.records.length.toLocaleString()],
-      ["Structures", STATE.groups.length.toLocaleString()],
-      ["Web images", Number(available).toLocaleString()],
-      ["Thumbnails", Number(thumbs).toLocaleString()],
-      ["Missing sources", Number(missing).toLocaleString()],
+      ["Inspection Photos", STATE.records.length.toLocaleString()],
+      ["Structures Covered", STATE.groups.length.toLocaleString()],
     ].map(([label, value]) => `<div class="nbms-photo-stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
   }
 
@@ -296,7 +289,7 @@
     if (!STATE.loaded) {
       container.innerHTML = `
         <section class="nbms-photo-library" data-nbms-photo-library>
-          <div class="nbms-photo-empty">Loading indexed bridge evidence...</div>
+          <div class="nbms-photo-empty">Loading bridge inspection photos...</div>
         </section>`;
       loadData().then(() => render(container)).catch((error) => {
         container.innerHTML = `<section class="nbms-photo-library"><div class="nbms-photo-empty">Photo library failed to load: ${esc(error.message)}</div></section>`;
@@ -321,11 +314,10 @@
       <section class="nbms-photo-library" data-nbms-photo-library>
         <div class="nbms-photo-head">
           <div>
-            <div class="nbms-photo-kicker">Bridge photo evidence</div>
-            <h2 class="nbms-photo-title">Indexed inspection gallery</h2>
+            <div class="nbms-photo-kicker">Bridge Inspection Photography</div>
+            <h2 class="nbms-photo-title">Structure Photo Gallery</h2>
             <p class="nbms-photo-copy">
-              Search the national bridge photo archive by structure ID, filename, source folder, or bridge name.
-              Optimized web images and thumbnails are generated from the national bridge photo repository.
+              National bridge and major culvert inspection photography archive.
             </p>
           </div>
           <div class="nbms-photo-stats">${statsMarkup(groups)}</div>
@@ -356,7 +348,7 @@
                 <dt>Sequence</dt><dd>${esc(photo.sequence || "-")}</dd>
                 <dt>Photos</dt><dd>${photoCount.toLocaleString()} indexed for this structure</dd>
                 <dt>Source</dt><dd>${esc(photo.source_relative_path || photo.original_path || "-")}</dd>
-                <dt>Status</dt><dd>${photo.fullAvailable ? "Full web image ready" : photo.webAvailable ? "Thumbnail evidence ready" : "Source missing from local archive"}</dd>
+                <dd></dd>
               </dl>
               ${photo.webAvailable ? `<a class="nbms-photo-open" href="${esc(photoUrl(photo))}" target="_blank" rel="noreferrer">Open full image</a>` : ""}
             </div>
