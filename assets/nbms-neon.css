@@ -1227,3 +1227,552 @@ div[style*="rgba(239, 68, 68"] h3 {
   position: relative !important;
   z-index: 6 !important;
 }
+
+
+/* ==========================================================================
+   Apple Design Language System (Human Interface Guidelines)
+   ========================================================================== */
+
+:root {
+  --apple-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --apple-bg: #F5F5F7;
+  --apple-card: #FFFFFF;
+  --apple-card-hover: #FAFAFC;
+  --apple-text-primary: #1D1D1F;
+  --apple-text-secondary: #6E6E73;
+  --apple-text-tertiary: #86868B;
+  --apple-border: rgba(0, 0, 0, 0.08);
+  --apple-border-light: rgba(0, 0, 0, 0.04);
+  --apple-blue: #0071E3;
+  --apple-blue-hover: #0077ED;
+  --apple-red: #FF3B30;
+  --apple-green: #34C759;
+  --apple-amber: #FF9500;
+  --apple-radius-sm: 8px;
+  --apple-radius-md: 12px;
+  --apple-radius-lg: 18px;
+  --apple-radius-pill: 980px;
+  --apple-shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --apple-shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+  --apple-shadow-card-hover: 0 14px 32px -4px rgba(0, 0, 0, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+  --apple-shadow-float: 0 20px 48px -8px rgba(0, 0, 0, 0.12);
+  --apple-blur-nav: blur(20px) saturate(180%);
+}
+
+html, body, #root, .bms-shell, .modern-theme-root {
+  background: var(--apple-bg) !important;
+  color: var(--apple-text-primary) !important;
+  font-family: var(--apple-font) !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  letter-spacing: -0.011em !important;
+}
+
+/* 1. Frosted Glass Top Navigation Bar */
+.horiz-nav-bar {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: var(--apple-blur-nav) !important;
+  -webkit-backdrop-filter: var(--apple-blur-nav) !important;
+  border-bottom: 1px solid var(--apple-border) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+  height: 64px !important;
+  min-height: 64px !important;
+  padding: 0 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+.horiz-nav-brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-right: 32px !important;
+  padding-right: 24px !important;
+  border-right: 1px solid var(--apple-border) !important;
+}
+
+.horiz-nav-logo {
+  border-radius: 10px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.horiz-nav-brand-text strong {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.horiz-nav-brand-text span {
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--apple-text-secondary) !important;
+}
+
+/* Navigation Links - Apple Capsule Pills */
+.horiz-nav-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.horiz-nav-link {
+  font-family: var(--apple-font) !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: var(--apple-text-secondary) !important;
+  background: rgba(0, 0, 0, 0.03) !important;
+  border: 1px solid transparent !important;
+  border-radius: var(--apple-radius-pill) !important;
+  padding: 8px 16px !important;
+  height: 36px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  cursor: pointer !important;
+}
+
+.horiz-nav-link:hover {
+  background: rgba(0, 0, 0, 0.07) !important;
+  color: var(--apple-text-primary) !important;
+  transform: translateY(-1px) !important;
+}
+
+.horiz-nav-link.active {
+  background: var(--apple-text-primary) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  font-weight: 600 !important;
+}
+
+/* Secondary Context Subnav */
+.context-subnav {
+  background: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: var(--apple-blur-nav) !important;
+  -webkit-backdrop-filter: var(--apple-blur-nav) !important;
+  border-bottom: 1px solid var(--apple-border) !important;
+  height: 46px !important;
+  min-height: 46px !important;
+  padding: 0 28px !important;
+  align-items: center !important;
+}
+
+.context-subnav-title span {
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.context-subnav-label {
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  color: var(--apple-text-tertiary) !important;
+}
+
+.context-subnav button {
+  font-family: var(--apple-font) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  border-radius: var(--apple-radius-pill) !important;
+  padding: 5px 12px !important;
+  height: 28px !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  color: var(--apple-text-secondary) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.context-subnav button:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.context-subnav button.active {
+  background: var(--apple-blue) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 6px rgba(0, 113, 227, 0.25) !important;
+  font-weight: 600 !important;
+}
+
+/* 2. Apple Cards & Panels */
+.panel,
+.kpi-card,
+.glass-card,
+.metric-card,
+.summary-card,
+.coverage-panel,
+.registry-table-card,
+.twin-workspace,
+.nbms-rescue-stat {
+  background: var(--apple-card) !important;
+  border-radius: var(--apple-radius-lg) !important;
+  border: 1px solid var(--apple-border) !important;
+  box-shadow: var(--apple-shadow-card) !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.panel:hover,
+.kpi-card:hover,
+.glass-card:hover,
+.summary-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: var(--apple-shadow-card-hover) !important;
+}
+
+/* Card Headers */
+.panel-header {
+  background: transparent !important;
+  border-bottom: 1px solid var(--apple-border-light) !important;
+  padding: 20px 24px !important;
+}
+
+.panel-kicker {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--apple-blue) !important;
+}
+
+.panel-header h2 {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--apple-text-primary) !important;
+  margin-top: 4px !important;
+}
+
+/* KPI Numbers: Bold, Refined Apple Typography */
+.kpi-card strong,
+.kpi-value {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+  color: var(--apple-text-primary) !important;
+  line-height: 1.1 !important;
+}
+
+.kpi-eyebrow {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  color: var(--apple-text-secondary) !important;
+}
+
+.kpi-card p {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: var(--apple-text-tertiary) !important;
+  margin-top: 6px !important;
+}
+
+.kpi-icon {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* 3. Apple Style Row Lists (Regional & Route Coverage) */
+.region-row {
+  background: rgba(0, 0, 0, 0.02) !important;
+  border: 1px solid transparent !important;
+  border-radius: var(--apple-radius-md) !important;
+  padding: 12px 16px !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.region-row:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+  transform: translateX(3px) !important;
+}
+
+.region-row strong {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.region-row span {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: var(--apple-text-secondary) !important;
+}
+
+.region-row b {
+  background: rgba(0, 113, 227, 0.1) !important;
+  color: var(--apple-blue) !important;
+  border-radius: var(--apple-radius-pill) !important;
+  padding: 3px 10px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+/* 4. Apple Floating Slide-out Detail Drawer (GIS Map) */
+.map-detail-pane,
+.map-detail-drawer,
+.bridge-detail-card {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(28px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(180%) !important;
+  border-radius: 20px !important;
+  border: 1px solid var(--apple-border) !important;
+  box-shadow: var(--apple-shadow-float) !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.map-detail-pane .bdc-header,
+.bdc-header {
+  background: rgba(245, 245, 247, 0.8) !important;
+  border-bottom: 1px solid var(--apple-border) !important;
+  padding: 18px 22px !important;
+}
+
+.map-detail-pane .bdc-title,
+.bdc-title {
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.bdc-type-badge {
+  background: rgba(0, 113, 227, 0.1) !important;
+  color: var(--apple-blue) !important;
+  border-radius: var(--apple-radius-pill) !important;
+  font-weight: 600 !important;
+  padding: 3px 9px !important;
+  border: none !important;
+}
+
+.map-detail-pane .bdc-section-title,
+.bdc-section-title {
+  color: var(--apple-blue) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+}
+
+.map-detail-pane .bdc-label,
+.bdc-label {
+  color: var(--apple-text-tertiary) !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+}
+
+.map-detail-pane .bdc-value,
+.bdc-value,
+.map-detail-pane .bdc-value-highlight,
+.bdc-value-highlight {
+  color: var(--apple-text-primary) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+.bdc-close {
+  background: rgba(0, 0, 0, 0.04) !important;
+  border: none !important;
+  border-radius: var(--apple-radius-pill) !important;
+  color: var(--apple-text-secondary) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.bdc-close:hover {
+  background: rgba(255, 59, 48, 0.12) !important;
+  color: var(--apple-red) !important;
+}
+
+/* 5. Critical Structures Cards - Apple Clean Cards */
+.nbms-critical-card {
+  background: var(--apple-card) !important;
+  border-radius: 16px !important;
+  border: 1px solid var(--apple-border) !important;
+  box-shadow: var(--apple-shadow-card) !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  overflow: hidden !important;
+}
+
+.nbms-critical-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--apple-shadow-card-hover) !important;
+}
+
+.nbms-critical-photo {
+  height: 162px !important;
+  max-height: 162px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.nbms-critical-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.nbms-critical-card:hover .nbms-critical-photo img {
+  transform: scale(1.03) !important;
+}
+
+.nbms-critical-badge {
+  background: var(--apple-red) !important;
+  color: #FFFFFF !important;
+  border-radius: var(--apple-radius-pill) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  padding: 4px 10px !important;
+  box-shadow: 0 2px 6px rgba(255, 59, 48, 0.3) !important;
+}
+
+.nbms-critical-body {
+  padding: 16px !important;
+  background: var(--apple-card) !important;
+}
+
+.nbms-critical-body h3,
+div[style*="rgba(239, 68, 68"] h3 {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.015em !important;
+  color: var(--apple-text-primary) !important;
+  margin: 0 0 6px 0 !important;
+}
+
+.nbms-critical-meta span {
+  font-size: 12px !important;
+  color: var(--apple-text-secondary) !important;
+}
+
+/* 6. Apple Form Inputs & Search Fields */
+input, select, textarea, .toolbar-search, .photo-search {
+  font-family: var(--apple-font) !important;
+  background: rgba(0, 0, 0, 0.03) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: var(--apple-radius-md) !important;
+  color: var(--apple-text-primary) !important;
+  font-size: 13px !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+input:focus, select:focus, textarea:focus, .toolbar-search:focus-within {
+  background: #FFFFFF !important;
+  border-color: var(--apple-blue) !important;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.16) !important;
+  outline: none !important;
+}
+
+input::placeholder {
+  color: var(--apple-text-tertiary) !important;
+}
+
+/* 7. Action Buttons */
+.modern-btn-primary,
+.quick-actions-panel button {
+  font-family: var(--apple-font) !important;
+  border-radius: var(--apple-radius-md) !important;
+  font-weight: 600 !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.modern-btn-primary {
+  background: var(--apple-blue) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(0, 113, 227, 0.25) !important;
+  border: none !important;
+}
+
+.modern-btn-primary:hover {
+  background: var(--apple-blue-hover) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(0, 113, 227, 0.35) !important;
+}
+
+.quick-actions-panel button {
+  background: rgba(0, 0, 0, 0.02) !important;
+  border: 1px solid var(--apple-border) !important;
+  box-shadow: var(--apple-shadow-subtle) !important;
+}
+
+.quick-actions-panel button:hover {
+  background: #FFFFFF !important;
+  border-color: var(--apple-blue) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  transform: translateY(-1px) !important;
+}
+
+.quick-actions-panel button strong {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: var(--apple-text-primary) !important;
+}
+
+.quick-actions-panel button small {
+  font-size: 11px !important;
+  color: var(--apple-text-secondary) !important;
+}
+
+/* 8. Table Styling: Apple Clean Grid */
+table {
+  background: var(--apple-card) !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+}
+
+th {
+  background: rgba(245, 245, 247, 0.9) !important;
+  color: var(--apple-text-secondary) !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  border-bottom: 1px solid var(--apple-border) !important;
+  padding: 12px 16px !important;
+}
+
+td {
+  border-bottom: 1px solid var(--apple-border-light) !important;
+  color: var(--apple-text-primary) !important;
+  font-size: 13px !important;
+  padding: 12px 16px !important;
+}
+
+tr:hover td {
+  background: rgba(0, 0, 0, 0.015) !important;
+}
+
+/* 9. Scrollbar refinement */
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-radius: 980px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
