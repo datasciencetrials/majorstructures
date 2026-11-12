@@ -18,7 +18,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ntungamo",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -39,7 +42,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kabale",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -48,7 +54,7 @@
     "ResolvedConditionBridgeNo": "B025",
     "LinkID": "A006_Link09",
     "LinkName": "Karuma - Kamdini",
-    "MaintenanceStation": "Gulu",
+    "MaintenanceStation": "Masindi",
     "BridgeLength": 86,
     "BridgeWidth": 8.27,
     "OverallRating": "Critical",
@@ -60,7 +66,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nwoya",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Bridge",
@@ -81,7 +90,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -102,7 +114,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Koboko",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -122,7 +137,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buikwe",
+    "Region": "Central",
+    "Station": "Kampala"
   },
   {
     "StructureType": "Bridge",
@@ -142,7 +160,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buikwe",
+    "Region": "Central",
+    "Station": "Kampala"
   },
   {
     "StructureType": "Major Culvert",
@@ -162,7 +183,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "culvert_inventory",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Masindi",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Bridge",
@@ -183,7 +207,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kumi",
+    "Region": "East",
+    "Station": "Soroti"
   },
   {
     "StructureType": "Bridge",
@@ -192,7 +219,7 @@
     "ResolvedConditionBridgeNo": "B059",
     "LinkID": "B305_Link03",
     "LinkName": "Kanyago Bridge - Kumi",
-    "MaintenanceStation": "Soroti",
+    "MaintenanceStation": "Mbale",
     "BridgeLength": 49,
     "BridgeWidth": 6,
     "OverallRating": "Critical",
@@ -204,7 +231,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pallisa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -225,7 +255,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -246,7 +279,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Moyo",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -267,7 +303,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Yumbe",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -288,7 +327,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -309,7 +351,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lira",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -318,7 +363,7 @@
     "ResolvedConditionBridgeNo": "B149",
     "LinkID": "B252_Link02",
     "LinkName": "Puranga Bridge - Corner Kilak - Pejule - Acholibur",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 8.3,
     "BridgeWidth": 7.95,
     "OverallRating": "Critical",
@@ -330,7 +375,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pader",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -351,7 +399,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bulambuli",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -372,7 +423,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kween",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -381,7 +435,7 @@
     "ResolvedConditionBridgeNo": "B181",
     "LinkID": "B302_Link02",
     "LinkName": "Abim - Kilak",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 46.57,
     "BridgeWidth": 10.04,
     "OverallRating": "Critical",
@@ -393,7 +447,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -414,7 +471,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Yumbe",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -423,7 +483,7 @@
     "ResolvedConditionBridgeNo": "B869",
     "LinkID": "B302_Link02",
     "LinkName": "Abim - Kilak",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Kotido",
     "BridgeLength": 8.7,
     "BridgeWidth": 5.94,
     "OverallRating": "Critical",
@@ -435,7 +495,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "East",
+    "Station": "Kotido"
   },
   {
     "StructureType": "Bridge",
@@ -456,7 +519,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -465,7 +531,7 @@
     "ResolvedConditionBridgeNo": "B014",
     "LinkID": "C542_Link01",
     "LinkName": "Fortportal - Kijura - Kabende Bridge-Sogahe-Kyarusozi",
-    "MaintenanceStation": "Fort Portal",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 16.4,
     "BridgeWidth": 7.2,
     "OverallRating": "Critical",
@@ -477,7 +543,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kabarole",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -498,7 +567,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Rukungiri",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -519,7 +591,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Rubirizi",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Bridge",
@@ -528,7 +603,7 @@
     "ResolvedConditionBridgeNo": "B076",
     "LinkID": "C415_Link02",
     "LinkName": "Bihanga - Bwizibwera",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 13.5,
     "BridgeWidth": 3.34,
     "OverallRating": "Critical",
@@ -540,7 +615,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kamwenge",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -549,7 +627,7 @@
     "ResolvedConditionBridgeNo": "B077",
     "LinkID": "C416_Link01",
     "LinkName": "Bihanga - Nsiika",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 13,
     "BridgeWidth": 4.37,
     "OverallRating": "Critical",
@@ -561,7 +639,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kamwenge",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -582,7 +663,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ntungamo",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -603,7 +687,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bududa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -624,7 +711,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Omoro",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -645,7 +735,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -666,7 +759,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kitgum",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -687,7 +783,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -696,7 +795,7 @@
     "ResolvedConditionBridgeNo": "B228",
     "LinkID": "C452_Link01",
     "LinkName": "Rukungiri - Station Boundary",
-    "MaintenanceStation": "Kabale",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 10,
     "BridgeWidth": 4,
     "OverallRating": "Critical",
@@ -708,7 +807,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mitooma",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Bridge",
@@ -729,7 +831,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kanungu",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -750,7 +855,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kisoro",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -759,7 +867,7 @@
     "ResolvedConditionBridgeNo": "B248",
     "LinkID": "C447_Link02",
     "LinkName": "Kabira - Rukungiri",
-    "MaintenanceStation": "Kabale",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 7,
     "BridgeWidth": 4.4,
     "OverallRating": "Critical",
@@ -771,7 +879,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mitooma",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Bridge",
@@ -792,7 +903,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Bridge",
@@ -813,7 +927,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kikuube",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Bridge",
@@ -822,7 +939,7 @@
     "ResolvedConditionBridgeNo": "B279",
     "LinkID": "M3_Link01",
     "LinkName": "Kampala - Entebbe Expressway",
-    "MaintenanceStation": "Kampala",
+    "MaintenanceStation": "Gulu",
     "BridgeLength": 24.549999,
     "BridgeWidth": 4.5,
     "OverallRating": "Critical",
@@ -834,7 +951,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Oyam",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -855,7 +975,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Dokolo",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -876,7 +999,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lira",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -897,7 +1023,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Alebtong",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -918,7 +1047,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Alebtong",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -939,7 +1071,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Alebtong",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -960,7 +1095,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Otuke",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -981,7 +1119,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Otuke",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -990,7 +1131,7 @@
     "ResolvedConditionBridgeNo": "B292",
     "LinkID": "C675_Link01",
     "LinkName": "Pajule - Pader",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 25.5,
     "BridgeWidth": 7.2,
     "OverallRating": "Critical",
@@ -1002,7 +1143,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pader",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1011,7 +1155,7 @@
     "ResolvedConditionBridgeNo": "B293",
     "LinkID": "C677_Link01",
     "LinkName": "Patongo - Kalongo",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 2.59,
     "BridgeWidth": 7.63,
     "OverallRating": "Critical",
@@ -1023,7 +1167,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1032,7 +1179,7 @@
     "ResolvedConditionBridgeNo": "B294",
     "LinkID": "C677_Link01",
     "LinkName": "Patongo - Kalongo",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 2.59,
     "BridgeWidth": 7.58,
     "OverallRating": "Critical",
@@ -1044,7 +1191,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1053,7 +1203,7 @@
     "ResolvedConditionBridgeNo": "B295",
     "LinkID": "C677_Link01",
     "LinkName": "Patongo - Kalongo",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 10.9,
     "BridgeWidth": 7.63,
     "OverallRating": "Critical",
@@ -1065,7 +1215,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1074,7 +1227,7 @@
     "ResolvedConditionBridgeNo": "B299",
     "LinkID": "C678_Link01",
     "LinkName": "Naamokora - Lokapel",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 8,
     "BridgeWidth": 5.45,
     "OverallRating": "Critical",
@@ -1086,7 +1239,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Agago",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1107,7 +1263,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Alebtong",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1128,7 +1287,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nwoya",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1149,7 +1311,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1170,7 +1335,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1191,7 +1359,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1212,7 +1383,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1233,7 +1407,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1254,7 +1431,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1275,7 +1455,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1296,7 +1479,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1317,7 +1503,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Obongi",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1338,7 +1527,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Obongi",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1359,7 +1551,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Obongi",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1380,7 +1575,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Maracha",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1401,7 +1599,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nebbi",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1422,7 +1623,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nebbi",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1443,7 +1647,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nebbi",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1464,7 +1671,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1485,7 +1695,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1506,7 +1719,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1527,7 +1743,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1536,7 +1755,7 @@
     "ResolvedConditionBridgeNo": "B540",
     "LinkID": "C447_Link01",
     "LinkName": "Kabwohe - Kitagata - Kabira(Mitooma)",
-    "MaintenanceStation": "Mbarara",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 8.3,
     "BridgeWidth": 5.5,
     "OverallRating": "Critical",
@@ -1548,7 +1767,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kabarole",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -1569,7 +1791,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kabale",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -1590,7 +1815,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1611,7 +1839,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1632,7 +1863,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Zombo",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -1653,7 +1887,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Oyam",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1674,7 +1911,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -1695,7 +1935,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1716,7 +1959,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -1737,7 +1983,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1758,7 +2007,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1779,7 +2031,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Alebtong",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -1800,7 +2055,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kitgum",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1821,7 +2079,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kitgum",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -1842,7 +2103,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Major Culvert",
@@ -1862,7 +2126,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Wakiso",
+    "Region": "Central",
+    "Station": "Mpigi"
   },
   {
     "StructureType": "Major Culvert",
@@ -1882,7 +2149,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Wakiso",
+    "Region": "Central",
+    "Station": "Mpigi"
   },
   {
     "StructureType": "Major Culvert",
@@ -1890,7 +2160,7 @@
     "BridgeName": "Busega - Bujuuko",
     "LinkID": "A005_Link01",
     "LinkName": "Busega - Bujuuko",
-    "MaintenanceStation": "Mpigi",
+    "MaintenanceStation": "Kampala",
     "BridgeLength": 7.19999980926514,
     "BridgeWidth": 17.0,
     "OverallRating": "Critical",
@@ -1902,7 +2172,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Wakiso",
+    "Region": "Central",
+    "Station": "Kampala"
   },
   {
     "StructureType": "Major Culvert",
@@ -1922,7 +2195,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -1942,7 +2218,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbarara",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -1961,7 +2240,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kole",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Major Culvert",
@@ -1980,7 +2262,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kole",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Major Culvert",
@@ -1999,7 +2284,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kole",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Major Culvert",
@@ -2018,7 +2306,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kole",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Major Culvert",
@@ -2026,7 +2317,7 @@
     "BridgeName": "Nakalama - Namutumba - Mpologoma Bridge",
     "LinkID": "A012_Link01",
     "LinkName": "Nakalama - Namutumba - Mpologoma bridge",
-    "MaintenanceStation": "Jinja",
+    "MaintenanceStation": "Mbale",
     "BridgeLength": 17.1000003814697,
     "BridgeWidth": 25.0,
     "OverallRating": "Critical",
@@ -2038,7 +2329,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kibuku",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -2058,7 +2352,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Namutumba",
+    "Region": "East",
+    "Station": "Jinja"
   },
   {
     "StructureType": "Major Culvert",
@@ -2078,7 +2375,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bugweri",
+    "Region": "East",
+    "Station": "Jinja"
   },
   {
     "StructureType": "Major Culvert",
@@ -2098,7 +2398,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bugweri",
+    "Region": "East",
+    "Station": "Jinja"
   },
   {
     "StructureType": "Major Culvert",
@@ -2118,7 +2421,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Major Culvert",
@@ -2138,7 +2444,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Major Culvert",
@@ -2153,7 +2462,11 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Mbale",
+    "MaintenanceStation": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -2174,7 +2487,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kaabong",
+    "Region": "East",
+    "Station": "Kotido"
   },
   {
     "StructureType": "Bridge",
@@ -2195,7 +2511,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bukwo",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -2216,7 +2535,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -2237,7 +2559,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Major Culvert",
@@ -2256,7 +2581,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Masindi",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2275,7 +2603,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2294,7 +2625,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2302,7 +2636,7 @@
     "BridgeName": "Kabaale Swamp - Buhimba",
     "LinkID": "B203_Link03",
     "LinkName": "Kabaale Swamp - Buhimba",
-    "MaintenanceStation": "Hoima",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 7.0,
     "BridgeWidth": 15.0,
     "OverallRating": "Critical",
@@ -2313,7 +2647,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ntoroko",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Major Culvert",
@@ -2332,7 +2669,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2351,7 +2691,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2370,7 +2713,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2389,7 +2735,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2408,7 +2757,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kakumiro",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2427,7 +2779,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kikuube",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Major Culvert",
@@ -2447,7 +2802,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kaabong",
+    "Region": "East",
+    "Station": "Kotido"
   },
   {
     "StructureType": "Bridge",
@@ -2456,7 +2814,7 @@
     "ResolvedConditionBridgeNo": "B557",
     "LinkID": "C357_Link01",
     "LinkName": "Muzizi-Buremba",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 4.19999980926514,
     "BridgeWidth": 8.39999961853027,
     "OverallRating": "Critical",
@@ -2468,7 +2826,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kazo",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Bridge",
@@ -2477,7 +2838,7 @@
     "ResolvedConditionBridgeNo": "B558",
     "LinkID": "C356_Link01",
     "LinkName": "Ibanda-Kanoni-Kazo",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 21,
     "BridgeWidth": 10,
     "OverallRating": "Critical",
@@ -2489,7 +2850,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ibanda",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2497,7 +2861,7 @@
     "BridgeName": "Kigumba - Karuma",
     "LinkID": "A006_Link08",
     "LinkName": "Kigumba - Karuma",
-    "MaintenanceStation": "Masindi",
+    "MaintenanceStation": "Kasese",
     "BridgeLength": 8.5,
     "BridgeWidth": 14.0,
     "OverallRating": "Critical",
@@ -2509,7 +2873,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Bridge",
@@ -2530,7 +2897,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bududa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -2551,7 +2921,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Yumbe",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -2572,7 +2945,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -2593,7 +2969,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Katakwi",
+    "Region": "East",
+    "Station": "Soroti"
   },
   {
     "StructureType": "Bridge",
@@ -2614,7 +2993,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nebbi",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -2635,7 +3017,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Major Culvert",
@@ -2643,7 +3028,7 @@
     "BridgeName": "Kafu - Masindi",
     "LinkID": "B200_Link01",
     "LinkName": "Kafu - Masindi",
-    "MaintenanceStation": "Masindi",
+    "MaintenanceStation": "Kasese",
     "BridgeLength": 16.5,
     "BridgeWidth": 14.0,
     "OverallRating": "Critical",
@@ -2655,7 +3040,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -2675,7 +3063,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ntungamo",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2683,7 +3074,7 @@
     "BridgeName": "Kabira - Rukungiri",
     "LinkID": "C447_Link02",
     "LinkName": "Kabira - Rukungiri",
-    "MaintenanceStation": "Kabale",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 4.19999980926514,
     "BridgeWidth": 4.19999980926514,
     "OverallRating": "Critical",
@@ -2695,7 +3086,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Sheema",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2703,7 +3097,7 @@
     "BridgeName": "Bwera - Kithoma",
     "LinkID": "C520_Link01",
     "LinkName": "Bwera - Kithoma",
-    "MaintenanceStation": "Kasese",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 21.2000007629395,
     "BridgeWidth": 21.2999992370605,
     "OverallRating": "Critical",
@@ -2715,7 +3109,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Isingiro",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2735,7 +3132,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Isingiro",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2743,7 +3143,7 @@
     "BridgeName": "Buremba-Remiyaga",
     "LinkID": "C357_Link02",
     "LinkName": "Buremba-Remiyaga",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 3.0,
     "BridgeWidth": 7.80000019073486,
     "OverallRating": "Critical",
@@ -2755,7 +3155,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kiruhura",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2763,7 +3166,7 @@
     "BridgeName": "Ibanda-Kanoni-Kazo",
     "LinkID": "C356_Link01",
     "LinkName": "Ibanda-Kanoni-Kazo",
-    "MaintenanceStation": "Ibanda",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 3.79999995231628,
     "BridgeWidth": 10.1000003814697,
     "OverallRating": "Critical",
@@ -2775,7 +3178,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kazo",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Major Culvert",
@@ -2790,7 +3196,11 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese",
+    "MaintenanceStation": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -2810,7 +3220,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -2829,7 +3242,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2848,7 +3264,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2867,7 +3286,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2886,7 +3308,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2905,7 +3330,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2924,7 +3352,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2943,7 +3374,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2962,7 +3396,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -2981,7 +3418,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -3000,7 +3440,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -3019,7 +3462,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Buliisa",
+    "Region": "West",
+    "Station": "Masindi"
   },
   {
     "StructureType": "Major Culvert",
@@ -3039,7 +3485,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Madi Okollo",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Major Culvert",
@@ -3059,7 +3508,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Major Culvert",
@@ -3079,7 +3531,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lira",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Major Culvert",
@@ -3098,7 +3553,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pakwach",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Major Culvert",
@@ -3117,7 +3575,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Koboko",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Major Culvert",
@@ -3136,7 +3597,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Major Culvert",
@@ -3155,7 +3619,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Major Culvert",
@@ -3174,7 +3641,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Omoro",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Major Culvert",
@@ -3182,7 +3652,7 @@
     "BridgeName": "Nalugugu - Elgon",
     "LinkID": "C883_Link01",
     "LinkName": "Nalugugu - Elgon",
-    "MaintenanceStation": "Mbale",
+    "MaintenanceStation": "Tororo",
     "BridgeLength": 9.0,
     "BridgeWidth": 8.0,
     "OverallRating": "Critical",
@@ -3194,7 +3664,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Major Culvert",
@@ -3214,7 +3687,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Manafwa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3234,7 +3710,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Namisindwa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3254,7 +3733,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kapchorwa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3262,7 +3744,7 @@
     "BridgeName": "Munamba-Magale - Nangya",
     "LinkID": "C870_Link03",
     "LinkName": "Munamba-Magale - Nangya",
-    "MaintenanceStation": "Tororo",
+    "MaintenanceStation": "Mbale",
     "BridgeLength": 8.0,
     "BridgeWidth": 7.5,
     "OverallRating": "Critical",
@@ -3274,7 +3756,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Namisindwa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3282,7 +3767,7 @@
     "BridgeName": "Leresi-Bunghaji-Budaka",
     "LinkID": "C849_Link01",
     "LinkName": "Leresi-Bunghaji-Budaka",
-    "MaintenanceStation": "Tororo",
+    "MaintenanceStation": "Mbale",
     "BridgeLength": 7.5,
     "BridgeWidth": 14.0,
     "OverallRating": "Critical",
@@ -3294,7 +3779,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Budaka",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3314,7 +3802,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Major Culvert",
@@ -3329,7 +3820,11 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pallisa",
+    "Region": "East",
+    "Station": "Mbale",
+    "MaintenanceStation": "Mbale"
   },
   {
     "StructureType": "Major Culvert",
@@ -3344,7 +3839,11 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ngora",
+    "Region": "East",
+    "Station": "Soroti",
+    "MaintenanceStation": "Soroti"
   },
   {
     "StructureType": "Major Culvert",
@@ -3364,7 +3863,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bukedea",
+    "Region": "East",
+    "Station": "Soroti"
   },
   {
     "StructureType": "Bridge",
@@ -3385,7 +3887,10 @@
     "Comment": "Bridge Replacement",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Major Culvert",
@@ -3393,7 +3898,7 @@
     "BridgeName": "Kafu - Masindi",
     "LinkID": "B200_Link01",
     "LinkName": "Kafu - Masindi",
-    "MaintenanceStation": "Masindi",
+    "MaintenanceStation": "Kasese",
     "BridgeLength": 10.5,
     "BridgeWidth": 14.0,
     "OverallRating": "Critical",
@@ -3405,7 +3910,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -3413,7 +3921,7 @@
     "BridgeName": "Kibale-Kagadi",
     "LinkID": "C550_Link02",
     "LinkName": "Kibale-Kagadi",
-    "MaintenanceStation": "Hoima",
+    "MaintenanceStation": "Kasese",
     "BridgeLength": 3.20000004768372,
     "BridgeWidth": 20.0,
     "OverallRating": "Critical",
@@ -3425,7 +3933,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Major Culvert",
@@ -3433,7 +3944,7 @@
     "BridgeName": "Katuugo-Kinyogogga",
     "LinkID": "C317_Link01",
     "LinkName": "Katuugo-Kinyogogga",
-    "MaintenanceStation": "Luwero",
+    "MaintenanceStation": "Luweero",
     "BridgeLength": 16.0,
     "BridgeWidth": 10.0,
     "OverallRating": "Critical",
@@ -3445,7 +3956,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nakasongola",
+    "Region": "Central",
+    "Station": "Luweero"
   },
   {
     "StructureType": "Major Culvert",
@@ -3465,7 +3979,10 @@
     "Comment": "Culvert Replacement",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Adjumani",
+    "Region": "North",
+    "Station": "Moyo"
   },
   {
     "StructureType": "Bridge",
@@ -3474,7 +3991,7 @@
     "ResolvedConditionBridgeNo": "B016",
     "LinkID": "A005_Link11",
     "LinkName": "FortPortal - Rwimi(bridge)",
-    "MaintenanceStation": "Fort Portal",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 15.7,
     "BridgeWidth": 7.8,
     "OverallRating": "Poor",
@@ -3486,7 +4003,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bunyangabu",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -3507,7 +4027,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Jinja",
+    "Region": "East",
+    "Station": "Jinja"
   },
   {
     "StructureType": "Bridge",
@@ -3516,7 +4039,7 @@
     "ResolvedConditionBridgeNo": "B060",
     "LinkID": "B305_Link03",
     "LinkName": "Kanyago Bridge - Kumi",
-    "MaintenanceStation": "Soroti",
+    "MaintenanceStation": "Mbale",
     "BridgeLength": 4.55,
     "BridgeWidth": 4.53,
     "OverallRating": "Poor",
@@ -3528,7 +4051,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pallisa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3537,7 +4063,7 @@
     "ResolvedConditionBridgeNo": "B150",
     "LinkID": "B252_Link02",
     "LinkName": "Puranga Bridge - Corner Kilak - Pejule - Acholibur",
-    "MaintenanceStation": "Kitgum",
+    "MaintenanceStation": "Lira",
     "BridgeLength": 4.82,
     "BridgeWidth": 8.03,
     "OverallRating": "Poor",
@@ -3549,7 +4075,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pader",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -3570,7 +4099,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3591,7 +4123,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Omoro",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -3600,7 +4135,7 @@
     "ResolvedConditionBridgeNo": "B018",
     "LinkID": "A005_Link13",
     "LinkName": "Mubuku - Kasese",
-    "MaintenanceStation": "Kasese",
+    "MaintenanceStation": "Kampala",
     "BridgeLength": 30.799999,
     "BridgeWidth": 10,
     "OverallRating": "Poor",
@@ -3612,7 +4147,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Wakiso",
+    "Region": "Central",
+    "Station": "Kampala"
   },
   {
     "StructureType": "Bridge",
@@ -3633,7 +4171,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Bridge",
@@ -3642,7 +4183,7 @@
     "ResolvedConditionBridgeNo": "B128",
     "LinkID": "B250_Link01",
     "LinkName": "Laropi - Moyo",
-    "MaintenanceStation": "Moyo",
+    "MaintenanceStation": "Gulu",
     "BridgeLength": 7.5,
     "BridgeWidth": 3.65,
     "OverallRating": "Poor",
@@ -3654,7 +4195,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -3663,7 +4207,7 @@
     "ResolvedConditionBridgeNo": "B080",
     "LinkID": "C510_Link01",
     "LinkName": "Mubuku-Maliba-Nyakalingijo",
-    "MaintenanceStation": "Kasese",
+    "MaintenanceStation": "Mbarara",
     "BridgeLength": 19,
     "BridgeWidth": 5.4,
     "OverallRating": "Poor",
@@ -3675,7 +4219,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Rubirizi",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Bridge",
@@ -3696,7 +4243,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3717,7 +4267,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Sironko",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3738,7 +4291,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3759,7 +4315,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Manafwa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3780,7 +4339,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pader",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -3801,7 +4363,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nabilatuk",
+    "Region": "East",
+    "Station": "Moroto"
   },
   {
     "StructureType": "Bridge",
@@ -3822,7 +4387,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Gulu",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -3843,7 +4411,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3864,7 +4435,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3885,7 +4459,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3906,7 +4483,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Sironko",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -3927,7 +4507,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3948,7 +4531,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3969,7 +4555,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -3978,7 +4567,7 @@
     "ResolvedConditionBridgeNo": "B169",
     "LinkID": "B301_Link01",
     "LinkName": "Ariamoi - Kaladonapal - Kaperimoru",
-    "MaintenanceStation": "Kotido",
+    "MaintenanceStation": "Moroto",
     "BridgeLength": 21.8,
     "BridgeWidth": 5.98,
     "OverallRating": "Poor",
@@ -3990,7 +4579,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Napak",
+    "Region": "East",
+    "Station": "Moroto"
   },
   {
     "StructureType": "Bridge",
@@ -4011,7 +4603,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kotido",
+    "Region": "East",
+    "Station": "Kotido"
   },
   {
     "StructureType": "Bridge",
@@ -4032,7 +4627,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuria",
+    "Region": "East",
+    "Station": "Soroti"
   },
   {
     "StructureType": "Bridge",
@@ -4053,7 +4651,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4074,7 +4675,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Rukungiri",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -4095,7 +4699,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4116,7 +4723,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4137,7 +4747,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4158,7 +4771,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Lamwo",
+    "Region": "North",
+    "Station": "Kitgum"
   },
   {
     "StructureType": "Bridge",
@@ -4179,7 +4795,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Madi Okollo",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -4200,7 +4819,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Arua",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -4220,7 +4842,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Wakiso",
+    "Region": "Central",
+    "Station": "Kampala"
   },
   {
     "StructureType": "Bridge",
@@ -4241,7 +4866,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kasese",
+    "Region": "South",
+    "Station": "Kasese"
   },
   {
     "StructureType": "Bridge",
@@ -4250,7 +4878,7 @@
     "ResolvedConditionBridgeNo": "B258",
     "LinkID": "C556_Link01",
     "LinkName": "Bukuku - Rubona",
-    "MaintenanceStation": "Fort Portal",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 5,
     "BridgeWidth": 4,
     "OverallRating": "Poor",
@@ -4262,7 +4890,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bunyangabu",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -4271,7 +4902,7 @@
     "ResolvedConditionBridgeNo": "B260",
     "LinkID": "C556_Link01",
     "LinkName": "Bukuku - Rubona",
-    "MaintenanceStation": "Fort Portal",
+    "MaintenanceStation": "Fortportal",
     "BridgeLength": 3.1,
     "BridgeWidth": 3.9,
     "OverallRating": "Poor",
@@ -4283,7 +4914,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kabarole",
+    "Region": "West",
+    "Station": "Fortportal"
   },
   {
     "StructureType": "Bridge",
@@ -4304,7 +4938,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Hoima",
+    "Region": "West",
+    "Station": "Hoima"
   },
   {
     "StructureType": "Bridge",
@@ -4313,7 +4950,7 @@
     "ResolvedConditionBridgeNo": "B278",
     "LinkID": "M3_Link01",
     "LinkName": "Kampala - Entebbe Expressway",
-    "MaintenanceStation": "Kampala",
+    "MaintenanceStation": "Gulu",
     "BridgeLength": 3.1,
     "BridgeWidth": 3.9,
     "OverallRating": "Poor",
@@ -4325,7 +4962,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Oyam",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -4346,7 +4986,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Butaleja",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4367,7 +5010,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4388,7 +5034,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Budaka",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -4409,7 +5058,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbale",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -4430,7 +5082,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kibuku",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -4451,7 +5106,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Kanungu",
+    "Region": "South",
+    "Station": "Kabale"
   },
   {
     "StructureType": "Bridge",
@@ -4472,7 +5130,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Zombo",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -4493,7 +5154,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Zombo",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Bridge",
@@ -4514,7 +5178,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Oyam",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -4535,7 +5202,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Ntungamo",
+    "Region": "South",
+    "Station": "Mbarara"
   },
   {
     "StructureType": "Bridge",
@@ -4556,7 +5226,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Tororo",
+    "Region": "East",
+    "Station": "Tororo"
   },
   {
     "StructureType": "Bridge",
@@ -4577,7 +5250,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Nwoya",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -4586,7 +5262,7 @@
     "ResolvedConditionBridgeNo": "B131",
     "LinkID": "B250_Link01",
     "LinkName": "Laropi - Moyo",
-    "MaintenanceStation": "Moyo",
+    "MaintenanceStation": "Gulu",
     "BridgeLength": 14,
     "BridgeWidth": 3.45,
     "OverallRating": "Poor",
@@ -4598,7 +5274,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amuru",
+    "Region": "North",
+    "Station": "Gulu"
   },
   {
     "StructureType": "Bridge",
@@ -4619,7 +5298,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Amudat",
+    "Region": "East",
+    "Station": "Moroto"
   },
   {
     "StructureType": "Major Culvert",
@@ -4638,7 +5320,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Otuke",
+    "Region": "North",
+    "Station": "Lira"
   },
   {
     "StructureType": "Bridge",
@@ -4659,7 +5344,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Bridge_Analysis",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Pakwach",
+    "Region": "North",
+    "Station": "Arua"
   },
   {
     "StructureType": "Major Culvert",
@@ -4679,7 +5367,10 @@
     "Comment": "Major Rehabilitation",
     "ConditionSource": "Culvert_Analysis",
     "IdentityStatus": "culvert_condition_verified",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Bududa",
+    "Region": "East",
+    "Station": "Mbale"
   },
   {
     "StructureType": "Bridge",
@@ -4700,6 +5391,9 @@
     "Comment": "Routine Maintenance",
     "ConditionSource": "BRIDGES 2026",
     "IdentityStatus": "accepted",
-    "ConditionConfidence": "high"
+    "ConditionConfidence": "high",
+    "District": "Mbarara",
+    "Region": "South",
+    "Station": "Mbarara"
   }
 ]
