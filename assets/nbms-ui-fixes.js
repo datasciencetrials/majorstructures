@@ -310,19 +310,39 @@
   }
 
   function installImageFallback() {
-    document.addEventListener("error", (event) => {
-      const img = event.target;
-      if (!(img instanceof HTMLImageElement)) return;
-      const tried = Number(img.dataset.nbmsFallbackIndex || "0");
-      const candidates = imageCandidates(img.currentSrc || img.src);
-      if (tried < candidates.length) {
-        img.dataset.nbmsFallbackIndex = String(tried + 1);
-        img.src = candidates[tried];
-        return;
+    document.addEventListener("error", function (e) {
+      if (e.target && e.target.tagName === "IMG") {
+        let src = e.target.src || "";
+        // 1. Try thumbnails if images/ requested
+        if (src.includes("/gallery/images/") && !e.target.dataset.thumbTried) {
+          e.target.dataset.thumbTried = "true";
+          e.target.src = src.replace("/gallery/images/", "/gallery/thumbnails/").replace(/\.(JPG|png|webp)$/i, ".jpg");
+          return;
+        }
+        // 2. Toggle double vs single extension
+        if (src.includes("/gallery/thumbnails/") && !e.target.dataset.extTried) {
+          e.target.dataset.extTried = "true";
+          if (src.endsWith(".jpg.jpg")) {
+            e.target.src = src.slice(0, -4);
+            return;
+          } else if (src.endsWith(".jpg")) {
+            e.target.src = src + ".jpg";
+            return;
+          }
+        }
+        // 3. Fallback placeholder
+        e.target.style.display = "none";
+        if (e.target.parentElement) {
+          e.target.parentElement.classList.add("nbms-no-photo");
+          if (!e.target.parentElement.querySelector(".nbms-photo-placeholder")) {
+            const ph = document.createElement("span");
+            ph.className = "nbms-photo-placeholder";
+            ph.textContent = "Photo indexed in archive";
+            ph.style.cssText = "display:flex;align-items:center;justify-content:center;height:100%;font-size:11px;color:#64748B;background:#F1F5F9;padding:8px;text-align:center;";
+            e.target.parentElement.appendChild(ph);
+          }
+        }
       }
-      img.classList.add("nbms-img-missing");
-      img.alt = img.alt || "Photo unavailable";
-      replaceMissingImage(img);
     }, true);
   }
 
