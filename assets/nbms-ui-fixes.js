@@ -256,6 +256,86 @@
         .nbms-type-grid { grid-template-columns: 1fr; }
         .nbms-workflow-panel { padding: 14px; }
       }
+      .nbms-cad-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        background: #F1F5F9;
+        color: #0F172A;
+        font-family: Arial, sans-serif;
+      }
+      .nbms-cad-head,
+      .nbms-cad-tools {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-bottom: 1px solid #CBD5E1;
+        background: #FFFFFF;
+        flex-wrap: wrap;
+      }
+      .nbms-cad-head { justify-content: space-between; }
+      .nbms-cad-head h2 { margin: 0; font-size: 20px; }
+      .nbms-cad-head p { margin: 4px 0 0; color: #64748B; font-size: 12px; }
+      .nbms-cad-button,
+      .nbms-cad-tools select,
+      .nbms-cad-tools input[type="text"] {
+        min-height: 36px;
+        border: 1px solid #94A3B8;
+        border-radius: 7px;
+        background: #FFFFFF;
+        color: #0F172A;
+        padding: 0 10px;
+        font: 600 12px Arial, sans-serif;
+      }
+      .nbms-cad-button { cursor: pointer; }
+      .nbms-cad-button:hover,
+      .nbms-cad-button.active { border-color: #2563EB; background: #DBEAFE; color: #1D4ED8; }
+      .nbms-cad-file { display: none; }
+      .nbms-cad-stage {
+        overflow: auto;
+        padding: 20px;
+        background-color: #E2E8F0;
+        background-image: linear-gradient(#CBD5E1 1px, transparent 1px), linear-gradient(90deg, #CBD5E1 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+      .nbms-cad-sheet {
+        position: relative;
+        width: 1200px;
+        height: 800px;
+        margin: 0 auto;
+        border: 1px solid #64748B;
+        background: #FFFFFF;
+        box-shadow: 0 10px 35px rgba(15,23,42,.18);
+        transform-origin: top left;
+      }
+      .nbms-cad-sheet img,
+      .nbms-cad-sheet svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .nbms-cad-sheet img { object-fit: contain; pointer-events: none; }
+      .nbms-cad-sheet svg { cursor: crosshair; }
+      .nbms-cad-empty {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-content: center;
+        text-align: center;
+        color: #64748B;
+        pointer-events: none;
+      }
+      .nbms-cad-empty strong { color: #0F172A; font-size: 18px; }
+      .nbms-cad-status { margin-left: auto; color: #475569; font-size: 12px; }
+      @media (max-width: 760px) {
+        .nbms-cad-tools { align-items: stretch; }
+        .nbms-cad-tools input[type="text"], .nbms-cad-tools select { width: calc(50% - 4px); }
+        .nbms-cad-status { width: 100%; margin-left: 0; }
+      }
       .nbms-critical-card {
         min-width: 0;
         overflow: hidden;
@@ -801,6 +881,150 @@
     panel.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  function downloadLocalFile(name, type, body) {
+    const blob = new Blob([body], { type });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = name;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+  }
+
+  function openCadWorkspace() {
+    if ($("#nbms-cad-workspace")) return;
+    document.body.insertAdjacentHTML("beforeend", `
+      <section id="nbms-cad-workspace" class="nbms-cad-overlay" role="dialog" aria-modal="true" aria-label="Inspection drawing workspace">
+        <header class="nbms-cad-head">
+          <div><h2>Inspection Drawing Workspace</h2><p>Local-only drawing review. Files and annotations remain in this browser until exported.</p></div>
+          <button type="button" class="nbms-cad-button" data-cad-action="close">Close</button>
+        </header>
+        <div class="nbms-cad-tools" aria-label="Drawing tools">
+          <label class="nbms-cad-button" for="nbms-cad-file">Load Drawing</label>
+          <input id="nbms-cad-file" class="nbms-cad-file" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml">
+          <button type="button" class="nbms-cad-button active" data-cad-tool="point">Point</button>
+          <button type="button" class="nbms-cad-button" data-cad-tool="line">Line</button>
+          <button type="button" class="nbms-cad-button" data-cad-tool="area">Area</button>
+          <input type="text" data-cad-field="member" aria-label="Member name" placeholder="Member name">
+          <select data-cad-field="damage" aria-label="Damage type">
+            <option>Crack</option><option>Map crack</option><option>Scaling</option><option>Spalling</option>
+            <option>Breakage</option><option>Corrosion</option><option>Leakage</option><option>Deformation</option><option>Other</option>
+          </select>
+          <select data-cad-field="severity" aria-label="Severity">
+            <option>Observation</option><option>Minor</option><option>Moderate</option><option>Severe</option>
+          </select>
+          <button type="button" class="nbms-cad-button" data-cad-action="zoom-out">Zoom Out</button>
+          <button type="button" class="nbms-cad-button" data-cad-action="zoom-in">Zoom In</button>
+          <button type="button" class="nbms-cad-button" data-cad-action="undo">Undo</button>
+          <button type="button" class="nbms-cad-button" data-cad-action="clear">Clear</button>
+          <button type="button" class="nbms-cad-button" data-cad-action="export-json">Export Register</button>
+          <button type="button" class="nbms-cad-button" data-cad-action="export-svg">Export Overlay</button>
+          <span class="nbms-cad-status" aria-live="polite">Load a PNG, JPEG, WebP or SVG drawing to begin.</span>
+        </div>
+        <div class="nbms-cad-stage">
+          <div class="nbms-cad-sheet">
+            <img alt="Loaded inspection drawing">
+            <div class="nbms-cad-empty"><strong>No drawing loaded</strong><span>Load a drawing or site image. No geometry is generated by the portal.</span></div>
+            <svg viewBox="0 0 1200 800" role="img" aria-label="Damage annotation layer"></svg>
+          </div>
+        </div>
+      </section>
+    `);
+    const workspace = $("#nbms-cad-workspace");
+    const sheet = $(".nbms-cad-sheet", workspace);
+    const image = $("img", sheet);
+    const svg = $("svg", sheet);
+    const status = $(".nbms-cad-status", workspace);
+    const annotations = [];
+    let tool = "point";
+    let draft = [];
+    let zoom = 1;
+    let drawingName = "untitled-drawing";
+
+    const currentMeta = () => ({
+      member: $('[data-cad-field="member"]', workspace).value.trim() || "Unassigned member",
+      damage: $('[data-cad-field="damage"]', workspace).value,
+      severity: $('[data-cad-field="severity"]', workspace).value,
+    });
+    const pointFromEvent = (event) => {
+      const rect = svg.getBoundingClientRect();
+      return [Number((((event.clientX - rect.left) / rect.width) * 1200).toFixed(2)), Number((((event.clientY - rect.top) / rect.height) * 800).toFixed(2))];
+    };
+    const render = () => {
+      const colour = { Observation: "#2563EB", Minor: "#65A30D", Moderate: "#D97706", Severe: "#DC2626" };
+      svg.innerHTML = annotations.map((item, index) => {
+        const stroke = colour[item.severity] || colour.Observation;
+        const title = `${index + 1}. ${item.member} - ${item.damage} - ${item.severity}`;
+        if (item.geometry === "point") return `<g><circle cx="${item.points[0][0]}" cy="${item.points[0][1]}" r="10" fill="${stroke}" stroke="#FFFFFF" stroke-width="3"><title>${escapeHtml(title)}</title></circle><text x="${item.points[0][0] + 14}" y="${item.points[0][1] - 12}" fill="#0F172A" font-size="16" font-family="Arial">${index + 1}</text></g>`;
+        if (item.geometry === "line") return `<polyline points="${item.points.map((p) => p.join(",")).join(" ")}" fill="none" stroke="${stroke}" stroke-width="7" stroke-linecap="round"><title>${escapeHtml(title)}</title></polyline>`;
+        return `<polygon points="${item.points.map((p) => p.join(",")).join(" ")}" fill="${stroke}33" stroke="${stroke}" stroke-width="5"><title>${escapeHtml(title)}</title></polygon>`;
+      }).join("");
+      status.textContent = `${annotations.length} annotation${annotations.length === 1 ? "" : "s"} | ${Math.round(zoom * 100)}% zoom`;
+    };
+    const commit = (geometry, points) => {
+      annotations.push({ id: crypto.randomUUID ? crypto.randomUUID() : `mark-${Date.now()}`, geometry, points, ...currentMeta() });
+      draft = [];
+      render();
+    };
+
+    $("#nbms-cad-file", workspace).addEventListener("change", (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      drawingName = file.name.replace(/\.[^.]+$/, "") || "inspection-drawing";
+      const url = URL.createObjectURL(file);
+      image.onload = () => {
+        $(".nbms-cad-empty", sheet).style.display = "none";
+        URL.revokeObjectURL(url);
+        render();
+      };
+      image.src = url;
+    });
+    $$('[data-cad-tool]', workspace).forEach((button) => button.addEventListener("click", () => {
+      tool = button.dataset.cadTool;
+      draft = [];
+      $$('[data-cad-tool]', workspace).forEach((item) => item.classList.toggle("active", item === button));
+      status.textContent = tool === "area" ? "Area tool: click each vertex, then double-click the final point." : `${button.textContent} tool selected.`;
+    }));
+    svg.addEventListener("click", (event) => {
+      const point = pointFromEvent(event);
+      if (tool === "point") commit("point", [point]);
+      else if (tool === "line") {
+        draft.push(point);
+        if (draft.length === 2) commit("line", draft.slice());
+        else status.textContent = "Line tool: select the end point.";
+      } else {
+        draft.push(point);
+        status.textContent = `Area tool: ${draft.length} vertices selected. Double-click to finish.`;
+      }
+    });
+    svg.addEventListener("dblclick", (event) => {
+      event.preventDefault();
+      if (tool !== "area") return;
+      if (draft.length >= 3) commit("area", draft.slice());
+      else status.textContent = "An area requires at least three vertices.";
+    });
+    $$('[data-cad-action]', workspace).forEach((button) => button.addEventListener("click", () => {
+      const action = button.dataset.cadAction;
+      if (action === "close") workspace.remove();
+      if (action === "zoom-in" || action === "zoom-out") {
+        zoom = Math.max(.25, Math.min(3, zoom + (action === "zoom-in" ? .25 : -.25)));
+        sheet.style.transform = `scale(${zoom})`;
+        sheet.style.marginBottom = `${Math.max(0, sheet.offsetHeight * (zoom - 1))}px`;
+        render();
+      }
+      if (action === "undo") { annotations.pop(); draft = []; render(); }
+      if (action === "clear") { annotations.length = 0; draft = []; render(); }
+      if (action === "export-json") downloadLocalFile(`${drawingName}-annotation-register.json`, "application/json", JSON.stringify({ drawing: drawingName, coordinateSpace: [1200, 800], annotations }, null, 2));
+      if (action === "export-svg") {
+        const body = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">${svg.innerHTML}</svg>`;
+        downloadLocalFile(`${drawingName}-damage-overlay.svg`, "image/svg+xml", body);
+      }
+    }));
+    document.addEventListener("keydown", function closeOnEscape(event) {
+      if (event.key === "Escape" && document.body.contains(workspace)) workspace.remove();
+      if (!document.body.contains(workspace)) document.removeEventListener("keydown", closeOnEscape);
+    });
+  }
+
   async function ensureWorkflowTools() {
     const inspectBridge = $$('button').find((button) => button.textContent.trim() === "Inspect Bridge");
     if (!inspectBridge) {
@@ -815,15 +1039,26 @@
     }
     const reference = state.workflow || await state.workflowPromise;
     const tabGroup = inspectBridge.parentElement;
-    if (!tabGroup || $("#nbms-workflow-button", tabGroup)) return;
-    const button = document.createElement("button");
-    button.id = "nbms-workflow-button";
-    button.className = "nbms-workflow-button";
-    button.type = "button";
-    button.textContent = "Inspection Workflow";
-    button.setAttribute("aria-pressed", "false");
-    button.addEventListener("click", () => openWorkflow(reference, button));
-    tabGroup.appendChild(button);
+    if (!tabGroup) return;
+    if (!$("#nbms-workflow-button", tabGroup)) {
+      const button = document.createElement("button");
+      button.id = "nbms-workflow-button";
+      button.className = "nbms-workflow-button";
+      button.type = "button";
+      button.textContent = "Inspection Workflow";
+      button.setAttribute("aria-pressed", "false");
+      button.addEventListener("click", () => openWorkflow(reference, button));
+      tabGroup.appendChild(button);
+    }
+    if (!$("#nbms-cad-button", tabGroup)) {
+      const cadButton = document.createElement("button");
+      cadButton.id = "nbms-cad-button";
+      cadButton.className = "nbms-workflow-button";
+      cadButton.type = "button";
+      cadButton.textContent = "Drawing Workspace";
+      cadButton.addEventListener("click", openCadWorkspace);
+      tabGroup.appendChild(cadButton);
+    }
   }
 
   async function rescueRoutes() {
