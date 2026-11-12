@@ -1166,3 +1166,64 @@ div[style*="rgba(239, 68, 68"] div,
 .twin-survey-row strong {
   color: #0F172A !important;
 }
+
+
+/* ==========================================================================
+   STRICT PROHIBITION: No Sources or Evidence Allowed on Public Site
+   ========================================================================== */
+.evidence-library,
+.photo-library,
+.sources-evidence,
+.photo-kpi-grid,
+.photo-library-header,
+[class*="evidence-library"],
+.evidence-timeline,
+.evidence-stage,
+.evidence-filmstrip,
+button[title*="Evidence"],
+button[aria-label*="Evidence"],
+[data-section="evidence"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Critical Structures Card Title: Guaranteed Zero Occlusion */
+.nbms-critical-card {
+  overflow: hidden !important;
+}
+
+.nbms-critical-photo {
+  height: 162px !important;
+  max-height: 162px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.nbms-critical-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 162px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.nbms-critical-body {
+  position: relative !important;
+  z-index: 5 !important;
+  background: #FFFFFF !important;
+  padding: 14px 16px !important;
+}
+
+.nbms-critical-body h3,
+div[style*="rgba(239, 68, 68"] h3 {
+  margin: 0 0 8px 0 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  display: block !important;
+  line-height: 1.3 !important;
+  position: relative !important;
+  z-index: 6 !important;
+}
