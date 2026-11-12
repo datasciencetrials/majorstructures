@@ -1,6 +1,6 @@
 /**
  * BMS Operations & Standards Hub
- * Reverse-engineered from Korea Expressway Corporation (KEC) / Uganda Expressway BMS Training Materials
+ * Reverse-engineered from National Bridge Management System Operations & Standards
  * Features:
  *  - 4 Expressway Viaducts & As-Built Ledger (Busega, Nalukolongo, Kajjansi IC, Nambigirwa)
  *  - 18 Standard Repair & Reinforcement Methods
@@ -167,7 +167,7 @@
           </div>
           <div class="bms-hub-header-right">
             <span class="bms-hub-badge">BIM Integrated</span>
-            <span class="bms-hub-badge bms-hub-badge-blue">KEC Engineering Framework</span>
+            <span class="bms-hub-badge bms-hub-badge-blue">National Standards Framework</span>
           </div>
         </header>
 
