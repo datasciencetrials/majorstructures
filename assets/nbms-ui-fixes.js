@@ -8,6 +8,8 @@
     works: null,
     workflow: null,
     workflowPromise: null,
+    damageCatalogue: null,
+    repairMethods: null,
     polishTimer: null,
   };
   const REVIEW_ONLY_IDS = new Set(["B005","B017","B018","B045","B046","B048","B063","B064","B065","B066","B083","B084","B086","B100","B120","B132","B133","B157","B161","B162","B171","B184","B186","B191","B193","B194","B204","B219","B221","B224","B226","B242","B243","B244","B245","B247","B250","B254","B257","B262","B273","B280","B304","B305","B306","B307","B309","B310","B311","B312","B322","B326","B329","B341","B342","B343","B350","B351","B353","B356","B358","B371","B374","B375","B376","B377","B382","B385","B386","B387","B388","B389","B391","B398","B400","B403","B404","B405","B409","B410","B412","B416","B417","B418","B419","B421","B422","B462","B545","B608","B631","B633","B636","B640","B641","B642","B643","B721","B722","B723","B726","B727","B738","B752","B762","B765","B768","B862","B871","B880","B886","B888","B889"]);
@@ -246,9 +248,28 @@
         color: #1D4ED8;
         font-weight: 800;
       }
+      .nbms-reference-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+        gap: 14px;
+        margin-top: 16px;
+      }
+      .nbms-reference-card {
+        border: 1px solid #CBD5E1;
+        border-radius: 9px;
+        background: #FFFFFF;
+        overflow: hidden;
+      }
+      .nbms-reference-card h3 { margin: 0; padding: 14px; border-bottom: 1px solid #E2E8F0; }
+      .nbms-reference-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+      .nbms-reference-table th,
+      .nbms-reference-table td { padding: 9px 12px; border-bottom: 1px solid #E2E8F0; text-align: left; vertical-align: top; }
+      .nbms-reference-table th { background: #F8FAFC; color: #475569; font-weight: 800; }
+      .nbms-method-list { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1px; margin: 0; padding: 0; background: #E2E8F0; list-style: none; }
+      .nbms-method-list li { min-height: 42px; padding: 10px 12px; background: #FFFFFF; color: #334155; font-size: 12px; line-height: 1.35; }
       @media (max-width: 1050px) {
         .nbms-type-grid { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
-        .nbms-workflow-detail, .nbms-workflow-steps { grid-template-columns: 1fr; }
+        .nbms-workflow-detail, .nbms-workflow-steps, .nbms-reference-grid { grid-template-columns: 1fr; }
       }
       @media (max-width: 640px) {
         .nbms-workflow-head { display: block; }
@@ -331,10 +352,29 @@
       }
       .nbms-cad-empty strong { color: #0F172A; font-size: 18px; }
       .nbms-cad-status { margin-left: auto; color: #475569; font-size: 12px; }
+      .nbms-plan-body { overflow: auto; padding: 18px; }
+      .nbms-plan-grid { display: grid; grid-template-columns: minmax(300px,.75fr) minmax(480px,1.25fr); gap: 16px; }
+      .nbms-plan-card { padding: 16px; border: 1px solid #CBD5E1; border-radius: 9px; background: #FFFFFF; }
+      .nbms-plan-card h3 { margin: 0 0 14px; }
+      .nbms-plan-form { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .nbms-plan-form label { display: grid; gap: 5px; color: #475569; font-size: 12px; font-weight: 700; }
+      .nbms-plan-form label.wide { grid-column: 1 / -1; }
+      .nbms-plan-form input, .nbms-plan-form select, .nbms-plan-form textarea {
+        width: 100%; min-height: 38px; border: 1px solid #94A3B8; border-radius: 7px; background: #FFFFFF; color: #0F172A; padding: 8px 10px; font: 13px Arial, sans-serif;
+      }
+      .nbms-plan-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+      .nbms-plan-table th, .nbms-plan-table td { padding: 9px; border-bottom: 1px solid #E2E8F0; text-align: left; vertical-align: top; }
+      .nbms-plan-table th { color: #475569; background: #F8FAFC; }
+      .nbms-plan-empty { padding: 24px; text-align: center; color: #64748B; }
+      .nbms-plan-progress { display: flex; gap: 5px; flex-wrap: wrap; }
+      .nbms-plan-progress span { padding: 4px 7px; border-radius: 999px; background: #E2E8F0; color: #475569; }
+      .nbms-plan-progress span.done { background: #DCFCE7; color: #166534; }
       @media (max-width: 760px) {
         .nbms-cad-tools { align-items: stretch; }
         .nbms-cad-tools input[type="text"], .nbms-cad-tools select { width: calc(50% - 4px); }
         .nbms-cad-status { width: 100%; margin-left: 0; }
+        .nbms-plan-grid, .nbms-plan-form { grid-template-columns: 1fr; }
+        .nbms-plan-form label.wide { grid-column: auto; }
       }
       .nbms-critical-card {
         min-width: 0;
@@ -841,6 +881,19 @@
         <ol class="nbms-workflow-steps">
           ${(reference.captureSteps || []).map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
         </ol>
+        <div class="nbms-reference-grid">
+          <section class="nbms-reference-card">
+            <h3>Damage catalogue and measurement</h3>
+            <table class="nbms-reference-table">
+              <thead><tr><th>Damage type</th><th>Drawing geometry</th><th>Unit</th><th>Measurements</th></tr></thead>
+              <tbody>${(state.damageCatalogue || []).map((item) => `<tr><td>${escapeHtml(item.name)}</td><td>${escapeHtml(item.geometry)}</td><td>${escapeHtml(item.unit)}</td><td>${escapeHtml((item.measurements || []).join(", "))}</td></tr>`).join("")}</tbody>
+            </table>
+          </section>
+          <section class="nbms-reference-card">
+            <h3>Repair and reinforcement methods</h3>
+            <ul class="nbms-method-list">${(state.repairMethods || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+          </section>
+        </div>
       </section>
     `;
   }
@@ -905,13 +958,11 @@
           <button type="button" class="nbms-cad-button" data-cad-tool="line">Line</button>
           <button type="button" class="nbms-cad-button" data-cad-tool="area">Area</button>
           <input type="text" data-cad-field="member" aria-label="Member name" placeholder="Member name">
-          <select data-cad-field="damage" aria-label="Damage type">
-            <option>Crack</option><option>Map crack</option><option>Scaling</option><option>Spalling</option>
-            <option>Breakage</option><option>Corrosion</option><option>Leakage</option><option>Deformation</option><option>Other</option>
-          </select>
+          <select data-cad-field="damage" aria-label="Damage type">${(state.damageCatalogue || []).map((item) => `<option>${escapeHtml(item.name)}</option>`).join("")}</select>
           <select data-cad-field="severity" aria-label="Severity">
             <option>Observation</option><option>Minor</option><option>Moderate</option><option>Severe</option>
           </select>
+          <select data-cad-field="repair" aria-label="Repair or reinforcement method"><option value="">No repair method selected</option>${(state.repairMethods || []).map((item) => `<option>${escapeHtml(item)}</option>`).join("")}</select>
           <button type="button" class="nbms-cad-button" data-cad-action="zoom-out">Zoom Out</button>
           <button type="button" class="nbms-cad-button" data-cad-action="zoom-in">Zoom In</button>
           <button type="button" class="nbms-cad-button" data-cad-action="undo">Undo</button>
@@ -944,6 +995,7 @@
       member: $('[data-cad-field="member"]', workspace).value.trim() || "Unassigned member",
       damage: $('[data-cad-field="damage"]', workspace).value,
       severity: $('[data-cad-field="severity"]', workspace).value,
+      repairMethod: $('[data-cad-field="repair"]', workspace).value,
     });
     const pointFromEvent = (event) => {
       const rect = svg.getBoundingClientRect();
@@ -984,6 +1036,13 @@
       $$('[data-cad-tool]', workspace).forEach((item) => item.classList.toggle("active", item === button));
       status.textContent = tool === "area" ? "Area tool: click each vertex, then double-click the final point." : `${button.textContent} tool selected.`;
     }));
+    $('[data-cad-field="damage"]', workspace).addEventListener("change", (event) => {
+      const item = (state.damageCatalogue || []).find((entry) => entry.name === event.target.value);
+      const mappedTool = String(item?.geometry || "Point").toLowerCase();
+      const button = $(`[data-cad-tool="${mappedTool}"]`, workspace);
+      button?.click();
+      status.textContent = `${item.name}: ${item.geometry} geometry, measured in ${item.unit}.`;
+    });
     svg.addEventListener("click", (event) => {
       const point = pointFromEvent(event);
       if (tool === "point") commit("point", [point]);
@@ -1025,6 +1084,103 @@
     });
   }
 
+  async function openPlanningWorkspace() {
+    if ($("#nbms-plan-workspace")) return;
+    const [bridges, culverts] = await Promise.all([
+      state.bridges || json("data/bridges.json"),
+      state.culverts || json("data/culverts.json"),
+    ]);
+    state.bridges = bridges;
+    state.culverts = culverts;
+    const structures = [
+      ...bridges.map((item) => ({ id: item.BridgeNumber, name: item.BridgeName, type: "Bridge", station: item.MaintenanceStation })),
+      ...culverts.map((item) => ({ id: item.CulvertNumber, name: item.River && item.River !== "Unknown" ? item.River : "Major Culvert", type: "Major Culvert", station: item.Maintenance_Station })),
+    ];
+    const storageKey = "majorstructures-inspection-plans-v1";
+    let plans = [];
+    try { plans = JSON.parse(localStorage.getItem(storageKey) || "[]"); } catch { plans = []; }
+    document.body.insertAdjacentHTML("beforeend", `
+      <section id="nbms-plan-workspace" class="nbms-cad-overlay" role="dialog" aria-modal="true" aria-label="Inspection planning workspace">
+        <header class="nbms-cad-head">
+          <div><h2>Inspection Planning Workspace</h2><p>Browser-local plans for learning and field preparation. Approval and assignment remain in the governed BMS.</p></div>
+          <div><button type="button" class="nbms-cad-button" data-plan-action="export-all">Export Plans</button> <button type="button" class="nbms-cad-button" data-plan-action="close">Close</button></div>
+        </header>
+        <div class="nbms-cad-tools">
+          <span><strong>Workflow:</strong> Plan</span><span>Field capture</span><span>Technical review</span><span>Apply to maintenance history</span>
+          <span class="nbms-cad-status" aria-live="polite">${plans.length} browser-local plan${plans.length === 1 ? "" : "s"}</span>
+        </div>
+        <div class="nbms-plan-body">
+          <div class="nbms-plan-grid">
+            <section class="nbms-plan-card">
+              <h3>Create inspection plan</h3>
+              <form class="nbms-plan-form">
+                <label class="wide">Plan name<input name="planName" required placeholder="Inspection plan name"></label>
+                <label class="wide">Structure<select name="structure" required><option value="">Select a structure</option>${structures.map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.id)} | ${escapeHtml(item.name)} | ${escapeHtml(item.type)} | ${escapeHtml(item.station || "Unassigned")}</option>`).join("")}</select></label>
+                <label>Inspection type<select name="inspectionType">${(state.workflow?.types || []).map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.name)}</option>`).join("")}</select></label>
+                <label>Assigned team<input name="team" placeholder="Team or inspector"></label>
+                <label>Start date<input name="startDate" type="date" required></label>
+                <label>End date<input name="endDate" type="date" required></label>
+                <label class="wide">Scope notes<textarea name="notes" rows="3" placeholder="Members, access constraints and equipment"></textarea></label>
+                <label class="wide"><button type="submit" class="nbms-cad-button active">Add Plan</button></label>
+              </form>
+            </section>
+            <section class="nbms-plan-card">
+              <h3>Plan register and progress</h3>
+              <div class="nbms-plan-register"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+    `);
+    const workspace = $("#nbms-plan-workspace");
+    const status = $(".nbms-cad-status", workspace);
+    const stages = ["Planned", "Field capture", "Technical review", "Applied"];
+    const persist = () => localStorage.setItem(storageKey, JSON.stringify(plans));
+    const paint = () => {
+      const register = $(".nbms-plan-register", workspace);
+      status.textContent = `${plans.length} browser-local plan${plans.length === 1 ? "" : "s"}`;
+      if (!plans.length) {
+        register.innerHTML = '<div class="nbms-plan-empty">No plans created in this browser.</div>';
+        return;
+      }
+      register.innerHTML = `<table class="nbms-plan-table"><thead><tr><th>Plan</th><th>Structure</th><th>Dates</th><th>Progress</th><th>Action</th></tr></thead><tbody>${plans.map((plan, index) => `
+        <tr><td><strong>${escapeHtml(plan.planName)}</strong><br>${escapeHtml(plan.inspectionTypeName)}<br>${escapeHtml(plan.team || "Team not assigned")}</td>
+        <td><strong>${escapeHtml(plan.structure)}</strong><br>${escapeHtml(plan.structureName)}</td>
+        <td>${escapeHtml(plan.startDate)}<br>${escapeHtml(plan.endDate)}</td>
+        <td><div class="nbms-plan-progress">${stages.map((stage, stageIndex) => `<span class="${stageIndex <= plan.stage ? "done" : ""}">${escapeHtml(stage)}</span>`).join("")}</div></td>
+        <td><button type="button" class="nbms-cad-button" data-advance-plan="${index}" ${plan.stage >= stages.length - 1 ? "disabled" : ""}>Advance</button></td></tr>
+      `).join("")}</tbody></table>`;
+      $$('[data-advance-plan]', register).forEach((button) => button.addEventListener("click", () => {
+        const plan = plans[Number(button.dataset.advancePlan)];
+        plan.stage = Math.min(stages.length - 1, plan.stage + 1);
+        plan.updatedAt = new Date().toISOString();
+        persist(); paint();
+      }));
+    };
+    $("form", workspace).addEventListener("submit", (event) => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const structure = structures.find((item) => item.id === form.get("structure"));
+      const inspectionType = state.workflow.types.find((item) => item.id === form.get("inspectionType"));
+      const startDate = String(form.get("startDate") || "");
+      const endDate = String(form.get("endDate") || "");
+      if (endDate < startDate) { status.textContent = "End date must be on or after the start date."; return; }
+      plans.push({
+        id: crypto.randomUUID ? crypto.randomUUID() : `plan-${Date.now()}`,
+        planName: String(form.get("planName") || ""), structure: structure.id, structureName: structure.name,
+        structureType: structure.type, station: structure.station || "Unassigned", inspectionType: inspectionType.id,
+        inspectionTypeName: inspectionType.name, team: String(form.get("team") || ""), startDate, endDate,
+        notes: String(form.get("notes") || ""), stage: 0, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(),
+      });
+      persist(); event.currentTarget.reset(); paint();
+    });
+    $$('[data-plan-action]', workspace).forEach((button) => button.addEventListener("click", () => {
+      if (button.dataset.planAction === "close") workspace.remove();
+      if (button.dataset.planAction === "export-all") downloadLocalFile("inspection-plan-register.json", "application/json", JSON.stringify({ exportedAt: new Date().toISOString(), plans }, null, 2));
+    }));
+    paint();
+  }
+
   async function ensureWorkflowTools() {
     const inspectBridge = $$('button').find((button) => button.textContent.trim() === "Inspect Bridge");
     if (!inspectBridge) {
@@ -1032,9 +1188,15 @@
       return;
     }
     if (!state.workflowPromise) {
-      state.workflowPromise = json("data/inspection_workflow.json").then((value) => {
-        state.workflow = value;
-        return value;
+      state.workflowPromise = Promise.all([
+        json("data/inspection_workflow.json"),
+        json("data/damage_catalogue.json"),
+        json("data/repair_method_catalogue.json"),
+      ]).then(([workflow, damageCatalogue, repairMethods]) => {
+        state.workflow = workflow;
+        state.damageCatalogue = damageCatalogue;
+        state.repairMethods = repairMethods;
+        return workflow;
       });
     }
     const reference = state.workflow || await state.workflowPromise;
@@ -1058,6 +1220,15 @@
       cadButton.textContent = "Drawing Workspace";
       cadButton.addEventListener("click", openCadWorkspace);
       tabGroup.appendChild(cadButton);
+    }
+    if (!$("#nbms-plan-button", tabGroup)) {
+      const planButton = document.createElement("button");
+      planButton.id = "nbms-plan-button";
+      planButton.className = "nbms-workflow-button";
+      planButton.type = "button";
+      planButton.textContent = "Inspection Plans";
+      planButton.addEventListener("click", () => openPlanningWorkspace().catch((error) => console.error("NBMS planning workspace failed:", error)));
+      tabGroup.appendChild(planButton);
     }
   }
 

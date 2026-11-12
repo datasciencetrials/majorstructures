@@ -1,0 +1,23 @@
+[
+  {"name":"Crack","geometry":"Line","unit":"m","measurements":["crack width","count"]},
+  {"name":"Map crack","geometry":"Area","unit":"m²","measurements":["crack width","width","length","count"]},
+  {"name":"Scaling","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Spalling","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Breakage","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Delamination","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Rebar exposure","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Steel corrosion","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Segregation","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Discoloration","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Leakage","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Efflorescence","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Deterioration","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Filth deposition","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Rubber damage","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Main body breakage","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Sheath pipe exposure","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Sheath pipe corrosion","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Sheath pipe breakage","geometry":"Area","unit":"m²","measurements":["width","length","count"]},
+  {"name":"Tendon fracture","geometry":"Point","unit":"Each","measurements":["count"]},
+  {"name":"Other","geometry":"Area","unit":"As recorded","measurements":["crack width","width","length","count"]}
+]
