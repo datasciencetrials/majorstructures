@@ -664,3 +664,62 @@ tr:hover td {
   color: #0F172A !important;
   border-color: #CBD5E1 !important;
 }
+
+
+/* Guaranteed Light Theme Override Block */
+body:before,
+body::before {
+  display: none !important;
+  opacity: 0 !important;
+  content: none !important;
+}
+
+.modern-theme-root .panel-header,
+.panel-header {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+.modern-theme-root .panel-header h2,
+.panel-header h2 {
+  color: #0F172A !important;
+}
+
+.modern-theme-root .region-row,
+.region-row {
+  background: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.modern-theme-root .region-row:hover,
+.region-row:hover {
+  background: #F1F5F9 !important;
+  border-color: #CBD5E1 !important;
+}
+
+.modern-theme-root .region-row strong,
+.region-row strong {
+  color: #0F172A !important;
+}
+
+.modern-theme-root .region-row span,
+.region-row span {
+  color: #64748B !important;
+}
+
+.modern-theme-root .region-row b,
+.region-row b {
+  background: #EFF6FF !important;
+  color: #2563EB !important;
+  border: 1px solid #DBEAFE !important;
+}
+
+.modern-theme-root .kpi-card strong,
+.kpi-card strong {
+  color: #0F172A !important;
+}
+
+.modern-theme-root .kpi-eyebrow,
+.kpi-card .kpi-eyebrow {
+  color: #64748B !important;
+}
