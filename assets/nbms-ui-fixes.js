@@ -41,12 +41,9 @@
       .nbms-route-rescue {
         min-height: 100%;
         padding: 24px;
-        color: var(--text-primary, #f8fafc);
-        background:
-          radial-gradient(circle at 10% 0%, rgba(34, 211, 238, .18), transparent 34%),
-          radial-gradient(circle at 90% 10%, rgba(52, 211, 153, .13), transparent 30%),
-          linear-gradient(135deg, rgba(2, 8, 23, .92), rgba(8, 18, 38, .92));
-        border: 1px solid rgba(94, 234, 212, .22);
+        color: #0F172A;
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
         border-radius: 10px;
         overflow: auto;
       }
@@ -56,11 +53,11 @@
         justify-content: space-between;
         gap: 18px;
         padding-bottom: 18px;
-        border-bottom: 1px solid rgba(125, 211, 252, .22);
+        border-bottom: 1px solid #E2E8F0;
       }
       .nbms-rescue-kicker {
         margin: 0 0 8px;
-        color: #67e8f9;
+        color: #2563EB;
         font-size: 11px;
         font-weight: 800;
         letter-spacing: .12em;
@@ -71,11 +68,12 @@
         font-size: clamp(20px, 2vw, 32px);
         line-height: 1.05;
         letter-spacing: 0;
+        color: #0F172A;
       }
       .nbms-rescue-copy {
         max-width: 760px;
         margin: 10px 0 0;
-        color: #a9bed4;
+        color: #475569;
         line-height: 1.55;
       }
       .nbms-rescue-actions {
@@ -87,10 +85,10 @@
       .nbms-rescue-input,
       .nbms-rescue-select {
         height: 40px;
-        border: 1px solid rgba(125, 211, 252, .28);
+        border: 1px solid #CBD5E1;
         border-radius: 8px;
-        background: rgba(2, 6, 23, .72);
-        color: #e8f7ff;
+        background: #FFFFFF;
+        color: #0F172A;
         padding: 0 12px;
         outline: none;
       }
@@ -105,14 +103,14 @@
       }
       .nbms-rescue-stat {
         min-width: 0;
-        border: 1px solid rgba(125, 211, 252, .2);
+        border: 1px solid #E2E8F0;
         border-radius: 8px;
-        background: rgba(8, 20, 38, .72);
+        background: #F8FAFC;
         padding: 14px;
       }
       .nbms-rescue-stat span {
         display: block;
-        color: #7dd3fc;
+        color: #64748B;
         font-size: 10px;
         font-weight: 800;
         letter-spacing: .1em;
@@ -121,7 +119,7 @@
       .nbms-rescue-stat strong {
         display: block;
         margin-top: 8px;
-        color: #f8fafc;
+        color: #0F172A;
         font-size: 24px;
         line-height: 1;
       }
@@ -133,20 +131,20 @@
       .nbms-critical-card {
         min-width: 0;
         overflow: hidden;
-        border: 1px solid rgba(248, 113, 113, .34);
+        border: 1px solid #E2E8F0;
         border-radius: 8px;
-        background: rgba(4, 12, 26, .92);
-        box-shadow: 0 18px 40px rgba(0, 0, 0, .22);
+        background: #FFFFFF;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, .04);
         transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
       }
       .nbms-critical-card:hover {
         transform: translateY(-2px);
-        border-color: rgba(94, 234, 212, .55);
-        box-shadow: 0 20px 50px rgba(20, 184, 166, .15);
+        border-color: #2563EB;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, .08);
       }
       .nbms-critical-photo {
         height: 162px;
-        background: linear-gradient(135deg, rgba(15, 23, 42, .95), rgba(30, 41, 59, .75));
+        background: #F1F5F9;
         position: relative;
         display: grid;
         place-items: center;
@@ -172,13 +170,13 @@
       }
       .nbms-critical-badge.nbms-badge-poor,
       .nbms-polished-badge.nbms-badge-poor {
-        background: linear-gradient(135deg, #ffd23f, #ff8a3d) !important;
-        color: #150d02 !important;
+        background: #F59E0B !important;
+        color: #FFFFFF !important;
       }
       .nbms-critical-badge.nbms-badge-review,
       .nbms-polished-badge.nbms-badge-review {
-        background: linear-gradient(135deg, #67e8f9, #a78bfa) !important;
-        color: #020617 !important;
+        background: #2563EB !important;
+        color: #FFFFFF !important;
       }
       .nbms-polished-badge {
         border-radius: 7px !important;
@@ -189,39 +187,41 @@
         text-transform: uppercase !important;
       }
       .nbms-stale-priority-card {
-        border-color: rgba(103, 232, 249, .45) !important;
-        box-shadow: 0 0 0 1px rgba(103, 232, 249, .16), 0 16px 44px rgba(103, 232, 249, .08) !important;
+        border-color: #CBD5E1 !important;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, .06) !important;
       }
       .nbms-review-condition-card {
-        border-color: rgba(103, 232, 249, .45) !important;
-        box-shadow: 0 0 0 1px rgba(103, 232, 249, .12), 0 14px 34px rgba(103, 232, 249, .08) !important;
+        border-color: #CBD5E1 !important;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, .06) !important;
       }
       .slp-condition-badge.nbms-badge-review,
       .map-detail-pane .nbms-badge-review,
       .bridge-detail-card .nbms-badge-review {
-        background: linear-gradient(135deg, #67e8f9, #a78bfa) !important;
-        color: #020617 !important;
+        background: #2563EB !important;
+        color: #FFFFFF !important;
       }
       .nbms-critical-body {
         padding: 16px;
+        background: #FFFFFF;
       }
       .nbms-critical-body h3 {
         margin: 0 0 10px;
         font-size: 16px;
         line-height: 1.25;
+        color: #0F172A;
       }
       .nbms-critical-meta {
         display: grid;
         gap: 7px;
-        color: #9fb2ca;
+        color: #64748B;
         font-size: 12px;
         line-height: 1.35;
       }
       .nbms-critical-comment {
         margin-top: 12px;
         padding-top: 12px;
-        border-top: 1px solid rgba(148, 163, 184, .18);
-        color: #c8d7e8;
+        border-top: 1px solid #E2E8F0;
+        color: #334155;
         font-size: 12px;
         line-height: 1.45;
       }
@@ -234,12 +234,10 @@
         min-height: 54px;
         width: 100%;
         padding: 8px;
-        border: 1px solid rgba(255, 210, 63, .32);
+        border: 1px solid #E2E8F0;
         border-radius: 8px;
-        background:
-          linear-gradient(135deg, rgba(255, 210, 63, .12), rgba(3, 8, 18, .86) 58%, rgba(0, 245, 255, .1)),
-          rgba(3, 8, 18, .88);
-        color: #ffd23f;
+        background: #F8FAFC;
+        color: #D97706;
         font-size: 10px;
         font-weight: 800;
         letter-spacing: .08em;
