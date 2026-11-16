@@ -101,7 +101,8 @@
     },
     "HeavyAxlesPerDay": 1635,
     "HeavyVehiclesPerDay": 685,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C002",
@@ -205,7 +206,8 @@
     },
     "HeavyAxlesPerDay": 210,
     "HeavyVehiclesPerDay": 89,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C003",
@@ -309,7 +311,8 @@
     },
     "HeavyAxlesPerDay": 210,
     "HeavyVehiclesPerDay": 89,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C004",
@@ -413,7 +416,8 @@
     },
     "HeavyAxlesPerDay": 2685,
     "HeavyVehiclesPerDay": 899,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C005",
@@ -517,7 +521,8 @@
     },
     "HeavyAxlesPerDay": 1310,
     "HeavyVehiclesPerDay": 531,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C006",
@@ -621,7 +626,8 @@
     },
     "HeavyAxlesPerDay": 244,
     "HeavyVehiclesPerDay": 101,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C007",
@@ -725,7 +731,8 @@
     },
     "HeavyAxlesPerDay": 244,
     "HeavyVehiclesPerDay": 101,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C008",
@@ -829,7 +836,8 @@
     },
     "HeavyAxlesPerDay": 244,
     "HeavyVehiclesPerDay": 101,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C009",
@@ -933,7 +941,8 @@
     },
     "HeavyAxlesPerDay": 244,
     "HeavyVehiclesPerDay": 101,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C010",
@@ -1037,7 +1046,8 @@
     },
     "HeavyAxlesPerDay": 244,
     "HeavyVehiclesPerDay": 101,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C011",
@@ -1141,7 +1151,8 @@
     },
     "HeavyAxlesPerDay": 284,
     "HeavyVehiclesPerDay": 117,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 1
   },
   {
     "_id": "culvert-C012",
@@ -1245,7 +1256,8 @@
     },
     "HeavyAxlesPerDay": 354,
     "HeavyVehiclesPerDay": 150,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 5
   },
   {
     "_id": "culvert-C013",
@@ -1349,7 +1361,8 @@
     },
     "HeavyAxlesPerDay": 354,
     "HeavyVehiclesPerDay": 150,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C014",
@@ -1453,7 +1466,8 @@
     },
     "HeavyAxlesPerDay": 354,
     "HeavyVehiclesPerDay": 150,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C015",
@@ -1557,7 +1571,8 @@
     },
     "HeavyAxlesPerDay": 15421,
     "HeavyVehiclesPerDay": 4415,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C016",
@@ -1661,7 +1676,8 @@
     },
     "HeavyAxlesPerDay": 1770,
     "HeavyVehiclesPerDay": 623,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C017",
@@ -1765,7 +1781,8 @@
     },
     "HeavyAxlesPerDay": 1770,
     "HeavyVehiclesPerDay": 623,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C018",
@@ -1869,7 +1886,8 @@
     },
     "HeavyAxlesPerDay": 1770,
     "HeavyVehiclesPerDay": 623,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C019",
@@ -1973,7 +1991,8 @@
     },
     "HeavyAxlesPerDay": 828,
     "HeavyVehiclesPerDay": 329,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C020",
@@ -2077,7 +2096,8 @@
     },
     "HeavyAxlesPerDay": 828,
     "HeavyVehiclesPerDay": 329,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C021",
@@ -2181,7 +2201,8 @@
     },
     "HeavyAxlesPerDay": 828,
     "HeavyVehiclesPerDay": 329,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C150",
@@ -2285,7 +2306,8 @@
     },
     "HeavyAxlesPerDay": 2143,
     "HeavyVehiclesPerDay": 802,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C151",
@@ -2389,7 +2411,8 @@
     },
     "HeavyAxlesPerDay": 378,
     "HeavyVehiclesPerDay": 148,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C152",
@@ -2493,7 +2516,8 @@
     },
     "HeavyAxlesPerDay": 298,
     "HeavyVehiclesPerDay": 134,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C153",
@@ -2597,7 +2621,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C154",
@@ -2701,7 +2726,8 @@
     },
     "HeavyAxlesPerDay": 755,
     "HeavyVehiclesPerDay": 324,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C155",
@@ -2805,7 +2831,8 @@
     },
     "HeavyAxlesPerDay": 497,
     "HeavyVehiclesPerDay": 207,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C158",
@@ -2909,7 +2936,8 @@
     },
     "HeavyAxlesPerDay": 236,
     "HeavyVehiclesPerDay": 98,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C159",
@@ -3013,7 +3041,8 @@
     },
     "HeavyAxlesPerDay": 246,
     "HeavyVehiclesPerDay": 105,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 5
   },
   {
     "_id": "culvert-C160",
@@ -3117,7 +3146,8 @@
     },
     "HeavyAxlesPerDay": 246,
     "HeavyVehiclesPerDay": 105,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C161",
@@ -3221,7 +3251,8 @@
     },
     "HeavyAxlesPerDay": 496,
     "HeavyVehiclesPerDay": 203,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C162",
@@ -3325,7 +3356,8 @@
     },
     "HeavyAxlesPerDay": 439,
     "HeavyVehiclesPerDay": 176,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C163",
@@ -3429,7 +3461,8 @@
     },
     "HeavyAxlesPerDay": 496,
     "HeavyVehiclesPerDay": 203,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C164",
@@ -3533,7 +3566,8 @@
     },
     "HeavyAxlesPerDay": 439,
     "HeavyVehiclesPerDay": 176,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 5
   },
   {
     "_id": "culvert-C165",
@@ -3637,7 +3671,8 @@
     },
     "HeavyAxlesPerDay": 586,
     "HeavyVehiclesPerDay": 249,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C166",
@@ -3741,7 +3776,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C167",
@@ -3845,7 +3881,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C168",
@@ -3949,7 +3986,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C169",
@@ -4053,7 +4091,8 @@
     },
     "HeavyAxlesPerDay": 727,
     "HeavyVehiclesPerDay": 210,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C170",
@@ -4157,7 +4196,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C171",
@@ -4261,7 +4301,8 @@
     },
     "HeavyAxlesPerDay": 864,
     "HeavyVehiclesPerDay": 250,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C172",
@@ -4365,7 +4406,8 @@
     },
     "HeavyAxlesPerDay": 102,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C173",
@@ -4469,7 +4511,8 @@
     },
     "HeavyAxlesPerDay": 4313,
     "HeavyVehiclesPerDay": 1697,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 3
   },
   {
     "_id": "culvert-C174",
@@ -4573,7 +4616,8 @@
     },
     "HeavyAxlesPerDay": 223,
     "HeavyVehiclesPerDay": 99,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C175",
@@ -4677,7 +4721,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C176",
@@ -4781,7 +4826,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C177",
@@ -4885,7 +4931,8 @@
     },
     "HeavyAxlesPerDay": 448,
     "HeavyVehiclesPerDay": 169,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C178",
@@ -4989,7 +5036,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C179",
@@ -5093,7 +5141,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C180",
@@ -5197,7 +5246,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 1
   },
   {
     "_id": "culvert-C181",
@@ -5301,7 +5351,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C182",
@@ -5405,7 +5456,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C183",
@@ -5509,7 +5561,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C184",
@@ -5613,7 +5666,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C185",
@@ -5717,7 +5771,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C186",
@@ -5821,7 +5876,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C187",
@@ -5925,7 +5981,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C188",
@@ -6029,7 +6086,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C189",
@@ -6133,7 +6191,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C190",
@@ -6237,7 +6296,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C191",
@@ -6341,7 +6401,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C192",
@@ -6445,7 +6506,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C193",
@@ -6549,7 +6611,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C194",
@@ -6653,7 +6716,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C195",
@@ -6757,7 +6821,8 @@
     },
     "HeavyAxlesPerDay": 89,
     "HeavyVehiclesPerDay": 39,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C198",
@@ -6861,7 +6926,8 @@
     },
     "HeavyAxlesPerDay": 89,
     "HeavyVehiclesPerDay": 39,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C199",
@@ -6965,7 +7031,8 @@
     },
     "HeavyAxlesPerDay": 2931,
     "HeavyVehiclesPerDay": 1081,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C200",
@@ -7069,7 +7136,8 @@
     },
     "HeavyAxlesPerDay": 727,
     "HeavyVehiclesPerDay": 210,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C201",
@@ -7173,7 +7241,8 @@
     },
     "HeavyAxlesPerDay": 424,
     "HeavyVehiclesPerDay": 186,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C202",
@@ -7277,7 +7346,8 @@
     },
     "HeavyAxlesPerDay": 448,
     "HeavyVehiclesPerDay": 169,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C203",
@@ -7381,7 +7451,8 @@
     },
     "HeavyAxlesPerDay": 727,
     "HeavyVehiclesPerDay": 210,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C204",
@@ -7485,7 +7556,8 @@
     },
     "HeavyAxlesPerDay": 246,
     "HeavyVehiclesPerDay": 105,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C205",
@@ -7589,7 +7661,8 @@
     },
     "HeavyAxlesPerDay": 727,
     "HeavyVehiclesPerDay": 210,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C207",
@@ -7693,7 +7766,8 @@
     },
     "HeavyAxlesPerDay": 3007,
     "HeavyVehiclesPerDay": 893,
-    "OverloadRate": 0.38
+    "OverloadRate": 0.38,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C208",
@@ -7797,7 +7871,8 @@
     },
     "HeavyAxlesPerDay": 246,
     "HeavyVehiclesPerDay": 105,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C209",
@@ -7901,7 +7976,8 @@
     },
     "HeavyAxlesPerDay": 3007,
     "HeavyVehiclesPerDay": 893,
-    "OverloadRate": 0.38
+    "OverloadRate": 0.38,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C210",
@@ -8005,7 +8081,8 @@
     },
     "HeavyAxlesPerDay": 3007,
     "HeavyVehiclesPerDay": 893,
-    "OverloadRate": 0.38
+    "OverloadRate": 0.38,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C211",
@@ -8109,7 +8186,8 @@
     },
     "HeavyAxlesPerDay": 2648,
     "HeavyVehiclesPerDay": 752,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C212",
@@ -8213,7 +8291,8 @@
     },
     "HeavyAxlesPerDay": 4816,
     "HeavyVehiclesPerDay": 1512,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C213",
@@ -8317,7 +8396,8 @@
     },
     "HeavyAxlesPerDay": 4816,
     "HeavyVehiclesPerDay": 1512,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C214",
@@ -8421,7 +8501,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C215",
@@ -8525,7 +8606,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C216",
@@ -8629,7 +8711,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C217",
@@ -8733,7 +8816,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C218",
@@ -8837,7 +8921,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C219",
@@ -8941,7 +9026,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C220",
@@ -9045,7 +9131,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C221",
@@ -9149,7 +9236,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C222",
@@ -9253,7 +9341,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0.7816
+    "OverloadRate": 0.7816,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C224",
@@ -9357,7 +9446,8 @@
     },
     "HeavyAxlesPerDay": 444,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C225",
@@ -9461,7 +9551,8 @@
     },
     "HeavyAxlesPerDay": 444,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C226",
@@ -9565,7 +9656,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C227",
@@ -9669,7 +9761,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C228",
@@ -9773,7 +9866,8 @@
     },
     "HeavyAxlesPerDay": 196,
     "HeavyVehiclesPerDay": 89,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C229",
@@ -9877,7 +9971,8 @@
     },
     "HeavyAxlesPerDay": 196,
     "HeavyVehiclesPerDay": 89,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C230",
@@ -9981,7 +10076,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C347",
@@ -10008,7 +10104,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -10085,7 +10181,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C352",
@@ -10189,7 +10286,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C353",
@@ -10293,7 +10391,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C354",
@@ -10397,7 +10496,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C355",
@@ -10501,7 +10601,8 @@
     },
     "HeavyAxlesPerDay": 3622,
     "HeavyVehiclesPerDay": 1137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C359",
@@ -10605,7 +10706,8 @@
     },
     "HeavyAxlesPerDay": 1656,
     "HeavyVehiclesPerDay": 537,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C360",
@@ -10709,7 +10811,8 @@
     },
     "HeavyAxlesPerDay": 515,
     "HeavyVehiclesPerDay": 189,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C361",
@@ -10813,7 +10916,8 @@
     },
     "HeavyAxlesPerDay": 515,
     "HeavyVehiclesPerDay": 189,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C362",
@@ -10917,7 +11021,8 @@
     },
     "HeavyAxlesPerDay": 2892,
     "HeavyVehiclesPerDay": 949,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C363",
@@ -11021,7 +11126,8 @@
     },
     "HeavyAxlesPerDay": 114,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C364",
@@ -11125,7 +11231,8 @@
     },
     "HeavyAxlesPerDay": 114,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C365",
@@ -11229,7 +11336,8 @@
     },
     "HeavyAxlesPerDay": 114,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C366",
@@ -11333,7 +11441,8 @@
     },
     "HeavyAxlesPerDay": 114,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C367",
@@ -11437,7 +11546,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C368",
@@ -11541,7 +11651,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C369",
@@ -11645,7 +11756,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C370",
@@ -11749,7 +11861,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C371",
@@ -11853,7 +11966,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C372",
@@ -11957,7 +12071,8 @@
     },
     "HeavyAxlesPerDay": 311,
     "HeavyVehiclesPerDay": 114,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C379",
@@ -12061,7 +12176,8 @@
     },
     "HeavyAxlesPerDay": 2892,
     "HeavyVehiclesPerDay": 949,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C401",
@@ -12165,7 +12281,8 @@
     },
     "HeavyAxlesPerDay": 357,
     "HeavyVehiclesPerDay": 146,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C402",
@@ -12269,7 +12386,8 @@
     },
     "HeavyAxlesPerDay": 357,
     "HeavyVehiclesPerDay": 146,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C403",
@@ -12373,7 +12491,8 @@
     },
     "HeavyAxlesPerDay": 357,
     "HeavyVehiclesPerDay": 146,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C405",
@@ -12477,7 +12596,8 @@
     },
     "HeavyAxlesPerDay": 116,
     "HeavyVehiclesPerDay": 51,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C406",
@@ -12581,7 +12701,8 @@
     },
     "HeavyAxlesPerDay": 116,
     "HeavyVehiclesPerDay": 51,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C408",
@@ -12685,7 +12806,8 @@
     },
     "HeavyAxlesPerDay": 116,
     "HeavyVehiclesPerDay": 51,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C409",
@@ -12789,7 +12911,8 @@
     },
     "HeavyAxlesPerDay": 116,
     "HeavyVehiclesPerDay": 51,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C410",
@@ -12893,7 +13016,8 @@
     },
     "HeavyAxlesPerDay": 144,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C411",
@@ -12997,7 +13121,8 @@
     },
     "HeavyAxlesPerDay": 144,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C412",
@@ -13101,7 +13226,8 @@
     },
     "HeavyAxlesPerDay": 144,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C413",
@@ -13205,7 +13331,8 @@
     },
     "HeavyAxlesPerDay": 377,
     "HeavyVehiclesPerDay": 135,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C414",
@@ -13309,7 +13436,8 @@
     },
     "HeavyAxlesPerDay": 262,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C415",
@@ -13413,7 +13541,8 @@
     },
     "HeavyAxlesPerDay": 617,
     "HeavyVehiclesPerDay": 276,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C416",
@@ -13517,7 +13646,8 @@
     },
     "HeavyAxlesPerDay": 375,
     "HeavyVehiclesPerDay": 137,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C417",
@@ -13621,7 +13751,8 @@
     },
     "HeavyAxlesPerDay": 144,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C418",
@@ -13725,7 +13856,8 @@
     },
     "HeavyAxlesPerDay": 2150,
     "HeavyVehiclesPerDay": 697,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C419",
@@ -13829,7 +13961,8 @@
     },
     "HeavyAxlesPerDay": 2150,
     "HeavyVehiclesPerDay": 697,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C420",
@@ -13933,7 +14066,8 @@
     },
     "HeavyAxlesPerDay": 2150,
     "HeavyVehiclesPerDay": 697,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C425",
@@ -14037,7 +14171,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C426",
@@ -14141,7 +14276,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C427",
@@ -14245,7 +14381,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C428",
@@ -14349,7 +14486,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C429",
@@ -14453,7 +14591,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C430",
@@ -14557,7 +14696,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C431",
@@ -14661,7 +14801,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C432",
@@ -14765,7 +14906,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C433",
@@ -14869,7 +15011,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C434",
@@ -14973,7 +15116,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C435",
@@ -15077,7 +15221,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C436",
@@ -15181,7 +15326,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C437",
@@ -15285,7 +15431,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C438",
@@ -15389,7 +15536,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C439",
@@ -15493,7 +15641,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C440",
@@ -15597,7 +15746,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C441",
@@ -15701,7 +15851,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C442",
@@ -15805,7 +15956,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C443",
@@ -15909,7 +16061,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C444",
@@ -16013,7 +16166,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C445",
@@ -16117,7 +16271,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C446",
@@ -16221,7 +16376,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C447",
@@ -16325,7 +16481,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C448",
@@ -16429,7 +16586,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C449",
@@ -16533,7 +16691,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C450",
@@ -16637,7 +16796,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C451",
@@ -16741,7 +16901,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C452",
@@ -16845,7 +17006,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C453",
@@ -16949,7 +17111,8 @@
     },
     "HeavyAxlesPerDay": 347,
     "HeavyVehiclesPerDay": 128,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C455",
@@ -17053,7 +17216,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C456",
@@ -17157,7 +17321,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C457",
@@ -17261,7 +17426,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C458",
@@ -17365,7 +17531,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C459",
@@ -17469,7 +17636,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C460",
@@ -17573,7 +17741,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C461",
@@ -17677,7 +17846,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C462",
@@ -17781,7 +17951,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C463",
@@ -17885,7 +18056,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C464",
@@ -17989,7 +18161,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C465",
@@ -18093,7 +18266,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C466",
@@ -18197,7 +18371,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C467",
@@ -18301,7 +18476,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C468",
@@ -18405,7 +18581,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C469",
@@ -18509,7 +18686,8 @@
     },
     "HeavyAxlesPerDay": 286,
     "HeavyVehiclesPerDay": 112,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C470",
@@ -18613,7 +18791,8 @@
     },
     "HeavyAxlesPerDay": 42,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C471",
@@ -18717,7 +18896,8 @@
     },
     "HeavyAxlesPerDay": 42,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C472",
@@ -18821,7 +19001,8 @@
     },
     "HeavyAxlesPerDay": 42,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C473",
@@ -18925,7 +19106,8 @@
     },
     "HeavyAxlesPerDay": 42,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C474",
@@ -19029,7 +19211,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C475",
@@ -19133,7 +19316,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C476",
@@ -19237,7 +19421,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C477",
@@ -19341,7 +19526,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C478",
@@ -19445,7 +19631,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C479",
@@ -19549,7 +19736,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C480",
@@ -19653,7 +19841,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C481",
@@ -19757,7 +19946,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C482",
@@ -19861,7 +20051,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C483",
@@ -19965,7 +20156,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C484",
@@ -20069,7 +20261,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C485",
@@ -20173,7 +20366,8 @@
     },
     "HeavyAxlesPerDay": 420,
     "HeavyVehiclesPerDay": 168,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C486",
@@ -20277,7 +20471,8 @@
     },
     "HeavyAxlesPerDay": 337,
     "HeavyVehiclesPerDay": 142,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C487",
@@ -20381,7 +20576,8 @@
     },
     "HeavyAxlesPerDay": 80,
     "HeavyVehiclesPerDay": 31,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C488",
@@ -20485,7 +20681,8 @@
     },
     "HeavyAxlesPerDay": 297,
     "HeavyVehiclesPerDay": 117,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C490",
@@ -20589,7 +20786,8 @@
     },
     "HeavyAxlesPerDay": 116,
     "HeavyVehiclesPerDay": 51,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C494",
@@ -20693,7 +20891,8 @@
     },
     "HeavyAxlesPerDay": 42,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C495",
@@ -20797,7 +20996,8 @@
     },
     "HeavyAxlesPerDay": 297,
     "HeavyVehiclesPerDay": 117,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C496",
@@ -20901,7 +21101,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C497",
@@ -21005,7 +21206,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C498",
@@ -21109,7 +21311,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C499",
@@ -21213,7 +21416,8 @@
     },
     "HeavyAxlesPerDay": 962,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C501",
@@ -21317,7 +21521,8 @@
     },
     "HeavyAxlesPerDay": 164,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C502",
@@ -21421,7 +21626,8 @@
     },
     "HeavyAxlesPerDay": 164,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C503",
@@ -21525,7 +21731,8 @@
     },
     "HeavyAxlesPerDay": 164,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C504",
@@ -21629,7 +21836,8 @@
     },
     "HeavyAxlesPerDay": 164,
     "HeavyVehiclesPerDay": 59,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C505",
@@ -21733,7 +21941,8 @@
     },
     "HeavyAxlesPerDay": 1344,
     "HeavyVehiclesPerDay": 506,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C506",
@@ -21837,7 +22046,8 @@
     },
     "HeavyAxlesPerDay": 1344,
     "HeavyVehiclesPerDay": 506,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C507",
@@ -21941,7 +22151,8 @@
     },
     "HeavyAxlesPerDay": 3817,
     "HeavyVehiclesPerDay": 1380,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C508",
@@ -22045,7 +22256,8 @@
     },
     "HeavyAxlesPerDay": 3817,
     "HeavyVehiclesPerDay": 1380,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C509",
@@ -22149,7 +22361,8 @@
     },
     "HeavyAxlesPerDay": 3817,
     "HeavyVehiclesPerDay": 1380,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C510",
@@ -22253,7 +22466,8 @@
     },
     "HeavyAxlesPerDay": 3817,
     "HeavyVehiclesPerDay": 1380,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C511",
@@ -22357,7 +22571,8 @@
     },
     "HeavyAxlesPerDay": 3817,
     "HeavyVehiclesPerDay": 1380,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C512",
@@ -22461,7 +22676,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C513",
@@ -22565,7 +22781,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C514",
@@ -22669,7 +22886,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C515",
@@ -22773,7 +22991,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C516",
@@ -22877,7 +23096,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C517",
@@ -22981,7 +23201,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C518",
@@ -23085,7 +23306,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C519",
@@ -23189,7 +23411,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C520",
@@ -23293,7 +23516,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C521",
@@ -23397,7 +23621,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C523",
@@ -23501,7 +23726,8 @@
     },
     "HeavyAxlesPerDay": 2166,
     "HeavyVehiclesPerDay": 616,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C524",
@@ -23605,7 +23831,8 @@
     },
     "HeavyAxlesPerDay": 2166,
     "HeavyVehiclesPerDay": 616,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C525",
@@ -23709,7 +23936,8 @@
     },
     "HeavyAxlesPerDay": 1514,
     "HeavyVehiclesPerDay": 522,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C526",
@@ -23813,7 +24041,8 @@
     },
     "HeavyAxlesPerDay": 1514,
     "HeavyVehiclesPerDay": 522,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C527",
@@ -23917,7 +24146,8 @@
     },
     "HeavyAxlesPerDay": 54,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C528",
@@ -24021,7 +24251,8 @@
     },
     "HeavyAxlesPerDay": 1107,
     "HeavyVehiclesPerDay": 443,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C529",
@@ -24125,7 +24356,8 @@
     },
     "HeavyAxlesPerDay": 1107,
     "HeavyVehiclesPerDay": 443,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C530",
@@ -24229,7 +24461,8 @@
     },
     "HeavyAxlesPerDay": 1107,
     "HeavyVehiclesPerDay": 443,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C551",
@@ -24333,7 +24566,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C552",
@@ -24437,7 +24671,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C553",
@@ -24541,7 +24776,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C554",
@@ -24645,7 +24881,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C556",
@@ -24749,7 +24986,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C557",
@@ -24853,7 +25091,8 @@
     },
     "HeavyAxlesPerDay": 2412,
     "HeavyVehiclesPerDay": 894,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C558",
@@ -24957,7 +25196,8 @@
     },
     "HeavyAxlesPerDay": 31,
     "HeavyVehiclesPerDay": 12,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 1
   },
   {
     "_id": "culvert-C560",
@@ -25061,7 +25301,8 @@
     },
     "HeavyAxlesPerDay": 437,
     "HeavyVehiclesPerDay": 161,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C561",
@@ -25165,7 +25406,8 @@
     },
     "HeavyAxlesPerDay": 410,
     "HeavyVehiclesPerDay": 151,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C562",
@@ -25269,7 +25511,8 @@
     },
     "HeavyAxlesPerDay": 1827,
     "HeavyVehiclesPerDay": 653,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C566",
@@ -25373,7 +25616,8 @@
     },
     "HeavyAxlesPerDay": 742,
     "HeavyVehiclesPerDay": 280,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C567",
@@ -25477,7 +25721,8 @@
     },
     "HeavyAxlesPerDay": 330,
     "HeavyVehiclesPerDay": 133,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C570",
@@ -25581,7 +25826,8 @@
     },
     "HeavyAxlesPerDay": 97,
     "HeavyVehiclesPerDay": 40,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C571",
@@ -25685,7 +25931,8 @@
     },
     "HeavyAxlesPerDay": 330,
     "HeavyVehiclesPerDay": 133,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C601",
@@ -25789,7 +26036,8 @@
     },
     "HeavyAxlesPerDay": 1080,
     "HeavyVehiclesPerDay": 305,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C602",
@@ -25893,7 +26141,8 @@
     },
     "HeavyAxlesPerDay": 1080,
     "HeavyVehiclesPerDay": 305,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C603",
@@ -25997,7 +26246,8 @@
     },
     "HeavyAxlesPerDay": 1382,
     "HeavyVehiclesPerDay": 421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C604",
@@ -26101,7 +26351,8 @@
     },
     "HeavyAxlesPerDay": 2145,
     "HeavyVehiclesPerDay": 620,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C605",
@@ -26205,7 +26456,8 @@
     },
     "HeavyAxlesPerDay": 2145,
     "HeavyVehiclesPerDay": 620,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C606",
@@ -26309,7 +26561,8 @@
     },
     "HeavyAxlesPerDay": 947,
     "HeavyVehiclesPerDay": 313,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C607",
@@ -26413,7 +26666,8 @@
     },
     "HeavyAxlesPerDay": 947,
     "HeavyVehiclesPerDay": 313,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C608",
@@ -26517,7 +26771,8 @@
     },
     "HeavyAxlesPerDay": 5245,
     "HeavyVehiclesPerDay": 2177,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C610",
@@ -26621,7 +26876,8 @@
     },
     "HeavyAxlesPerDay": 82,
     "HeavyVehiclesPerDay": 33,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C611",
@@ -26725,7 +26981,8 @@
     },
     "HeavyAxlesPerDay": 49,
     "HeavyVehiclesPerDay": 22,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C612",
@@ -26829,7 +27086,8 @@
     },
     "HeavyAxlesPerDay": 947,
     "HeavyVehiclesPerDay": 313,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C613",
@@ -26933,7 +27191,8 @@
     },
     "HeavyAxlesPerDay": 608,
     "HeavyVehiclesPerDay": 209,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C614",
@@ -27037,7 +27296,8 @@
     },
     "HeavyAxlesPerDay": 178,
     "HeavyVehiclesPerDay": 81,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C615",
@@ -27141,7 +27401,8 @@
     },
     "HeavyAxlesPerDay": 178,
     "HeavyVehiclesPerDay": 81,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C616",
@@ -27245,7 +27506,8 @@
     },
     "HeavyAxlesPerDay": 2368,
     "HeavyVehiclesPerDay": 877,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C617",
@@ -27349,7 +27611,8 @@
     },
     "HeavyAxlesPerDay": 1364,
     "HeavyVehiclesPerDay": 493,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C618",
@@ -27453,7 +27716,8 @@
     },
     "HeavyAxlesPerDay": 54,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C619",
@@ -27557,7 +27821,8 @@
     },
     "HeavyAxlesPerDay": 272,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C620",
@@ -27661,7 +27926,8 @@
     },
     "HeavyAxlesPerDay": 742,
     "HeavyVehiclesPerDay": 280,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C621",
@@ -27765,7 +28031,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C622",
@@ -27869,7 +28136,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C623",
@@ -27973,7 +28241,8 @@
     },
     "HeavyAxlesPerDay": 330,
     "HeavyVehiclesPerDay": 133,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C624",
@@ -28077,7 +28346,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C625",
@@ -28181,7 +28451,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C626",
@@ -28285,7 +28556,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C627",
@@ -28389,7 +28661,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C628",
@@ -28493,7 +28766,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C629",
@@ -28597,7 +28871,8 @@
     },
     "HeavyAxlesPerDay": 3348,
     "HeavyVehiclesPerDay": 963,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C630",
@@ -28701,7 +28976,8 @@
     },
     "HeavyAxlesPerDay": 1827,
     "HeavyVehiclesPerDay": 653,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C631",
@@ -28805,7 +29081,8 @@
     },
     "HeavyAxlesPerDay": 1827,
     "HeavyVehiclesPerDay": 653,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C632",
@@ -28909,7 +29186,8 @@
     },
     "HeavyAxlesPerDay": 178,
     "HeavyVehiclesPerDay": 81,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C633",
@@ -29013,7 +29291,8 @@
     },
     "HeavyAxlesPerDay": 178,
     "HeavyVehiclesPerDay": 81,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C634",
@@ -29117,7 +29396,8 @@
     },
     "HeavyAxlesPerDay": 178,
     "HeavyVehiclesPerDay": 81,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C700",
@@ -29221,7 +29501,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C701",
@@ -29325,7 +29606,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C702",
@@ -29429,7 +29711,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C703",
@@ -29533,7 +29816,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C704",
@@ -29637,7 +29921,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C705",
@@ -29741,7 +30026,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0.2635
+    "OverloadRate": 0.2635,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C706",
@@ -29845,7 +30131,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C707",
@@ -29949,7 +30236,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C708",
@@ -30053,7 +30341,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C709",
@@ -30157,7 +30446,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C710",
@@ -30261,7 +30551,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C711",
@@ -30365,7 +30656,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C712",
@@ -30469,7 +30761,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C713",
@@ -30573,7 +30866,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C714",
@@ -30677,7 +30971,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C715",
@@ -30781,7 +31076,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C716",
@@ -30885,7 +31181,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C717",
@@ -30989,7 +31286,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C718",
@@ -31093,7 +31391,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C719",
@@ -31197,7 +31496,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C720",
@@ -31301,7 +31601,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C721",
@@ -31405,7 +31706,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C723",
@@ -31509,7 +31811,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C724",
@@ -31613,7 +31916,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C725",
@@ -31717,7 +32021,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C726",
@@ -31821,7 +32126,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C727",
@@ -31925,7 +32231,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C728",
@@ -32029,7 +32336,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C729",
@@ -32133,7 +32441,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C730",
@@ -32237,7 +32546,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C731",
@@ -32341,7 +32651,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C732",
@@ -32445,7 +32756,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C733",
@@ -32549,7 +32861,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C734",
@@ -32650,7 +32963,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C735",
@@ -32754,7 +33068,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C736",
@@ -32858,7 +33173,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C737",
@@ -32962,7 +33278,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C751",
@@ -33066,7 +33383,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C752",
@@ -33170,7 +33488,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C753",
@@ -33274,7 +33593,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C754",
@@ -33378,7 +33698,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C755",
@@ -33482,7 +33803,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C756",
@@ -33586,7 +33908,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C757",
@@ -33690,7 +34013,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C758",
@@ -33794,7 +34118,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C759",
@@ -33898,7 +34223,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C760",
@@ -34002,7 +34328,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C761",
@@ -34106,7 +34433,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C762",
@@ -34210,7 +34538,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C763",
@@ -34314,7 +34643,8 @@
     },
     "HeavyAxlesPerDay": 9028,
     "HeavyVehiclesPerDay": 2785,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C764",
@@ -34418,7 +34748,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C765",
@@ -34522,7 +34853,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C766",
@@ -34626,7 +34958,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C767",
@@ -34730,7 +35063,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C768",
@@ -34834,7 +35168,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C769",
@@ -34938,7 +35273,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C770",
@@ -35042,7 +35378,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C771",
@@ -35146,7 +35483,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C772",
@@ -35250,7 +35588,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C773",
@@ -35354,7 +35693,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C774",
@@ -35458,7 +35798,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C775",
@@ -35562,7 +35903,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C776",
@@ -35666,7 +36008,8 @@
     },
     "HeavyAxlesPerDay": 13687,
     "HeavyVehiclesPerDay": 3421,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C777",
@@ -35770,7 +36113,8 @@
     },
     "HeavyAxlesPerDay": 7231,
     "HeavyVehiclesPerDay": 2116,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C778",
@@ -35874,7 +36218,8 @@
     },
     "HeavyAxlesPerDay": 7231,
     "HeavyVehiclesPerDay": 2116,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C779",
@@ -35978,7 +36323,8 @@
     },
     "HeavyAxlesPerDay": 7231,
     "HeavyVehiclesPerDay": 2116,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C780",
@@ -36082,7 +36428,8 @@
     },
     "HeavyAxlesPerDay": 7231,
     "HeavyVehiclesPerDay": 2116,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C781",
@@ -36186,7 +36533,8 @@
     },
     "HeavyAxlesPerDay": 541,
     "HeavyVehiclesPerDay": 222,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C782",
@@ -36290,7 +36638,8 @@
     },
     "HeavyAxlesPerDay": 541,
     "HeavyVehiclesPerDay": 222,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C783",
@@ -36394,7 +36743,8 @@
     },
     "HeavyAxlesPerDay": 37,
     "HeavyVehiclesPerDay": 17,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C784",
@@ -36498,7 +36848,8 @@
     },
     "HeavyAxlesPerDay": 541,
     "HeavyVehiclesPerDay": 222,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C786",
@@ -36602,7 +36953,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C787",
@@ -36706,7 +37058,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C788",
@@ -36810,7 +37163,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C789",
@@ -36914,7 +37268,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C790",
@@ -37018,7 +37373,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C791",
@@ -37122,7 +37478,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C792",
@@ -37226,7 +37583,8 @@
     },
     "HeavyAxlesPerDay": 502,
     "HeavyVehiclesPerDay": 234,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C793",
@@ -37330,7 +37688,8 @@
     },
     "HeavyAxlesPerDay": 502,
     "HeavyVehiclesPerDay": 234,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C794",
@@ -37434,7 +37793,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C795",
@@ -37538,7 +37898,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C796",
@@ -37642,7 +38003,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C798",
@@ -37746,7 +38108,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C799",
@@ -37850,7 +38213,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C800",
@@ -37954,7 +38318,8 @@
     },
     "HeavyAxlesPerDay": 37,
     "HeavyVehiclesPerDay": 17,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C801",
@@ -38058,7 +38423,8 @@
     },
     "HeavyAxlesPerDay": 124,
     "HeavyVehiclesPerDay": 50,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C802",
@@ -38162,7 +38528,8 @@
     },
     "HeavyAxlesPerDay": 124,
     "HeavyVehiclesPerDay": 50,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C804",
@@ -38266,7 +38633,8 @@
     },
     "HeavyAxlesPerDay": 848,
     "HeavyVehiclesPerDay": 312,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C806",
@@ -38370,7 +38738,8 @@
     },
     "HeavyAxlesPerDay": 326,
     "HeavyVehiclesPerDay": 111,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C807",
@@ -38474,7 +38843,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C808",
@@ -38578,7 +38948,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C809",
@@ -38682,7 +39053,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C810",
@@ -38786,7 +39158,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C811",
@@ -38890,7 +39263,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C812",
@@ -38994,7 +39368,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C813",
@@ -39098,7 +39473,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C814",
@@ -39202,7 +39578,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C815",
@@ -39306,7 +39683,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C816",
@@ -39410,7 +39788,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C817",
@@ -39514,7 +39893,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C818",
@@ -39618,7 +39998,8 @@
     },
     "HeavyAxlesPerDay": 122,
     "HeavyVehiclesPerDay": 45,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C819",
@@ -39722,7 +40103,8 @@
     },
     "HeavyAxlesPerDay": 715,
     "HeavyVehiclesPerDay": 247,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 5
   },
   {
     "_id": "culvert-C821",
@@ -39826,7 +40208,8 @@
     },
     "HeavyAxlesPerDay": 715,
     "HeavyVehiclesPerDay": 247,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C823",
@@ -39930,7 +40313,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C824",
@@ -40034,7 +40418,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C825",
@@ -40138,7 +40523,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C826",
@@ -40242,7 +40628,8 @@
     },
     "HeavyAxlesPerDay": 51,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C827",
@@ -40346,7 +40733,8 @@
     },
     "HeavyAxlesPerDay": 51,
     "HeavyVehiclesPerDay": 20,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C829",
@@ -40450,7 +40838,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C830",
@@ -40554,7 +40943,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C831",
@@ -40658,7 +41048,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C832",
@@ -40762,7 +41153,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C833",
@@ -40866,7 +41258,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C834",
@@ -40970,7 +41363,8 @@
     },
     "HeavyAxlesPerDay": 1894,
     "HeavyVehiclesPerDay": 685,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C835",
@@ -41074,7 +41468,8 @@
     },
     "HeavyAxlesPerDay": 1894,
     "HeavyVehiclesPerDay": 685,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C836",
@@ -41178,7 +41573,8 @@
     },
     "HeavyAxlesPerDay": 2344,
     "HeavyVehiclesPerDay": 723,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C837",
@@ -41282,7 +41678,8 @@
     },
     "HeavyAxlesPerDay": 3036,
     "HeavyVehiclesPerDay": 936,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C838",
@@ -41386,7 +41783,8 @@
     },
     "HeavyAxlesPerDay": 163,
     "HeavyVehiclesPerDay": 76,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C839",
@@ -41413,7 +41811,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -41490,7 +41888,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C840",
@@ -41594,7 +41993,8 @@
     },
     "HeavyAxlesPerDay": 325,
     "HeavyVehiclesPerDay": 124,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C841",
@@ -41698,7 +42098,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C842",
@@ -41802,7 +42203,8 @@
     },
     "HeavyAxlesPerDay": 515,
     "HeavyVehiclesPerDay": 188,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C843",
@@ -41906,7 +42308,8 @@
     },
     "HeavyAxlesPerDay": 515,
     "HeavyVehiclesPerDay": 188,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 6
   },
   {
     "_id": "culvert-C844",
@@ -42010,7 +42413,8 @@
     },
     "HeavyAxlesPerDay": 70,
     "HeavyVehiclesPerDay": 32,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C845",
@@ -42114,7 +42518,8 @@
     },
     "HeavyAxlesPerDay": 70,
     "HeavyVehiclesPerDay": 32,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C846",
@@ -42218,7 +42623,8 @@
     },
     "HeavyAxlesPerDay": 70,
     "HeavyVehiclesPerDay": 32,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C847",
@@ -42322,7 +42728,8 @@
     },
     "HeavyAxlesPerDay": 541,
     "HeavyVehiclesPerDay": 222,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C851",
@@ -42426,7 +42833,8 @@
     },
     "HeavyAxlesPerDay": 193,
     "HeavyVehiclesPerDay": 63,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C854",
@@ -42530,7 +42938,8 @@
     },
     "HeavyAxlesPerDay": 117,
     "HeavyVehiclesPerDay": 54,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C856",
@@ -42634,7 +43043,8 @@
     },
     "HeavyAxlesPerDay": 159,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C858",
@@ -42738,7 +43148,8 @@
     },
     "HeavyAxlesPerDay": 163,
     "HeavyVehiclesPerDay": 76,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C859",
@@ -42842,7 +43253,8 @@
     },
     "HeavyAxlesPerDay": 163,
     "HeavyVehiclesPerDay": 76,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C863",
@@ -42946,7 +43358,8 @@
     },
     "HeavyAxlesPerDay": 863,
     "HeavyVehiclesPerDay": 353,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C870",
@@ -43050,7 +43463,8 @@
     },
     "HeavyAxlesPerDay": 6,
     "HeavyVehiclesPerDay": 3,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C871",
@@ -43154,7 +43568,8 @@
     },
     "HeavyAxlesPerDay": 6,
     "HeavyVehiclesPerDay": 3,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C900",
@@ -43258,7 +43673,8 @@
     },
     "HeavyAxlesPerDay": 3500,
     "HeavyVehiclesPerDay": 1080,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C905",
@@ -43362,7 +43778,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 53,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C906",
@@ -43466,7 +43883,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C907",
@@ -43570,7 +43988,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C908",
@@ -43674,7 +44093,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C909",
@@ -43778,7 +44198,8 @@
     },
     "HeavyAxlesPerDay": 163,
     "HeavyVehiclesPerDay": 76,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C910",
@@ -43882,7 +44303,8 @@
     },
     "HeavyAxlesPerDay": 135,
     "HeavyVehiclesPerDay": 62,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C911",
@@ -43986,7 +44408,8 @@
     },
     "HeavyAxlesPerDay": 524,
     "HeavyVehiclesPerDay": 203,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C912",
@@ -44090,7 +44513,8 @@
     },
     "HeavyAxlesPerDay": 524,
     "HeavyVehiclesPerDay": 203,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C913",
@@ -44194,7 +44618,8 @@
     },
     "HeavyAxlesPerDay": 524,
     "HeavyVehiclesPerDay": 203,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 9
   },
   {
     "_id": "culvert-C914",
@@ -44298,7 +44723,8 @@
     },
     "HeavyAxlesPerDay": 413,
     "HeavyVehiclesPerDay": 173,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C915",
@@ -44402,7 +44828,8 @@
     },
     "HeavyAxlesPerDay": 541,
     "HeavyVehiclesPerDay": 222,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C916",
@@ -44503,7 +44930,8 @@
     },
     "HeavyAxlesPerDay": 361,
     "HeavyVehiclesPerDay": 136,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C917",
@@ -44607,7 +45035,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C918",
@@ -44711,7 +45140,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 7
   },
   {
     "_id": "culvert-C919",
@@ -44815,7 +45245,8 @@
     },
     "HeavyAxlesPerDay": 55,
     "HeavyVehiclesPerDay": 23,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C920",
@@ -44919,7 +45350,8 @@
     },
     "HeavyAxlesPerDay": 1135,
     "HeavyVehiclesPerDay": 294,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C921",
@@ -45023,7 +45455,8 @@
     },
     "HeavyAxlesPerDay": 1135,
     "HeavyVehiclesPerDay": 294,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C922",
@@ -45127,7 +45560,8 @@
     },
     "HeavyAxlesPerDay": 1135,
     "HeavyVehiclesPerDay": 294,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 8
   },
   {
     "_id": "culvert-C522",
@@ -45154,7 +45588,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45231,7 +45665,8 @@
     },
     "HeavyAxlesPerDay": 5542,
     "HeavyVehiclesPerDay": 1577,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C531",
@@ -45258,7 +45693,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45335,7 +45770,8 @@
     },
     "HeavyAxlesPerDay": 272,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C532",
@@ -45362,7 +45798,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45439,7 +45875,8 @@
     },
     "HeavyAxlesPerDay": 272,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C533",
@@ -45466,7 +45903,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45543,7 +45980,8 @@
     },
     "HeavyAxlesPerDay": 272,
     "HeavyVehiclesPerDay": 115,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C156",
@@ -45570,7 +46008,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45647,7 +46085,8 @@
     },
     "HeavyAxlesPerDay": 54,
     "HeavyVehiclesPerDay": 18,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C157",
@@ -45674,7 +46113,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45751,7 +46190,8 @@
     },
     "HeavyAxlesPerDay": 236,
     "HeavyVehiclesPerDay": 98,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C196",
@@ -45778,7 +46218,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45855,7 +46295,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C197",
@@ -45882,7 +46323,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -45959,7 +46400,8 @@
     },
     "HeavyAxlesPerDay": 128,
     "HeavyVehiclesPerDay": 61,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C797",
@@ -45986,7 +46428,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46063,7 +46505,8 @@
     },
     "HeavyAxlesPerDay": 723,
     "HeavyVehiclesPerDay": 262,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C803",
@@ -46090,7 +46533,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46167,7 +46610,8 @@
     },
     "HeavyAxlesPerDay": 6,
     "HeavyVehiclesPerDay": 3,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C805",
@@ -46194,7 +46638,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46271,7 +46715,8 @@
     },
     "HeavyAxlesPerDay": 326,
     "HeavyVehiclesPerDay": 111,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C822",
@@ -46298,7 +46743,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46375,7 +46820,8 @@
     },
     "HeavyAxlesPerDay": 109,
     "HeavyVehiclesPerDay": 40,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C828",
@@ -46402,7 +46848,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46479,7 +46925,8 @@
     },
     "HeavyAxlesPerDay": 255,
     "HeavyVehiclesPerDay": 94,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C848",
@@ -46506,7 +46953,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46583,7 +47030,8 @@
     },
     "HeavyAxlesPerDay": 3500,
     "HeavyVehiclesPerDay": 1080,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C849",
@@ -46610,7 +47058,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46687,7 +47135,8 @@
     },
     "HeavyAxlesPerDay": 134,
     "HeavyVehiclesPerDay": 64,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C850",
@@ -46714,7 +47163,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46791,7 +47240,8 @@
     },
     "HeavyAxlesPerDay": 163,
     "HeavyVehiclesPerDay": 76,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C852",
@@ -46818,7 +47268,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46895,7 +47345,8 @@
     },
     "HeavyAxlesPerDay": 109,
     "HeavyVehiclesPerDay": 40,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   },
   {
     "_id": "culvert-C853",
@@ -46922,7 +47373,7 @@
     "InletOutlet": -1,
     "Structure": -1,
     "Roadway": -1,
-    "OverallConditionRating": -1,
+    "OverallConditionRating": 0,
     "OverallCondition": "Beyond Repair",
     "Condition Category.4": "Beyond Repair",
     "LegacyData": {
@@ -46999,6 +47450,7 @@
     },
     "HeavyAxlesPerDay": 109,
     "HeavyVehiclesPerDay": 40,
-    "OverloadRate": 0
+    "OverloadRate": 0,
+    "Overall Rating": 0
   }
 ]
