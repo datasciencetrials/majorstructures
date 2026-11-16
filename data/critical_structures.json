@@ -2518,5 +2518,29 @@
     "District": "Kanungu",
     "Region": "South",
     "Station": "Kabale"
+  },
+  {
+    "StructureType": "Bridge",
+    "BridgeNumber": "B548",
+    "BridgeName": "Rwizi Bridge",
+    "ResolvedConditionBridgeNo": "B548",
+    "LinkID": "A002_Link08",
+    "LinkName": "Mbarara(Bushenyi Junction) - Ntungamo",
+    "MaintenanceStation": "Mbarara",
+    "BridgeLength": 55.5,
+    "BridgeWidth": 9.2,
+    "OverallRating": "Poor",
+    "DisplayRating": 3,
+    "AdoptedConditionRating": 3,
+    "LatestConditionDate": "2026-06-30",
+    "PriorityScore": 380.0,
+    "RecommendedIntervention": "Periodic Maintenance & Substructure Repair",
+    "Comment": "Periodic Maintenance & Substructure Repair required due to Poor structural rating.",
+    "ConditionSource": "BRIDGES 2026",
+    "IdentityStatus": "accepted",
+    "ConditionConfidence": "high",
+    "District": "Mbarara",
+    "Region": "Southern",
+    "Station": "Mbarara"
   }
 ]

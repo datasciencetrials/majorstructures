@@ -2,32 +2,28 @@
   "generated_at": "2026-06-24",
   "source": "National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
   "condition_overall": {
-    "Good": 254,
-    "Critical": 102,
-    "Satisfactory": 18,
-    "Marginal": 10,
-    "Fair": 88,
-    "Poor": 61,
-    "No Data": 11,
-    "Very Poor": 1,
-    "Beyond Repair": 1
+    "Good": 247,
+    "Poor": 37,
+    "Satisfactory": 70,
+    "Beyond Repair": 7,
+    "Fair": 81,
+    "Marginal": 82,
+    "Critical": 12,
+    "Very Poor": 16
   },
   "bridges_by_region": {
-    "Southern": 80,
-    "Eastern": 96,
-    "Central": 105,
-    "Western": 44,
-    "Northern": 174,
-    "North Eastern": 47
+    "Eastern": 148,
+    "Central": 101,
+    "Southern": 73,
+    "Western": 59,
+    "Northern": 171
   },
   "culverts_by_region": {
     "Central": 27,
-    "Southern": 75,
-    "Western": 105,
-    "Northern": 76,
-    "Eastern": 82,
-    "North Eastern": 69,
-    "Unknown": 18
+    "Southern": 81,
+    "Western": 103,
+    "Northern": 80,
+    "Eastern": 161
   },
   "bridge_condition_status": {
     "Verified identity match": 427,
@@ -47,7 +43,7 @@
     "bridges": 552,
     "culverts": 452,
     "total_structures": 1004,
-    "critical_queue": 17,
+    "critical_queue": 72,
     "bridge_condition_analysis_matches": 552,
     "bridge_condition_alias_matches": 25
   },
@@ -718,7 +714,7 @@
   "traffic_bins": {
     "< 1,000": 135,
     "1,000 - 2,999": 225,
-    "3,000 - 4,999": 47,
+    "3,000 - 4,999": 48,
     "5,000 - 9,999": 46,
     "10,000 - 24,999": 51,
     "25,000+": 47
