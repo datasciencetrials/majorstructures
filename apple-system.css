@@ -573,3 +573,41 @@ code {
   border: 1px solid rgba(37, 99, 235, 0.2) !important;
   font-weight: 600 !important;
 }
+
+
+/* React Flow Architecture Light Theme In-depth Overrides */
+.react-flow__node,
+.react-flow__node > div,
+.react-flow__node div,
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  background: #FFFFFF !important;
+  background-color: #FFFFFF !important;
+  color: #111827 !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05) !important;
+}
+
+.react-flow__node h3,
+.react-flow__node h4,
+.react-flow__node strong,
+.react-flow__node b,
+.react-flow__node span,
+.react-flow__node p {
+  color: #111827 !important;
+}
+
+.react-flow__minimap {
+  background: #F8FAFC !important;
+  background-color: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.react-flow__minimap-mask {
+  fill: rgba(0, 0, 0, 0.06) !important;
+}
+
+.react-flow__minimap-node {
+  fill: #CBD5E1 !important;
+}
