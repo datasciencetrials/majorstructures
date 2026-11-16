@@ -5185,9 +5185,9 @@
   },
   {
     "StructureType": "Bridge",
-    "BridgeNumber": "B875",
+    "BridgeNumber": "B005",
     "BridgeName": "Kabobo - Mpcs",
-    "ResolvedConditionBridgeNo": "B548",
+    "ResolvedConditionBridgeNo": "B005",
     "LinkID": "C419_Link01",
     "LinkName": "Kafunzo-Kikagati",
     "MaintenanceStation": "Mbarara",
@@ -5374,9 +5374,9 @@
   },
   {
     "StructureType": "Bridge",
-    "BridgeNumber": "B548",
+    "BridgeNumber": "B005",
     "BridgeName": "Rwizi Bridge",
-    "ResolvedConditionBridgeNo": "B548",
+    "ResolvedConditionBridgeNo": "B005",
     "LinkID": "A002_Link08",
     "LinkName": "Mbarara(Bushenyi Junction)  - Ntungamo",
     "MaintenanceStation": "Mbarara",

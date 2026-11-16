@@ -403,3 +403,173 @@ svg text {
   }
 }
 
+
+
+/* ==========================================================================
+   Apple HIG Comprehensive Light Theme & Visibility Overrides
+   ========================================================================== */
+
+/* 1. Navigation & Header Layout Fixes */
+nav.horiz-nav-bar,
+.horiz-nav-bar,
+.horiz-nav-links,
+nav.context-subnav,
+.context-subnav,
+.subnav-links,
+.capsule-nav {
+  overflow-x: auto !important;
+  flex-wrap: nowrap !important;
+  -webkit-overflow-scrolling: touch !important;
+  max-width: 100% !important;
+  scrollbar-width: none !important;
+  justify-content: flex-start !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+nav.horiz-nav-bar::-webkit-scrollbar,
+nav.context-subnav::-webkit-scrollbar {
+  display: none !important;
+}
+
+.horiz-nav-links > *,
+.context-subnav > * {
+  flex-shrink: 0 !important;
+}
+
+/* 2. Elimination of All Dark Theme Remnants */
+/* Architecture Canvas & Nodes */
+.react-flow__renderer,
+.react-flow__pane,
+.react-flow {
+  background-color: #F8FAFC !important;
+}
+.react-flow__node {
+  background-color: #FFFFFF !important;
+  color: #111827 !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+.react-flow__edge path {
+  stroke: #94A3B8 !important;
+}
+
+/* Data Capture Module */
+#data-capture-root,
+.data-capture-container,
+.dc-pane-left,
+.dc-pane-right,
+.ent-workspace {
+  background-color: #F8FAFC !important;
+  color: #111827 !important;
+}
+.data-capture-container h2,
+.data-capture-container h3,
+.data-capture-container .bridge-title,
+.dc-pane-left h2,
+.dc-pane-left h3 {
+  color: #111827 !important;
+}
+.data-capture-container p,
+.data-capture-container label,
+.dc-pane-left p {
+  color: #4B5563 !important;
+}
+
+/* Operations Ongoing Works Map Overlay Card */
+.ongoing-works-summary-card,
+.active-sites-card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #111827 !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+  backdrop-filter: blur(12px) !important;
+}
+.active-sites-card h3,
+.active-sites-card h4,
+.active-sites-card strong {
+  color: #111827 !important;
+}
+.active-sites-card p,
+.ongoing-works-desc {
+  color: #4B5563 !important;
+}
+
+/* Analytics Data Dictionary Explorer */
+.analytics-meta-box,
+.data-dict-explorer,
+.data-dict-card {
+  background-color: #FFFFFF !important;
+  color: #111827 !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
+}
+.analytics-meta-box h3,
+.analytics-meta-box h4 {
+  color: #111827 !important;
+}
+.analytics-meta-box p,
+.analytics-meta-box span {
+  color: #4B5563 !important;
+}
+
+/* 3D Digital Twin Box */
+.digital-twin-preview-box,
+.twin-canvas-container {
+  background-color: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+/* Administration Header Banners */
+.algo-header-bar,
+.users-header-bar,
+.plans-header-bar,
+.admin-header-bar {
+  background: #FFFFFF !important;
+  color: #111827 !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+/* Administration Algorithms Formula Blocks */
+.algo-formula-box,
+pre.algo-code,
+pre,
+code {
+  background-color: #F8FAFC !important;
+  color: #1E293B !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+/* 3. Filter Drawer Solid Background & Close Button Fix */
+#filter-drawer,
+.filter-panel,
+.drawer-content {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
+  z-index: 2000 !important;
+  opacity: 1 !important;
+}
+.filter-close-btn,
+#close-filter {
+  z-index: 2001 !important;
+  top: 16px !important;
+  right: 16px !important;
+  cursor: pointer !important;
+}
+
+/* 4. Washed-Out Text Contrast Enhancements */
+.accuracy-control-callout,
+.twin-warning-text,
+.text-muted,
+.kpi-muted {
+  color: #4B5563 !important;
+}
+
+/* 5. Vibrant Apple Non-Neon Tags & Status Badges */
+.tag-neon,
+.badge-neon {
+  background-color: rgba(37, 99, 235, 0.1) !important;
+  color: #2563EB !important;
+  border: 1px solid rgba(37, 99, 235, 0.2) !important;
+  font-weight: 600 !important;
+}

@@ -120,329 +120,6 @@
     }
   ],
   "bridges": {
-    "B548": {
-      "visible_bridge_no": "B548",
-      "visible_name": "Rwizi Bridge",
-      "resolved_condition_bridge_no": "B548",
-      "condition": "Poor",
-      "overall_rating": 3.0,
-      "condition_status": "Verified same-ID 2026 condition source",
-      "condition_confidence": "high",
-      "condition_source_workbook": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
-      "condition_source_sheet": "BRIDGES 2026",
-      "condition_provenance": "Same-ID historical condition from Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx / BRIDGES 2026 matched B548 by independent identity checks and supersedes the older alias transfer from B005. Latest condition is Poor; overall rating 3.0.",
-      "identity_match": {
-        "status": "accepted",
-        "score": 141,
-        "reasons": [
-          "same-number",
-          "name-exact",
-          "link",
-          "km-0.000",
-          "coord-0.0014"
-        ],
-        "resolved_bridge_no": "B548",
-        "resolved_bridge_name": "RWIZI BRIDGE",
-        "resolved_link_no": "A002_Link08",
-        "resolved_km": 264.0,
-        "facts": {
-          "same_id": true,
-          "name_jaccard": 1.0,
-          "name_match": true,
-          "link_match": true,
-          "km_delta": 0.0,
-          "km_close": true,
-          "coord_delta": 0.00136,
-          "coord_close": true,
-          "score": 141
-        },
-        "superseded_alias_bridge_no": "B005"
-      },
-      "bms_manual_overall_rate": 4,
-      "bms_manual_condition_category": "Marginal",
-      "history": [
-        {
-          "source": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
-          "source_sheet": "BRIDGES 2026",
-          "inspection_date": "2022-04-09",
-          "overall_rating": 3.0,
-          "condition_band": "Poor",
-          "components": {
-            "approaches": 6.0,
-            "roadway": 5.0,
-            "substructure": 5.0,
-            "superstructure": 3.0,
-            "waterway": 6.0
-          },
-          "note": "Same-ID condition source superseded alias B005."
-        },
-        {
-          "source": "Raw_Bridge_Cond_2022",
-          "assessment_year": 2022,
-          "overall_rating": 7,
-          "condition_band": "Good",
-          "components": {
-            "approach": 7,
-            "roadway": 4,
-            "substructure": 8,
-            "superstructure": 8,
-            "waterway": 8
-          }
-        },
-        {
-          "source": "Raw_Bridge_Component_2026",
-          "inspection_date": "2022-04-09",
-          "component_count": 39,
-          "average_valid_rating": 5.0,
-          "minimum_valid_rating": 0,
-          "components": [
-            {
-              "structure": "Expansion Joint",
-              "location": "Expansion Joint 1",
-              "rating": 7,
-              "valid_rating": 7
-            },
-            {
-              "structure": "Expansion Joint",
-              "location": "Expansion Joint 2",
-              "rating": 7,
-              "valid_rating": 7
-            },
-            {
-              "structure": "Expansion Joint",
-              "location": "Expansion Joint 3",
-              "rating": 7,
-              "valid_rating": 7
-            },
-            {
-              "structure": "Expansion Joint",
-              "location": "Expansion Joint 4",
-              "rating": 7,
-              "valid_rating": 7
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Left",
-              "valid_rating": 0,
-              "remarks": "Not Seen"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Right",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Approach",
-              "location": "N.A.",
-              "rating": 6,
-              "valid_rating": 6
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 1",
-              "rating": 7,
-              "valid_rating": 7
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 2",
-              "valid_rating": 0,
-              "remarks": "Foundation not seen"
-            },
-            {
-              "structure": "Roadway",
-              "location": "N.A.",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 1",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 2",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 3",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Waterway",
-              "location": "N.A.",
-              "rating": 8,
-              "valid_rating": 8,
-              "remarks": "Good Condition"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Left",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Right",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Approach",
-              "location": "N.A.",
-              "rating": 7,
-              "valid_rating": 7,
-              "remarks": "Missing Reflectors"
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 1",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 2",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Roadway",
-              "location": "N.A.",
-              "rating": 7,
-              "valid_rating": 7,
-              "remarks": "Silt on Deck"
-            },
-            {
-              "structure": "Span",
-              "location": "Span 1",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 2",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 3",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Waterway",
-              "location": "N.A.",
-              "rating": 8,
-              "valid_rating": 8,
-              "remarks": "Good Condition"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Left",
-              "valid_rating": 0,
-              "remarks": "Not Seen"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Right",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Approach",
-              "location": "N.A.",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 1",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Pier",
-              "location": "Pier 2",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Roadway",
-              "location": "N.A.",
-              "rating": 4,
-              "valid_rating": 4,
-              "remarks": "Missing"
-            },
-            {
-              "structure": "Span",
-              "location": "Span 1",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 2",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Span",
-              "location": "Span 3",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Left",
-              "valid_rating": 0,
-              "remarks": "Not Seen"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Right",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Approach",
-              "location": "N.A.",
-              "valid_rating": 0
-            },
-            {
-              "structure": "Roadway",
-              "location": "N.A.",
-              "rating": 8,
-              "valid_rating": 8
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Left",
-              "valid_rating": 0,
-              "remarks": "Not Seen"
-            },
-            {
-              "structure": "Abutment",
-              "location": "Abutment Right",
-              "valid_rating": 0
-            }
-          ]
-        },
-        {
-          "source": "Bridge_Analysis",
-          "inspection_date": "2022-04-09",
-          "condition_band": "Good",
-          "display_rating": 7,
-          "adopted_condition_rating": 7,
-          "computed_condition_index": 5.495,
-          "recommended_intervention": "Routine Maintenance",
-          "planning_window": "Routine annual programme",
-          "status": "Operational",
-          "status_classification": "Operational"
-        }
-      ]
-    },
     "B001": {
       "visible_bridge_no": "B001",
       "visible_name": "Old Kibimba Bridge",
@@ -1529,40 +1206,58 @@
       "visible_bridge_no": "B005",
       "visible_name": "Rwizi Bridge",
       "resolved_condition_bridge_no": "B005",
-      "condition": "Good",
-      "overall_rating": 7,
-      "condition_status": "Possible duplicate record - review before using condition",
-      "condition_confidence": "review",
-      "condition_source_workbook": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
-      "condition_source_sheet": "Bridge_Analysis",
-      "condition_provenance": "Review required before condition transfer. The visible bridge record is B005 (Rwizi Bridge); historical identity is ambiguous or a possible duplicate. The latest reported condition remains Good from UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx / Bridge_Analysis, but it is excluded from the verified priority queue until field validation.",
+      "condition": "Poor",
+      "overall_rating": 3.0,
+      "condition_status": "Verified same-ID 2026 condition source",
+      "condition_confidence": "high",
+      "condition_source_workbook": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "condition_source_sheet": "BRIDGES 2026",
+      "condition_provenance": "Same-ID historical condition from Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx / BRIDGES 2026 matched B548 by independent identity checks and supersedes the older alias transfer from B005. Latest condition is Poor; overall rating 3.0.",
       "identity_match": {
         "status": "accepted",
-        "score": 109,
+        "score": 141,
         "reasons": [
           "same-number",
           "name-exact",
           "link",
-          "km-0.000"
+          "km-0.000",
+          "coord-0.0014"
         ],
-        "resolved_bridge_no": "B005",
-        "resolved_bridge_name": "Rwizi Bridge",
+        "resolved_bridge_no": "B548",
+        "resolved_bridge_name": "RWIZI BRIDGE",
         "resolved_link_no": "A002_Link08",
-        "resolved_km": 264,
+        "resolved_km": 264.0,
         "facts": {
           "same_id": true,
+          "name_jaccard": 1.0,
           "name_match": true,
-          "name_score": 45,
           "link_match": true,
-          "km_delta": 0,
+          "km_delta": 0.0,
           "km_close": true,
-          "coord_delta": 1.23673,
-          "score": 109
-        }
+          "coord_delta": 0.00136,
+          "coord_close": true,
+          "score": 141
+        },
+        "superseded_alias_bridge_no": "B005"
       },
-      "bms_manual_overall_rate": 5,
+      "bms_manual_overall_rate": 4,
       "bms_manual_condition_category": "Marginal",
       "history": [
+        {
+          "source": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+          "source_sheet": "BRIDGES 2026",
+          "inspection_date": "2022-04-09",
+          "overall_rating": 3.0,
+          "condition_band": "Poor",
+          "components": {
+            "approaches": 6.0,
+            "roadway": 5.0,
+            "substructure": 5.0,
+            "superstructure": 3.0,
+            "waterway": 6.0
+          },
+          "note": "Same-ID condition source superseded alias B005."
+        },
         {
           "source": "Raw_Bridge_Cond_2022",
           "assessment_year": 2022,
