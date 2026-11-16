@@ -732,3 +732,317 @@ code {
   border: 1px solid #E2E8F0 !important;
   color: #0F172A !important;
 }
+
+
+/* ==========================================================================
+   Apple HIG Light Theme - Meticulous Visibility & Interaction Polish
+   ========================================================================== */
+
+/* 1. Map Legend - High Contrast Text & Vibrant System Tags */
+.modern-map-legend {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  color: #0F172A !important;
+  padding: 16px 20px !important;
+  z-index: 1000 !important;
+}
+
+.modern-map-legend h4 {
+  color: #0F172A !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.modern-map-legend span,
+.modern-map-legend p,
+.modern-map-legend div,
+.modern-map-legend label,
+.modern-map-legend li {
+  color: #0F172A !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+/* 2. Filter Drawer - Completely Opaque Pure White Surface */
+.modern-theme-root .modern-filters-drawer,
+.modern-filters-drawer {
+  background: #FFFFFF !important;
+  opacity: 1 !important;
+  border-left: 1px solid #E2E8F0 !important;
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.12) !important;
+  z-index: 2500 !important;
+}
+
+.modern-filters-scrim {
+  background: rgba(15, 23, 42, 0.35) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  z-index: 2400 !important;
+}
+
+.modern-filters-header {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+.modern-filters-header h2 {
+  color: #0F172A !important;
+  font-weight: 700 !important;
+}
+
+.modern-filters-close {
+  color: #64748B !important;
+  background: #F1F5F9 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+}
+
+.modern-filters-body {
+  background: #FFFFFF !important;
+}
+
+.modern-filter-field label {
+  color: #334155 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin-bottom: 6px !important;
+  display: block !important;
+}
+
+.modern-select-wrapper {
+  position: relative !important;
+  width: 100% !important;
+}
+
+.modern-select-wrapper select {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 10px !important;
+  padding: 10px 38px 10px 14px !important;
+  width: 100% !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03) !important;
+}
+
+.modern-select-wrapper select:focus {
+  border-color: #0071E3 !important;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15) !important;
+}
+
+.modern-select-arrow {
+  position: absolute !important;
+  right: 14px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  pointer-events: none !important;
+  color: #64748B !important;
+}
+
+.modern-filters-footer {
+  background: #F8FAFC !important;
+  border-top: 1px solid #E2E8F0 !important;
+}
+
+.modern-btn-primary {
+  background: #0071E3 !important;
+  color: #FFFFFF !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  border: none !important;
+  box-shadow: 0 2px 6px rgba(0, 113, 227, 0.2) !important;
+}
+
+.modern-btn-secondary {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+
+/* 3. Detail Flyout Panel */
+.map-detail-pane,
+.modern-theme-root .map-detail-drawer {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12) !important;
+  z-index: 1500 !important;
+}
+
+.map-detail-pane .bdc-header {
+  background: #F8FAFC !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+.map-detail-pane .bdc-title,
+.map-detail-pane h2,
+.map-detail-pane h3 {
+  color: #0F172A !important;
+}
+
+.map-detail-pane .bdc-value {
+  color: #0F172A !important;
+  font-weight: 700 !important;
+}
+
+.map-detail-pane .bdc-label {
+  color: #64748B !important;
+  font-size: 11px !important;
+}
+
+/* 4. Table Headers & Pagination */
+.data-table th,
+.bridge-inventory-scroll th,
+.source-table th {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border-bottom: 2px solid #E2E8F0 !important;
+  font-weight: 700 !important;
+}
+
+.data-table td,
+.bridge-inventory-scroll td,
+.source-table td {
+  color: #0F172A !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+.data-table tr:hover,
+.bridge-inventory-scroll tr:hover {
+  background: #F1F5F9 !important;
+}
+
+
+/* Data Dictionary Explorer & Analytics Charts Apple Light */
+.category-explorer {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04) !important;
+  color: #0F172A !important;
+}
+
+.category-explorer h2 {
+  color: #0F172A !important;
+  font-weight: 700 !important;
+}
+
+.category-explorer .panel-kicker {
+  color: #0071E3 !important;
+  font-weight: 700 !important;
+}
+
+.category-field-tabs button {
+  background: #F1F5F9 !important;
+  color: #334155 !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+.category-field-tabs button.active {
+  background: #0071E3 !important;
+  color: #FFFFFF !important;
+  border-color: #0071E3 !important;
+}
+
+.analytics-grid .chart-panel {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04) !important;
+  color: #0F172A !important;
+}
+
+/* Digital Twin Panes & Callouts */
+.twin-asset-pane {
+  background: #FFFFFF !important;
+  border-right: 1px solid #E2E8F0 !important;
+}
+
+.twin-asset-pane h1 {
+  color: #0F172A !important;
+}
+
+.twin-asset-list button {
+  color: #0F172A !important;
+}
+
+.twin-asset-list button.active,
+.twin-asset-list button:hover {
+  background: #EFF6FF !important;
+  border: 1px solid #0071E3 !important;
+  color: #0071E3 !important;
+}
+
+.twin-accuracy-note {
+  background: #FFFBEB !important;
+  border: 1px solid #FDE68A !important;
+  border-left: 3px solid #D97706 !important;
+  color: #0F172A !important;
+  border-radius: 8px !important;
+}
+
+.twin-accuracy-note strong {
+  color: #B45309 !important;
+  font-weight: 700 !important;
+}
+
+.twin-accuracy-note svg {
+  color: #D97706 !important;
+}
+
+/* Data Capture / Enterprise Sidebar */
+.ent-sidebar {
+  background-color: #FFFFFF !important;
+  border-right: 1px solid #E2E8F0 !important;
+  box-shadow: none !important;
+}
+
+.ent-sidebar-header {
+  color: #64748B !important;
+  font-weight: 800 !important;
+}
+
+.ent-list-item {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.ent-list-item:hover {
+  background: #F8FAFC !important;
+  border-color: #CBD5E1 !important;
+}
+
+.ent-list-item.active {
+  background: #EFF6FF !important;
+  border: 1px solid #0071E3 !important;
+  border-left: 3px solid #0071E3 !important;
+}
+
+.ent-list-title {
+  color: #0F172A !important;
+  font-weight: 700 !important;
+}
+
+.ent-list-item.active .ent-list-title {
+  color: #0071E3 !important;
+}
+
+.ent-list-sub {
+  color: #64748B !important;
+}

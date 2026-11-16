@@ -119,14 +119,29 @@ img[alt*="Logo"] {
 .context-subnav button.active,
 .twin-mode-toolbar button.active,
 .twin-measure-toolbar button.active,
-.slp-item-active,
-.slp-section-header,
 .evidence-year-rail button.active,
 .evidence-filmstrip button.active {
   color: #FFFFFF !important;
-  border-color: #DF1B12 !important;
-  background: #DF1B12 !important;
-  box-shadow: 0 2px 8px rgba(223, 27, 18, 0.25) !important;
+  border-color: #0071E3 !important;
+  background: #0071E3 !important;
+  box-shadow: 0 2px 8px rgba(0, 113, 227, 0.25) !important;
+  font-weight: 700 !important;
+}
+
+.slp-item-active {
+  background: #EFF6FF !important;
+  border-color: #0071E3 !important;
+  border-left: 3px solid #0071E3 !important;
+  color: #0F172A !important;
+  box-shadow: 0 2px 6px rgba(0, 113, 227, 0.1) !important;
+  font-weight: 700 !important;
+}
+
+.slp-section-header {
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+  background: #F8FAFC !important;
+  box-shadow: none !important;
   font-weight: 700 !important;
 }
 
