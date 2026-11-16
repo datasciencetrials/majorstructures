@@ -611,3 +611,124 @@ code {
 .react-flow__minimap-node {
   fill: #CBD5E1 !important;
 }
+
+/* Comprehensive Apple HIG Light Theme Overrides for Data Capture & Inspection */
+:root {
+  --ent-bg: #F5F5F7 !important;
+  --ent-surface: #FFFFFF !important;
+  --ent-surface-hover: #F1F5F9 !important;
+  --ent-header: #FFFFFF !important;
+  --ent-header-text: #0F172A !important;
+  --ent-text-main: #0F172A !important;
+  --ent-text-muted: #64748B !important;
+  --ent-border: #E2E8F0 !important;
+  --ent-border-focus: #0071E3 !important;
+  --ent-primary: #0071E3 !important;
+  --ent-primary-hover: #0077ED !important;
+  --ent-success: #16A34A !important;
+  --ent-warning: #EA580C !important;
+  --ent-danger: #E11D48 !important;
+}
+
+.ent-workspace,
+.ent-header,
+.ent-sidebar,
+.ent-card,
+.ent-panel,
+.ent-drawer {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+}
+
+.ent-workspace {
+  background: #F5F5F7 !important;
+}
+
+.ent-page-title,
+.ent-section-title,
+.ent-label,
+.ent-value {
+  color: #0F172A !important;
+}
+
+.ent-input,
+.ent-select,
+.ent-textarea {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+}
+
+.ent-input:focus,
+.ent-select:focus,
+.ent-textarea:focus {
+  border-color: #0071E3 !important;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15) !important;
+}
+
+/* Algorithms & Engineering Formulas Apple Light Theme */
+.admin-algo-root {
+  background: #F5F5F7 !important;
+  color: #0F172A !important;
+}
+
+.algo-header-bar {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+
+.algo-title,
+.tech-title {
+  color: #0F172A !important;
+}
+
+.algo-subtitle,
+.tech-desc {
+  color: #64748B !important;
+}
+
+.algo-tech-card {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.code-block {
+  background: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.code-block code {
+  color: #0F172A !important;
+}
+
+.tech-param-table th {
+  background: #F8FAFC !important;
+  color: #475569 !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+.tech-param-table td {
+  color: #0F172A !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+}
+
+.tech-val {
+  color: #0071E3 !important;
+}
+
+.root-node {
+  background: rgba(0, 113, 227, 0.1) !important;
+  border: 1px solid rgba(0, 113, 227, 0.25) !important;
+  color: #0071E3 !important;
+}
+
+.sub-node {
+  background: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+  color: #0F172A !important;
+}
