@@ -10,7 +10,7 @@ import pandas as pd
 
 
 DEPLOY = Path(r"D:\nbms_push_recovery_20260624")
-REPO = Path(r"G:\My Drive\MOWT\Uganda National Road Network Repository")
+REPO = Path(r"G:\My Drive\National Roads\Uganda National Road Network Repository")
 DATA = DEPLOY / "data"
 TODAY = "2026-06-26"
 SOURCE_ROOTS = [
@@ -24,7 +24,7 @@ NEW_KIBIMBA_ID = "B891"
 SOURCE_FILES = [
     {
         "kind": "bridge_condition",
-        "path": "7.Bridge Inventory and Condition Data/UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+        "path": "7.Bridge Inventory and Condition Data/National Roads_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
         "sheets": ["Bridge_Analysis", "Raw_Bridge_Cond_2022", "Raw_Bridge_BMS_2026", "Raw_Bridge_Component_2026", "ID_Renumbering_Log"],
     },
     {"kind": "bridge_condition", "path": "7.Bridge Inventory and Condition Data/Bridge condition rating 2022.xlsx", "sheets": ["Bridges"]},
@@ -39,19 +39,19 @@ SOURCE_FILES = [
     },
     {
         "kind": "bridge_inventory_condition",
-        "path": "arcgis-unra-curated/UNRA structures/List of bridges from BMS database(2019).xlsx",
+        "path": "arcgis-National Roads-curated/National Roads structures/List of bridges from BMS database(2019).xlsx",
         "alt_paths": [
-            "ArcGIS/UNRA structures/List of bridges from BMS database(2019).xlsx",
-            "National Road Network/UNRA structures/List of bridges from BMS database(2019).xlsx",
+            "ArcGIS/National Roads structures/List of bridges from BMS database(2019).xlsx",
+            "National Road Network/National Roads structures/List of bridges from BMS database(2019).xlsx",
         ],
         "sheets": ["Bridges"],
     },
     {
         "kind": "bridge_inventory",
-        "path": "arcgis-unra-curated/UNRA structures/List of bridges from BMS database(2015).xlsx",
+        "path": "arcgis-National Roads-curated/National Roads structures/List of bridges from BMS database(2015).xlsx",
         "alt_paths": [
-            "ArcGIS/UNRA structures/List of bridges from BMS database(2015).xlsx",
-            "National Road Network/UNRA structures/List of bridges from BMS database(2015).xlsx",
+            "ArcGIS/National Roads structures/List of bridges from BMS database(2015).xlsx",
+            "National Road Network/National Roads structures/List of bridges from BMS database(2015).xlsx",
         ],
         "sheets": ["Sheet2"],
     },
@@ -306,7 +306,7 @@ def apply_manual_analytics(bridges, analytics):
         bridge["BMSManualComponentsUsed"] = result["components_used"]
         bridge["BMSManualValidationIssues"] = result["issues"]
         bridge["BMSManualWaterwayOmitted"] = result["waterway_omitted"]
-        bridge["BMSManualSource"] = "UNRA Asset Management System BMS User Manual, January 2017, section 10.1"
+        bridge["BMSManualSource"] = "National Roads Asset Management System BMS User Manual, January 2017, section 10.1"
         counts[result["condition_category"]] += 1
         if result["issues"]:
             validation_issues.append({"bridge_no": bridge_key(bridge), "bridge_name": bridge_name(bridge), "issues": result["issues"]})
@@ -322,7 +322,7 @@ def apply_manual_analytics(bridges, analytics):
                 }
             )
     analytics["bms_manual_analytics"] = {
-        "manual": "UNRA_AssetManagementSystem_6_BMS_User_Manual.pdf",
+        "manual": "National Roads_AssetManagementSystem_6_BMS_User_Manual.pdf",
         "manual_section": "10 Ranking for Bridges / 10.1 Overall Rate Calculation",
         "manual_rules_applied": [
             "Overall rate is computed from approach, waterway, substructure, superstructure and roadway component ratings using the manual component weighting table.",
@@ -1075,7 +1075,7 @@ def main():
                     entry["sheets"].append(sheet_entry)
                     continue
                 try:
-                    header_row = None if path.name.startswith("UNRA_Bridge_Major_Culverts") else 0
+                    header_row = None if path.name.startswith("National Roads_Bridge_Major_Culverts") else 0
                     df = excel_with_header(path, sheet, header_row=header_row).dropna(how="all")
                     sheet_entry["rows"] = int(len(df))
                     parsed = 0
@@ -1633,7 +1633,7 @@ def main():
         "generated_at": TODAY,
         "source_workbook": "multi-source NBMS historical validation",
         "identity_resolution": report["identity_rule"],
-        "manual_analytics_source": "UNRA_AssetManagementSystem_6_BMS_User_Manual.pdf, section 10.1",
+        "manual_analytics_source": "National Roads_AssetManagementSystem_6_BMS_User_Manual.pdf, section 10.1",
         "kibimba_replacement_split": kibimba_split,
         "same_id_condition_overrides": same_id_condition_overrides,
         "bridges": {
