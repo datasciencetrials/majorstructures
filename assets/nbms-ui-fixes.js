@@ -534,8 +534,8 @@
     const thumbName = normalizeThumbName(fileName);
     const candidates = [];
     if (thumbName) candidates.push(asset(`gallery/thumbnails/${thumbName}`));
-    if (fileName) candidates.push(asset(`gallery/images/${fileName}`));
-    if (fileName) candidates.push(asset(`gallery/images/${fileName.replace(/(\.jpe?g)+$/i, ".JPG")}`));
+    if (fileName) candidates.push(asset(`gallery/thumbnails/${fileName}`));
+    if (fileName) candidates.push(asset(`gallery/thumbnails/${fileName.replace(/(\.jpe?g)+$/i, ".jpg")}`));
     return candidates.filter((candidate, index, list) => candidate && candidate !== url.href && list.indexOf(candidate) === index);
   }
 

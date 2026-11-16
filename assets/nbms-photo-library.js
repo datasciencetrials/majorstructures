@@ -115,7 +115,7 @@
     }
     if (name) {
       addCandidate(candidates, `${BASE}gallery/thumbnails/${thumbName(name)}`);
-      addCandidate(candidates, `${BASE}gallery/images/${name}`);
+      addCandidate(candidates, `${BASE}gallery/thumbnails/${name}`);
     }
     return candidates.filter((candidate) => normalizedUrl(candidate) !== normalizedUrl(source));
   };
