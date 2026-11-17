@@ -95,7 +95,7 @@
     "manual_formula_disagreement_count": 344,
     "manual_formula_disagreement_sample": [
       {
-        "bridge_no": "B548",
+        "bridge_no": "B005",
         "bridge_name": "Rwizi Bridge",
         "published_condition": "Poor",
         "manual_condition": "Marginal",
