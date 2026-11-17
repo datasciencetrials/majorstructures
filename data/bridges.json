@@ -75390,9 +75390,9 @@
     "OverloadRate": 0
   },
   {
-    "_id": "bridge-B005-corrected-source-row-2",
-    "BridgeNumber": "B005",
-    "BridgeName": "Rwizi Bridge",
+    "_id": "bridge-B548",
+    "BridgeNumber": "B548",
+    "BridgeName": "RWIZI BRIDGE 2",
     "RoadDescrPrincipal": "Mbarara(Bushenyi Junction) - Ntungamo",
     "LinkID": "A002_Link08",
     "KmPrincipal": 264,
@@ -75408,7 +75408,7 @@
     "TypeBearings": "06",
     "TotalLength": 55.5,
     "MinClearWidth": 9.2,
-    "YearBuilt": 1970,
+    "YearBuilt": 2020,
     "NumberOfLanes": 2,
     "ScourRisk": "N",
     "Latitude": -0.61817,
@@ -75439,10 +75439,10 @@
       "link_id": "A002_Link08",
       "link_name": "Mbarara(Bushenyi Junction)  - Ntungamo"
     },
-    "bridge_no": "B005",
-    "new_bridge_no": "B005",
-    "original_bridge_no": "B005",
-    "bridge_nam": "RWIZI BRIDGE",
+    "bridge_no": "B548",
+    "new_bridge_no": "B548",
+    "original_bridge_no": "B548",
+    "bridge_nam": "RWIZI BRIDGE 2",
     "road_descr_principal": "Mbarara(Bushenyi Junction) - Ntungamo",
     "link_no": "A002_Link08",
     "km": 264,
@@ -75462,7 +75462,7 @@
     "length": 55.5,
     "bridge_wid": 9.2,
     "width": 9.2,
-    "year_compl": 1970,
+    "year_compl": 2020,
     "no_of_lane": 2,
     "scour_risk": "N",
     "map_y": -0.61817,
@@ -75481,10 +75481,10 @@
     "overall_rating": 3,
     "comment": "Unknown",
     "LegacyData": {
-      "bridge_no": "B005",
-      "new_bridge_no": "B005",
+      "bridge_no": "B548",
+      "new_bridge_no": "B548",
       "original_bridge_no": "B005",
-      "bridge_nam": "RWIZI BRIDGE",
+      "bridge_nam": "RWIZI BRIDGE 2",
       "road_descr_principal": "Mbarara(Bushenyi Junction)  - Ntungamo",
       "link_no": "A002_Link08",
       "km": 264,
@@ -75544,10 +75544,13 @@
     "CrossingDescription": "Road over river",
     "SurfaceType": "Bituminous",
     "IdentityCorrection": {
-      "previous_accidental_bridge_number": "B548",
-      "corrected_bridge_number": "B005",
-      "correction_status": "user-verified"
-    }
+      "canonical_bridge_number": "B548",
+      "bridge_name": "RWIZI BRIDGE 2",
+      "relation": "Duplicate/Parallel span to B005 Rwizi Bridge",
+      "status": "permanently designated as RWIZI BRIDGE 2"
+    },
+    "bridge_name": "RWIZI BRIDGE 2",
+    "name": "RWIZI BRIDGE 2"
   },
   {
     "_id": "bridge-B549",

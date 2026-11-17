@@ -1080,3 +1080,48 @@ h1, h2, h3, h4, h5, h6, .brand-title, .heading {
   -webkit-text-fill-color: #0F172A !important;
   color: #0F172A !important;
 }
+
+
+/* Engine Config & Parameter Cards Contrast Overrides */
+[style*="color: #f8fafc"],
+[style*="color:#f8fafc"],
+[style*="color: #fff"],
+[style*="color:#fff"] {
+  color: #0F172A !important;
+}
+
+/* Ensure buttons text on blue/green background remains white */
+button.active, .tab-btn.active, .btn-primary, [style*="background: #0071E3"], [style*="background:#0071E3"], [style*="background: #2563eb"], [style*="background:#2563eb"] {
+  color: #FFFFFF !important;
+}
+button.active *, .tab-btn.active * {
+  color: #FFFFFF !important;
+}
+
+/* Make all dark/gray config cards and inspect culvert element cards crisp white */
+.config-container,
+.config-sidebar,
+.parameter-card,
+[style*="background: rgba(15, 23, 42"],
+[style*="background: #181c24"],
+[style*="background:#181c24"],
+[style*="background: #1e293b"],
+[style*="background:#1e293b"] {
+  background: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Vision 2040 Projections Banner Styling */
+.vision-2040-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #EAF2FF;
+  color: #0071E3;
+  border: 1px solid #CBD5E1;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+}
