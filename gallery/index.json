@@ -15640,7 +15640,7 @@
     "thumbnail_available": true
   },
   {
-    "structure_id": "B077",
+    "structure_id": "B548",
     "filename": "B077_B548_17_13.jpg",
     "path": null,
     "original_path": null,
@@ -15650,12 +15650,13 @@
     "match_method": "filename",
     "naming_status": "structured",
     "thumbnail_path": null,
-    "full_available": false,
-    "web_available": false,
-    "thumbnail_available": false
+    "full_available": true,
+    "web_available": true,
+    "thumbnail_available": false,
+    "structure_name": "RWIZI BRIDGE 2"
   },
   {
-    "structure_id": "B077",
+    "structure_id": "B548",
     "filename": "B077_B548_17_14.jpg",
     "path": null,
     "original_path": null,
@@ -15665,12 +15666,13 @@
     "match_method": "filename",
     "naming_status": "structured",
     "thumbnail_path": null,
-    "full_available": false,
-    "web_available": false,
-    "thumbnail_available": false
+    "full_available": true,
+    "web_available": true,
+    "thumbnail_available": false,
+    "structure_name": "RWIZI BRIDGE 2"
   },
   {
-    "structure_id": "B077",
+    "structure_id": "B548",
     "filename": "B077_B548_17_15.jpg",
     "path": null,
     "original_path": null,
@@ -15680,9 +15682,10 @@
     "match_method": "filename",
     "naming_status": "structured",
     "thumbnail_path": null,
-    "full_available": false,
-    "web_available": false,
-    "thumbnail_available": false
+    "full_available": true,
+    "web_available": true,
+    "thumbnail_available": false,
+    "structure_name": "RWIZI BRIDGE 2"
   },
   {
     "structure_id": "B078",

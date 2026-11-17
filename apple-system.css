@@ -1046,3 +1046,37 @@ code {
 .ent-list-sub {
   color: #64748B !important;
 }
+
+
+/* Map marker transparency fix for Leaflet */
+.leaflet-marker-icon,
+.leaflet-pane button,
+.leaflet-container button.leaflet-marker-icon,
+button.station-marker,
+button.ferry-marker,
+button.bridge-marker,
+button[class*="marker"] {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Page actions floating nav fix */
+nav[aria-label="Page actions"],
+.page-actions,
+.page-toolbar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08) !important;
+  border-radius: 999px !important;
+  padding: 4px 8px !important;
+  max-width: fit-content !important;
+}
+
+/* Heading visibility and high contrast */
+h1, h2, h3, h4, h5, h6, .brand-title, .heading {
+  -webkit-text-fill-color: #0F172A !important;
+  color: #0F172A !important;
+}

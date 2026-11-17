@@ -5,7 +5,7 @@
     "reconstruction_status": "insufficient-photo-coverage",
     "point_cloud_url": null,
     "textured_mesh_url": null,
-    "canonical_photo_count": 0,
+    "canonical_photo_count": 3,
     "capture_years": [],
     "authoritative_dimensions": {
       "length_m": 55.5,
@@ -19,7 +19,8 @@
       "has_minimum_photo_count": false,
       "requires_survey_control_for_certified_dimensions": true,
       "certified_dimension_accuracy": false
-    }
+    },
+    "structure_name": "RWIZI BRIDGE 2"
   },
   {
     "structure_id": "B001",
