@@ -1281,7 +1281,27 @@
         if (el.textContent.includes('Digital Twin Reconstruction')) {
           el.textContent = el.textContent.replace(/Digital Twin Reconstruction/g, 'Structural Dimension Plan');
         }
+        if (/National Roads Authority|\bUNRA\b/i.test(el.textContent)) {
+          el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'MoWT Department of National Roads');
+        }
+        if (/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/i.test(el.textContent)) {
+          el.textContent = el.textContent.replace(/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/gi, 'Complete National Register');
+        }
       }
+    });
+
+    document.querySelectorAll('table').forEach(tbl => {
+      const ths = Array.from(tbl.querySelectorAll('thead th, tr:first-child th'));
+      ths.forEach((th, idx) => {
+        const label = (th.textContent || '').trim();
+        if (/^(Firm|Checked\s*By|Inspector|Consultant)$/i.test(label)) {
+          th.style.display = 'none';
+          tbl.querySelectorAll('tbody tr, tr').forEach(row => {
+            const cells = row.querySelectorAll('td, th');
+            if (cells[idx]) cells[idx].style.display = 'none';
+          });
+        }
+      });
     });
 
     document.querySelectorAll('h2, h3, h4').forEach(h => {
@@ -1365,16 +1385,16 @@
       polishReportModal();
       polishReviewOnlyBadges();
     }, 160), true);
-    const observer = new MutationObserver(() => rescueRoutes());
+    const observer = new MutationObserver(() => {
+      rescueRoutes();
+      polishReportModal();
+    });
     observer.observe(document.documentElement, { childList: true, subtree: true });
-    let sweeps = 0;
-    const sweepTimer = setInterval(() => {
+    setInterval(() => {
       polishCriticalBadges();
       polishReportModal();
       polishReviewOnlyBadges();
-      sweeps += 1;
-      if (sweeps >= 30) clearInterval(sweepTimer);
-    }, 700);
+    }, 600);
   }
 
   if (document.readyState === "loading") {
@@ -1383,6 +1403,3 @@
     boot();
   }
 })();
-
-setInterval(polishReportModal, 300);
-const modalObs = new MutationObserver(polishReportModal); modalObs.observe(document.body, { childList: true, subtree: true });

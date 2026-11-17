@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24",
-  "source": "National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+  "generated_at": "17/11/2026",
+  "source": "National BMS & RMS Register (FY 2026/27)",
   "condition_overall": {
     "Good": 247,
     "Poor": 37,
@@ -12,18 +12,20 @@
     "Very Poor": 16
   },
   "bridges_by_region": {
-    "Eastern": 148,
-    "Central": 101,
-    "Southern": 73,
-    "Western": 59,
-    "Northern": 171
+    "Eastern": 95,
+    "Central": 107,
+    "Southern": 80,
+    "Western": 46,
+    "North Eastern": 49,
+    "Northern": 175
   },
   "culverts_by_region": {
-    "Central": 27,
-    "Southern": 81,
-    "Western": 103,
-    "Northern": 80,
-    "Eastern": 161
+    "Central": 54,
+    "Southern": 75,
+    "Western": 96,
+    "Northern": 76,
+    "Eastern": 82,
+    "North Eastern": 69
   },
   "bridge_condition_status": {
     "Verified identity match": 427,
@@ -43,11 +45,11 @@
     "bridges": 552,
     "culverts": 452,
     "total_structures": 1004,
-    "critical_queue": 72,
+    "critical_queue": 112,
     "bridge_condition_analysis_matches": 552,
     "bridge_condition_alias_matches": 25
   },
-  "last_updated": "2026-06-26",
+  "last_updated": "17/11/2026",
   "bridge_condition_counts": {
     "Good": 247,
     "Satisfactory": 71,
@@ -75,7 +77,7 @@
     "verified_no_data_condition": 6
   },
   "bms_manual_analytics": {
-    "manual": "National_AssetManagementSystem_6_BMS_User_Manual.pdf",
+    "manual": "MoWT National Bridge Management System Standards Manual",
     "manual_section": "10 Ranking for Bridges / 10.1 Overall Rate Calculation",
     "manual_rules_applied": [
       "Overall rate is computed from approach, waterway, substructure, superstructure and roadway component ratings using the manual component weighting table.",
@@ -104,13 +106,6 @@
       {
         "bridge_no": "B002",
         "bridge_name": "Malaba",
-        "published_condition": "Good",
-        "manual_condition": "Marginal",
-        "manual_rate": 5
-      },
-      {
-        "bridge_no": "B005",
-        "bridge_name": "Rwizi Bridge",
         "published_condition": "Good",
         "manual_condition": "Marginal",
         "manual_rate": 5

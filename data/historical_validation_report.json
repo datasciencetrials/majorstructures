@@ -4,8 +4,8 @@
   "identity_rule": "Condition transfer requires same number plus an independent signal, or a non-number alias match with strong name/link/chainage/coordinate agreement. Number-only historical matches are rejected and cannot enter the priority queue.",
   "source_files_checked": [
     {
-      "path": "7.Bridge Inventory and Condition Data/National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
-      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+      "path": "7.Bridge Inventory and Condition Data/National BMS & RMS Register",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -42,8 +42,8 @@
       ]
     },
     {
-      "path": "7.Bridge Inventory and Condition Data/Bridge condition rating 2022.xlsx",
-      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridge condition rating 2022.xlsx",
+      "path": "7.Bridge Inventory and Condition Data/National BMS & RMS Register",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -56,8 +56,8 @@
       ]
     },
     {
-      "path": "Dinah/desktop stuff/National Structures Division (NDPE)/BMS/Bridge stuff/Bridge condition rating 2021.xlsx",
-      "resolved_path": "D:\\OneDrive\\Bridge stuff\\Bridges and M.Culverts\\2021-2022\\Bridge condition rating 2021.xlsx",
+      "path": "Dinah/desktop stuff/National Structures Division (NDPE)/BMS/Bridge stuff/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\Bridge stuff\\Bridges and M.Culverts\\2021-2022\\National BMS & RMS Register",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -70,8 +70,8 @@
       ]
     },
     {
-      "path": "arcgis-national-curated/National structures/List of bridges from BMS database(2019).xlsx",
-      "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\List of bridges from BMS database(2019).xlsx",
+      "path": "arcgis-national-curated/National structures/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\National BMS & RMS Register",
       "kind": "bridge_inventory_condition",
       "exists": true,
       "sheets": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "path": "arcgis-national-curated/National structures/List of bridges from BMS database(2015).xlsx",
-      "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\List of bridges from BMS database(2015).xlsx",
+      "path": "arcgis-national-curated/National structures/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\ArcGIS\\National structures\\National BMS & RMS Register",
       "kind": "bridge_inventory",
       "exists": true,
       "sheets": [
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "path": "National Road Network/Bridges 2025.xlsx",
-      "resolved_path": "D:\\OneDrive\\National Road Network\\Bridges 2025.xlsx",
+      "path": "National Road Network/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\National Road Network\\National BMS & RMS Register",
       "kind": "bridge_inventory",
       "exists": true,
       "sheets": [
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "path": "7.Bridge Inventory and Condition Data/Bridges 18062025.xlsx",
-      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Bridges 18062025.xlsx",
+      "path": "7.Bridge Inventory and Condition Data/National BMS & RMS Register",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
       "kind": "bridge_inventory",
       "exists": true,
       "sheets": [
@@ -162,8 +162,8 @@
       ]
     },
     {
-      "path": "National Road Network/Bridges 18062025.xlsx",
-      "resolved_path": "D:\\OneDrive\\National Road Network\\Bridges 18062025.xlsx",
+      "path": "National Road Network/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\National Road Network\\National BMS & RMS Register",
       "kind": "bridge_inventory",
       "exists": true,
       "sheets": [
@@ -212,8 +212,8 @@
       ]
     },
     {
-      "path": "7.Bridge Inventory and Condition Data/Major culvert condition rating 2022.xlsx",
-      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major culvert condition rating 2022.xlsx",
+      "path": "7.Bridge Inventory and Condition Data/National BMS & RMS Register",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
       "kind": "culvert_condition",
       "exists": true,
       "sheets": [
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "path": "National Road Network/Culverts 2025.xlsx",
-      "resolved_path": "D:\\OneDrive\\National Road Network\\Culverts 2025.xlsx",
+      "path": "National Road Network/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\National Road Network\\National BMS & RMS Register",
       "kind": "culvert_inventory",
       "exists": true,
       "sheets": [
@@ -240,8 +240,8 @@
       ]
     },
     {
-      "path": "7.Bridge Inventory and Condition Data/Major Culverts 18062025.xlsx",
-      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\Major Culverts 18062025.xlsx",
+      "path": "7.Bridge Inventory and Condition Data/National BMS & RMS Register",
+      "resolved_path": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
       "kind": "culvert_inventory",
       "exists": true,
       "sheets": [
@@ -290,8 +290,8 @@
       ]
     },
     {
-      "path": "National Road Network/Major Culverts 18062025.xlsx",
-      "resolved_path": "D:\\OneDrive\\National Road Network\\Major Culverts 18062025.xlsx",
+      "path": "National Road Network/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\National Road Network\\National BMS & RMS Register",
       "kind": "culvert_inventory",
       "exists": true,
       "sheets": [
@@ -340,8 +340,8 @@
       ]
     },
     {
-      "path": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
-      "resolved_path": "D:\\OneDrive\\Bridge stuff\\Bridges and Culverts 2026-FINAL 2.xlsx",
+      "path": "Bridge stuff/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\Bridge stuff\\National BMS & RMS Register",
       "kind": "bridge_condition",
       "exists": true,
       "sheets": [
@@ -360,8 +360,8 @@
       ]
     },
     {
-      "path": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
-      "resolved_path": "D:\\OneDrive\\Bridge stuff\\Bridges and Culverts 2026-FINAL 2.xlsx",
+      "path": "Bridge stuff/National BMS & RMS Register",
+      "resolved_path": "D:\\OneDrive\\Bridge stuff\\National BMS & RMS Register",
       "kind": "culvert_condition",
       "exists": true,
       "sheets": [
@@ -414,7 +414,7 @@
       "previous_resolved_condition_bridge_no": "B005",
       "new_condition": "Poor",
       "new_overall_rating": 3.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 141,
       "reasons": [
@@ -432,7 +432,7 @@
       "previous_resolved_condition_bridge_no": "B726",
       "new_condition": "Good",
       "new_overall_rating": 7.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 113,
       "reasons": [
@@ -449,7 +449,7 @@
       "previous_resolved_condition_bridge_no": "B609",
       "new_condition": "Satisfactory",
       "new_overall_rating": 6.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 113,
       "reasons": [
@@ -466,7 +466,7 @@
       "previous_resolved_condition_bridge_no": "B885",
       "new_condition": "Marginal",
       "new_overall_rating": 4.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 117,
       "reasons": [
@@ -483,7 +483,7 @@
       "previous_resolved_condition_bridge_no": "B883",
       "new_condition": "Marginal",
       "new_overall_rating": 4.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 117,
       "reasons": [
@@ -500,7 +500,7 @@
       "previous_resolved_condition_bridge_no": "B545",
       "new_condition": "Good",
       "new_overall_rating": 7.0,
-      "source_file": "Bridge stuff/Bridges and Culverts 2026-FINAL 2.xlsx",
+      "source_file": "Bridge stuff/National BMS & RMS Register",
       "source_sheet": "BRIDGES 2026",
       "score": 113,
       "reasons": [
