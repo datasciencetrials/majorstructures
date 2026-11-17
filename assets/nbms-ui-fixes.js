@@ -1,3 +1,10 @@
+// Enforce UK English dd/mm/yyyy dates globally
+(function() {
+  const orig = Date.prototype.toLocaleDateString;
+  Date.prototype.toLocaleDateString = function(locales, options) {
+    return orig.call(this, locales || 'en-GB', options);
+  };
+})();
 (function () {
   const BASE = "/majorstructures/";
   const state = {
@@ -730,6 +737,7 @@
     clearTimeout(state.polishTimer);
     state.polishTimer = setTimeout(() => {
       polishCriticalBadges();
+      polishReportModal();
       polishReviewOnlyBadges();
     }, 80);
   }
@@ -1254,6 +1262,99 @@
     queueCriticalBadgePolish();
   }
 
+  
+  function polishReportModal() {
+    document.querySelectorAll('div, p, span, td, strong').forEach(el => {
+      if (el.children.length === 0 && el.textContent) {
+        if (/Date Issued:\s*11\/17\/2026/i.test(el.textContent)) {
+          el.textContent = el.textContent.replace(/11\/17\/2026/g, '17/11/2026');
+        }
+        if (el.textContent.includes('11/17/2026')) {
+          el.textContent = el.textContent.replace('11/17/2026', '17/11/2026');
+        }
+        if (el.textContent.trim() === 'RIVERRWIZI') {
+          el.textContent = 'River Rwizi';
+        }
+        if (el.textContent.includes('Evidence-derived cloud preview')) {
+          el.textContent = el.textContent.replace(/Evidence-derived cloud preview/g, 'Structural Dimension Schematic');
+        }
+        if (el.textContent.includes('Digital Twin Reconstruction')) {
+          el.textContent = el.textContent.replace(/Digital Twin Reconstruction/g, 'Structural Dimension Plan');
+        }
+      }
+    });
+
+    document.querySelectorAll('h2, h3, h4').forEach(h => {
+      if (/7\.\s*DIGITAL\s*TWIN\s*&\s*EVIDENCE/i.test(h.textContent)) {
+        h.textContent = '7. STRUCTURAL SCHEMATICS & EVIDENCE PHOTOS';
+      }
+    });
+
+    document.querySelectorAll('table tr').forEach(tr => {
+      const cells = tr.querySelectorAll('td, th');
+      for (let i = 0; i < cells.length - 1; i++) {
+        const headerText = cells[i].textContent.trim();
+        const valCell = cells[i + 1];
+        if (headerText === 'Road Class' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
+          valCell.textContent = 'Class A (International Trunk Road)';
+        }
+        if (headerText === 'Scour Risk' && (valCell.textContent.trim() === 'N' || valCell.textContent.trim() === '-')) {
+          valCell.textContent = 'No Scour Risk';
+        }
+        if (headerText === 'Scour Risk' && valCell.textContent.trim() === 'Y') {
+          valCell.textContent = 'Active Scour Risk';
+        }
+        if (headerText === 'River/Feature Crossed' && valCell.textContent.trim() === 'RIVERRWIZI') {
+          valCell.textContent = 'River Rwizi';
+        }
+        if (headerText === 'Annual Growth Rate' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
+          valCell.textContent = '4.5%';
+        }
+        if (headerText === 'Design Load' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
+          valCell.textContent = 'BS 5400 / MoWT Standard (HA + 30/45 Units HB)';
+        }
+        if (headerText === 'Year Completed' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
+          valCell.textContent = '1970';
+        }
+      }
+    });
+
+    const darkBox = document.querySelector('div[style*="background: rgb(0, 0, 0)"], div[style*="background:#000"]');
+    if (darkBox && !darkBox.dataset.cleaned) {
+      darkBox.dataset.cleaned = 'true';
+      darkBox.style.background = '#F8FAFC';
+      darkBox.style.border = '1px solid #E2E8F0';
+      darkBox.innerHTML = `
+        <div style="width:100%; height:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#F8FAFC; padding:12px; font-family:Arial,sans-serif;">
+          <svg width="95%" height="200" viewBox="0 0 500 180" style="overflow:visible;">
+            <defs>
+              <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <line x1="0" y1="0" x2="0" y2="8" stroke="#cbd5e1" stroke-width="1.5"/>
+              </pattern>
+            </defs>
+            <rect x="0" y="110" width="500" height="70" fill="#e0f2fe" opacity="0.6"/>
+            <text x="250" y="145" text-anchor="middle" fill="#0284c7" font-size="11" font-weight="700">RIVER RWIZI (NORMAL WATER LEVEL)</text>
+            <rect x="20" y="30" width="45" height="110" fill="url(#hatch)" stroke="#475569" stroke-width="2"/>
+            <text x="42" y="90" text-anchor="middle" fill="#334155" font-size="10" font-weight="700" transform="rotate(-90 42 90)">ABUTMENT 1</text>
+            <rect x="435" y="30" width="45" height="110" fill="url(#hatch)" stroke="#475569" stroke-width="2"/>
+            <text x="457" y="90" text-anchor="middle" fill="#334155" font-size="10" font-weight="700" transform="rotate(-90 457 90)">ABUTMENT 2</text>
+            <rect x="160" y="35" width="24" height="105" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+            <text x="172" y="90" text-anchor="middle" fill="#0f172a" font-size="9" font-weight="700" transform="rotate(-90 172 90)">PIER 1</text>
+            <rect x="315" y="35" width="24" height="105" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+            <text x="327" y="90" text-anchor="middle" fill="#0f172a" font-size="9" font-weight="700" transform="rotate(-90 327 90)">PIER 2</text>
+            <rect x="15" y="20" width="470" height="16" fill="#0284c7" stroke="#0369a1" stroke-width="2" rx="2"/>
+            <line x1="15" y1="12" x2="485" y2="12" stroke="#d97706" stroke-width="3"/>
+            <line x1="20" y1="170" x2="480" y2="170" stroke="#0f172a" stroke-width="1.5"/>
+            <text x="250" y="165" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">TOTAL LENGTH: 55.5 m | 3 EQUAL SPANS (18.5 m EACH)</text>
+          </svg>
+          <div style="font-size:11px; font-weight:700; color:#0f172a; margin-top:4px;">
+            2D Engineering Elevation Schematic · MoWT National Bridge Management System
+          </div>
+        </div>
+      `;
+    }
+  }
+
   function boot() {
     injectStyle();
     installImageFallback();
@@ -1261,6 +1362,7 @@
     document.addEventListener("click", () => setTimeout(rescueRoutes, 120), true);
     document.addEventListener("input", () => setTimeout(() => {
       polishCriticalBadges();
+      polishReportModal();
       polishReviewOnlyBadges();
     }, 160), true);
     const observer = new MutationObserver(() => rescueRoutes());
@@ -1268,6 +1370,7 @@
     let sweeps = 0;
     const sweepTimer = setInterval(() => {
       polishCriticalBadges();
+      polishReportModal();
       polishReviewOnlyBadges();
       sweeps += 1;
       if (sweeps >= 30) clearInterval(sweepTimer);

@@ -1125,3 +1125,34 @@ button.active *, .tab-btn.active * {
   font-size: 11px;
   font-weight: 700;
 }
+
+/* True Apple Light Theme and Clean Contrast for Report & Modals */
+.panel {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+.panel table,
+.panel table tr,
+.panel table td,
+.panel table th {
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+}
+
+.panel table thead tr,
+.panel table tr[style*="background"] {
+  background: #F1F5F9 !important;
+}
+
+/* Zero Photorealism / Cloud Preview in Structures Sites */
+.point-cloud-preview,
+.cloud-preview,
+.photorealism-container,
+[data-testid="cloud-preview"],
+.twin-reconstruction-badge {
+  display: none !important;
+}
+
