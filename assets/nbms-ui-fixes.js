@@ -1383,3 +1383,6 @@
     boot();
   }
 })();
+
+setInterval(polishReportModal, 300);
+const modalObs = new MutationObserver(polishReportModal); modalObs.observe(document.body, { childList: true, subtree: true });
