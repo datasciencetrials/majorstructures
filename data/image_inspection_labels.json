@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "26/06/2026",
   "label_policy": {
     "source": "NBMS corrected bridge/culvert condition feeds plus gallery/index.json",
     "training_eligible_rule": "Only high-confidence active structures in Critical/Poor/Marginal/Satisfactory/Good are used for training.",

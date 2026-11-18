@@ -1,31 +1,29 @@
 {
-  "generated_at": "17/11/2026",
-  "source": "National BMS & RMS Register (FY 2026/27)",
+  "generated_at": "18/11/2026",
+  "source": "MoWT Unified SQL Database (Automated Weekly Refresh)",
   "condition_overall": {
     "Good": 247,
-    "Poor": 37,
-    "Satisfactory": 70,
-    "Beyond Repair": 7,
-    "Fair": 81,
-    "Marginal": 82,
-    "Critical": 12,
-    "Very Poor": 16
+    "Satisfactory": 71,
+    "Marginal": 162,
+    "Poor": 52,
+    "Critical": 13,
+    "Under Construction": 7
   },
   "bridges_by_region": {
-    "Eastern": 95,
+    "Northern": 175,
     "Central": 107,
+    "Eastern": 95,
     "Southern": 80,
-    "Western": 46,
     "North Eastern": 49,
-    "Northern": 175
+    "Western": 46
   },
   "culverts_by_region": {
-    "Central": 54,
-    "Southern": 75,
     "Western": 96,
-    "Northern": 76,
     "Eastern": 82,
-    "North Eastern": 69
+    "Northern": 76,
+    "Southern": 75,
+    "North Eastern": 69,
+    "Central": 54
   },
   "bridge_condition_status": {
     "Verified identity match": 427,
@@ -46,10 +44,15 @@
     "culverts": 452,
     "total_structures": 1004,
     "critical_queue": 112,
-    "bridge_condition_analysis_matches": 552,
-    "bridge_condition_alias_matches": 25
+    "critical_bridges": 104,
+    "critical_culverts": 8,
+    "regions": 6,
+    "stations": 23,
+    "road_network_km": 21284.02,
+    "paved_km": 6406.69,
+    "unpaved_km": 14877.33
   },
-  "last_updated": "17/11/2026",
+  "last_updated": "18/11/2026",
   "bridge_condition_counts": {
     "Good": 247,
     "Satisfactory": 71,
@@ -66,9 +69,9 @@
     "Critical": 4,
     "Under Construction": 1
   },
-  "priority_structures_count": 230,
-  "critical_structures_count": 171,
-  "poor_structures_count": 59,
+  "priority_structures_count": 112,
+  "critical_structures_count": 17,
+  "poor_structures_count": 53,
   "historical_validation_status_counts": {
     "verified_condition_identity": 427,
     "verified_replaced_historical_structure": 1,
@@ -86,13 +89,12 @@
       "Missing or inaccessible component ratings are flagged for validation; they are not defaulted to 9 or 0."
     ],
     "condition_counts_from_manual_formula": {
-      "Critical": 9,
-      "Good": 154,
-      "Marginal": 137,
-      "No Data": 17,
-      "Poor": 184,
-      "Replaced": 1,
-      "Satisfactory": 45
+      "Good": 247,
+      "Satisfactory": 71,
+      "Marginal": 162,
+      "Poor": 52,
+      "Critical": 13,
+      "Under Construction": 7
     },
     "manual_formula_disagreement_count": 344,
     "manual_formula_disagreement_sample": [

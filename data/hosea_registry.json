@@ -16,10 +16,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B323",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 32.3394508361816,
     "CoOrdinateS": 3.2289400100708,
-    "Inspector": "Vule David and Mpaire Denis",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -92,7 +90,8 @@
     "WEIGHT": 32.0,
     "OVERALL RATING": 1,
     "Overall_Condition_Category": "Critical",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 2,
@@ -111,10 +110,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B276",
     "New Bridge Number": 0,
-    "Firm": "PROME",
     "CoOrdinateE": 31.4450302124023,
     "CoOrdinateS": 0.955429971218109,
-    "Inspector": "Brian KK",
     "DateModified": 44627,
     "Field": true,
     "MFilm": false,
@@ -187,7 +184,8 @@
     "WEIGHT": 8.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 3,
@@ -206,10 +204,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B206",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 33.0145263671875,
     "CoOrdinateS": 3.79755997657776,
-    "Inspector": "MOREEN",
     "DateModified": 44664,
     "Field": true,
     "MFilm": false,
@@ -282,7 +278,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 4,
@@ -301,10 +298,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B314",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.865665435791,
     "CoOrdinateS": 2.96004009246826,
-    "Inspector": "FRANCIS",
     "DateModified": 44626,
     "Field": true,
     "MFilm": false,
@@ -377,7 +372,8 @@
     "WEIGHT": 9.75,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 5,
@@ -396,10 +392,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B751",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 32.5130004882813,
     "CoOrdinateS": 2.2037398815155,
-    "Inspector": "Akol Michael &Keith",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -472,7 +466,8 @@
     "WEIGHT": 36.0,
     "OVERALL RATING": 0,
     "Overall_Condition_Category": "Critical",
-    "COMMENT": "Under-construction"
+    "COMMENT": "Under-construction",
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 6,
@@ -491,10 +486,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B326",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 33.0554695129395,
     "CoOrdinateS": 3.61253499984741,
-    "Inspector": "MOREEN",
     "DateModified": 44641,
     "Field": true,
     "MFilm": false,
@@ -567,7 +560,8 @@
     "WEIGHT": 10.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 7,
@@ -586,10 +580,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B335",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.9727649688721,
     "CoOrdinateS": 3.17833709716797,
-    "Inspector": "FRANCIS",
     "DateModified": 44659,
     "Field": true,
     "MFilm": false,
@@ -662,7 +654,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 6,
     "Overall_Condition_Category": "Satisfactory",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 8,
@@ -681,10 +674,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B211",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.0722427368164,
     "CoOrdinateS": 2.90336608886719,
-    "Inspector": "FRANCIS",
     "DateModified": 44655,
     "Field": true,
     "MFilm": false,
@@ -757,7 +748,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 9,
@@ -776,10 +768,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B108",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.2858810424805,
     "CoOrdinateS": 0.957220017910004,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 45097,
     "Field": true,
     "MFilm": false,
@@ -852,7 +842,8 @@
     "WEIGHT": 7.5,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 10,
@@ -871,10 +862,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B210",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 31.2006702423096,
     "CoOrdinateS": 2.88667011260986,
-    "Inspector": "Vule David and Mpaire Denis",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -947,7 +936,8 @@
     "WEIGHT": 16.5,
     "OVERALL RATING": 2,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 11,
@@ -966,10 +956,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B763",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.9050807952881,
     "CoOrdinateS": 3.01494002342224,
-    "Inspector": "FRANCIS",
     "DateModified": 44663,
     "Field": true,
     "MFilm": false,
@@ -1042,7 +1030,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 12,
@@ -1061,10 +1050,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B760",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.6559200286865,
     "CoOrdinateS": 3.26724004745483,
-    "Inspector": "PAUL",
     "DateModified": 44641,
     "Field": true,
     "MFilm": false,
@@ -1137,7 +1124,8 @@
     "WEIGHT": 8.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 13,
@@ -1156,10 +1144,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B209",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.3927993774414,
     "CoOrdinateS": 2.71497797966003,
-    "Inspector": "FRANCIS",
     "DateModified": 44654,
     "Field": true,
     "MFilm": false,
@@ -1232,7 +1218,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 14,
@@ -1251,10 +1238,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B732",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.0875091552734,
     "CoOrdinateS": 3.12694692611694,
-    "Inspector": "PAUL",
     "DateModified": 44661,
     "Field": true,
     "MFilm": false,
@@ -1327,7 +1312,8 @@
     "WEIGHT": 7.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 15,
@@ -1346,10 +1332,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B760",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.6559200286865,
     "CoOrdinateS": 3.26724004745483,
-    "Inspector": "PAUL",
     "DateModified": 44641,
     "Field": true,
     "MFilm": false,
@@ -1422,7 +1406,8 @@
     "WEIGHT": 8.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 16,
@@ -1441,10 +1426,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B735",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 31.2410697937012,
     "CoOrdinateS": 2.88969993591309,
-    "Inspector": "Vule David and Mpaire Denis",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -1517,7 +1500,8 @@
     "WEIGHT": 9.0,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 17,
@@ -1536,10 +1520,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B733",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 31.0855903625488,
     "CoOrdinateS": 3.14417004585266,
-    "Inspector": "Vule David and Mpaire Denis",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -1612,7 +1594,8 @@
     "WEIGHT": 29.0,
     "OVERALL RATING": 1,
     "Overall_Condition_Category": "Critical",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 18,
@@ -1631,10 +1614,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B883",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.1382789611816,
     "CoOrdinateS": 0.582989990711212,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 44836,
     "Field": true,
     "MFilm": false,
@@ -1707,7 +1688,8 @@
     "WEIGHT": 7.75,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 19,
@@ -1726,10 +1708,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B333",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.563512802124,
     "CoOrdinateS": 3.37025690078735,
-    "Inspector": "FRANCIS",
     "DateModified": 44659,
     "Field": true,
     "MFilm": false,
@@ -1802,7 +1782,8 @@
     "WEIGHT": 7.75,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 20,
@@ -1821,10 +1802,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B089",
     "New Bridge Number": 0,
-    "Firm": "PROME",
     "CoOrdinateE": 31.4752674102783,
     "CoOrdinateS": 1.99229001998901,
-    "Inspector": "SAMUEL T",
     "DateModified": 44621,
     "Field": true,
     "MFilm": false,
@@ -1897,7 +1876,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 21,
@@ -1916,10 +1896,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B882",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.0145301818848,
     "CoOrdinateS": 0.710789978504181,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 44836,
     "Field": true,
     "MFilm": false,
@@ -1992,7 +1970,8 @@
     "WEIGHT": 9.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 22,
@@ -2011,10 +1990,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B354",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.110408782959,
     "CoOrdinateS": 0.86777001619339,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 45057,
     "Field": true,
     "MFilm": false,
@@ -2087,7 +2064,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 23,
@@ -2106,10 +2084,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B355",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.1113815307617,
     "CoOrdinateS": 0.870549976825714,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 45057,
     "Field": true,
     "MFilm": false,
@@ -2182,7 +2158,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 24,
@@ -2201,10 +2178,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B077",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.4245891571045,
     "CoOrdinateS": 0.374500006437302,
-    "Inspector": "MoWT Engineering Team",
     "DateModified": 44651,
     "Field": true,
     "MFilm": false,
@@ -2277,7 +2252,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 25,
@@ -2296,10 +2272,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B352",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team CONSULT",
     "CoOrdinateE": 34.0146102905273,
     "CoOrdinateS": 0.711359977722168,
-    "Inspector": "IBRAHIM / NOAH",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -2372,7 +2346,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 26,
@@ -2391,10 +2366,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B032",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 31.5074367523193,
     "CoOrdinateS": 2.45935797691345,
-    "Inspector": "FRANCIS",
     "DateModified": 44652,
     "Field": true,
     "MFilm": false,
@@ -2467,7 +2440,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 27,
@@ -2486,10 +2460,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B414",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 32.022388458252,
     "CoOrdinateS": 3.19985103607178,
-    "Inspector": "DOREEN, VIRGIL",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -2562,7 +2534,8 @@
     "WEIGHT": 7.75,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 28,
@@ -2581,10 +2554,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B215",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.5685882568359,
     "CoOrdinateS": 2.03489995002747,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 44873,
     "Field": true,
     "MFilm": false,
@@ -2657,7 +2628,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 5,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 29,
@@ -2676,10 +2648,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B120",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.9105224609375,
     "CoOrdinateS": 3.5106840133667,
-    "Inspector": "FRANCIS",
     "DateModified": 44626,
     "Field": true,
     "MFilm": false,
@@ -2752,7 +2722,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 30,
@@ -2771,10 +2742,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B362",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.0417404174805,
     "CoOrdinateS": 1.01686000823975,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 45097,
     "Field": true,
     "MFilm": false,
@@ -2847,7 +2816,8 @@
     "WEIGHT": 9.25,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 31,
@@ -2866,10 +2836,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B216",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.6814002990723,
     "CoOrdinateS": 2.10067009925842,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 44873,
     "Field": true,
     "MFilm": false,
@@ -2942,7 +2910,8 @@
     "WEIGHT": 7.75,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 32,
@@ -2961,10 +2930,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B274",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 31.2095737457275,
     "CoOrdinateS": 1.56941294670105,
-    "Inspector": "Francis & Kabasomi",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -3037,7 +3004,8 @@
     "WEIGHT": 23.25,
     "OVERALL RATING": 2,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 33,
@@ -3056,10 +3024,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B253",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 29.7406997680664,
     "CoOrdinateS": -0.095940001308918,
-    "Inspector": "MoWT Engineering Team",
     "DateModified": 44637,
     "Field": true,
     "MFilm": false,
@@ -3132,7 +3098,8 @@
     "WEIGHT": 14.0,
     "OVERALL RATING": 3,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 34,
@@ -3151,10 +3118,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B079",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.2193145751953,
     "CoOrdinateS": -0.990535914897919,
-    "Inspector": "MoWT Engineering Team",
     "DateModified": 44613,
     "Field": true,
     "MFilm": false,
@@ -3227,7 +3192,8 @@
     "WEIGHT": 13.0,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 35,
@@ -3246,10 +3212,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B249",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 30.10671043396,
     "CoOrdinateS": -0.206550002098083,
-    "Inspector": "MoWT Engineering Team",
     "DateModified": 44609,
     "Field": true,
     "MFilm": false,
@@ -3322,7 +3286,8 @@
     "WEIGHT": 9.25,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 36,
@@ -3341,10 +3306,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B634",
     "New Bridge Number": 0,
-    "Firm": "PROME",
     "CoOrdinateE": 30.4906997680664,
     "CoOrdinateS": 0.158179998397827,
-    "Inspector": "Kenneth",
     "DateModified": 44634,
     "Field": true,
     "MFilm": false,
@@ -3417,7 +3380,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 37,
@@ -3436,10 +3400,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B014",
     "New Bridge Number": "B132",
-    "Firm": "National",
     "CoOrdinateE": 32.5313,
     "CoOrdinateS": 0.2153,
-    "Inspector": "Christine",
     "DateModified": 45881,
     "Field": true,
     "MFilm": false,
@@ -3512,7 +3474,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 6,
     "Overall_Condition_Category": "Satisfactory",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 38,
@@ -3531,10 +3494,8 @@
     "Review_Status": "Review",
     "BridgeNumber": "B014",
     "New Bridge Number": "B132",
-    "Firm": "National",
     "CoOrdinateE": 32.5313,
     "CoOrdinateS": 0.2153,
-    "Inspector": "Christine",
     "DateModified": 45881,
     "Field": true,
     "MFilm": false,
@@ -3607,7 +3568,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 6,
     "Overall_Condition_Category": "Satisfactory",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 39,
@@ -3626,10 +3588,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B885",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.1167411804199,
     "CoOrdinateS": 0.520399987697601,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 44836,
     "Field": true,
     "MFilm": false,
@@ -3702,7 +3662,8 @@
     "WEIGHT": 9.5,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 40,
@@ -3721,10 +3682,8 @@
     "Review_Status": "Low confidence - verify",
     "BridgeNumber": "B029",
     "New Bridge Number": 0,
-    "Firm": "MoWT Engineering Team",
     "CoOrdinateE": 34.1573295593262,
     "CoOrdinateS": 1.16470003128052,
-    "Inspector": "KIBUULE BRIAN",
     "DateModified": 45097,
     "Field": true,
     "MFilm": false,
@@ -3797,7 +3756,8 @@
     "WEIGHT": 5.75,
     "OVERALL RATING": 7,
     "Overall_Condition_Category": "Good",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 41,
@@ -3816,10 +3776,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B274",
     "New Bridge Number": 0,
-    "Firm": "National",
     "CoOrdinateE": 31.2095737457275,
     "CoOrdinateS": 1.56941294670105,
-    "Inspector": "Francis & Kabasomi",
     "DateModified": 44503,
     "Field": true,
     "MFilm": false,
@@ -3892,7 +3850,8 @@
     "WEIGHT": 23.25,
     "OVERALL RATING": 2,
     "Overall_Condition_Category": "Poor",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   },
   {
     "S/N": 42,
@@ -3911,10 +3870,8 @@
     "Review_Status": "High confidence",
     "BridgeNumber": "B272",
     "New Bridge Number": 0,
-    "Firm": "PROME",
     "CoOrdinateE": 31.2488803863525,
     "CoOrdinateS": 1.38165104389191,
-    "Inspector": "Samuel T",
     "DateModified": 44623,
     "Field": true,
     "MFilm": false,
@@ -3987,6 +3944,7 @@
     "WEIGHT": 7.25,
     "OVERALL RATING": 4,
     "Overall_Condition_Category": "Marginal",
-    "COMMENT": 0
+    "COMMENT": 0,
+    "VerificationAuthority": "MoWT Department of National Roads"
   }
 ]

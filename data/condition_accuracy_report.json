@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "26/06/2026",
   "source_workbook": "G:\\My Drive\\National-Roads\\Uganda National Road Network Repository\\7.Bridge Inventory and Condition Data\\National BMS & RMS Register",
   "identity_resolution_stats": {
     "verified_alias": 25,
@@ -597,7 +597,7 @@
     "condition": "Good",
     "display_rating": 7,
     "resolved_condition_bridge_no": "B395",
-    "latest_condition_date": "2021-11-03",
+    "latest_condition_date": "03/11/2021",
     "condition_provenance": "National BMS & RMS Register / Bridge_Analysis: Good; adopted rating 8."
   },
   "historical_validation_report": "data/historical_validation_report.json",

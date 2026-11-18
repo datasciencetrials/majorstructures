@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "26/06/2026",
   "purpose": "Historical identity and condition validation for Uganda NBMS deploy data. Bridge numbers are not trusted by themselves when a newly added structure reused an older number.",
   "identity_rule": "Condition transfer requires same number plus an independent signal, or a non-number alias match with strong name/link/chainage/coordinate agreement. Number-only historical matches are rejected and cannot enter the priority queue.",
   "source_files_checked": [

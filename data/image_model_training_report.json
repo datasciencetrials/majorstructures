@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "26/06/2026",
   "status": "trained",
   "model_kind": "pure_numpy_mlp_image_condition_classifier",
   "model_path": "models/image_inspection/condition_mlp_v0.npz",
