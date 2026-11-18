@@ -207,7 +207,7 @@ textarea::placeholder {
   color: #94A3B8 !important;
 }
 
-/* Digital Twin & Evidence View */
+/* 2D Structural Schematics & Evidence View */
 .digital-twin-canvas canvas {
   filter: none !important;
   background: #F1F5F9 !important;
@@ -1069,7 +1069,7 @@ div[style*="rgba(239, 68, 68"] div,
   color: #64748B !important;
 }
 
-/* 5. Digital Twin Workspace */
+/* 5. 2D Structural Schematics Workspace */
 .twin-workspace {
   background: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
@@ -2118,7 +2118,7 @@ input[placeholder*="Search"]:focus {
   text-transform: capitalize !important;
 }
 
-/* Digital Twin & Photo Sidebar Lists */
+/* 2D Structural Schematics & Photo Sidebar Lists */
 .twin-asset-list button,
 .structure-list button,
 .evidence-structure-list button {

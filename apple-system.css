@@ -513,7 +513,7 @@ nav.context-subnav::-webkit-scrollbar {
   color: #4B5563 !important;
 }
 
-/* 3D Digital Twin Box */
+/* 3D 2D Structural Schematics Box */
 .digital-twin-preview-box,
 .twin-canvas-container {
   background-color: #F1F5F9 !important;
@@ -968,7 +968,7 @@ code {
   color: #0F172A !important;
 }
 
-/* Digital Twin Panes & Callouts */
+/* 2D Structural Schematics Panes & Callouts */
 .twin-asset-pane {
   background: #FFFFFF !important;
   border-right: 1px solid #E2E8F0 !important;

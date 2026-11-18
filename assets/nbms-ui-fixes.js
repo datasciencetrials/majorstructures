@@ -1278,8 +1278,8 @@
         if (el.textContent.includes('Evidence-derived cloud preview')) {
           el.textContent = el.textContent.replace(/Evidence-derived cloud preview/g, 'Structural Dimension Schematic');
         }
-        if (el.textContent.includes('Digital Twin Reconstruction')) {
-          el.textContent = el.textContent.replace(/Digital Twin Reconstruction/g, 'Structural Dimension Plan');
+        if (el.textContent.includes('2D Structural Schematics Reconstruction')) {
+          el.textContent = el.textContent.replace(/2D Structural Schematics Reconstruction/g, 'Structural Dimension Plan');
         }
         if (/National Roads Authority|\bUNRA\b/i.test(el.textContent)) {
           el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'MoWT Department of National Roads');
