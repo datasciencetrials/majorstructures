@@ -1390,7 +1390,15 @@
       polishReportModal();
     });
     observer.observe(document.documentElement, { childList: true, subtree: true });
-    setInterval(() => {
+    
+  document.querySelectorAll('button').forEach(b => {
+    const t = (b.innerText || '').trim();
+    if (t === 'Admin' || t === 'Viewer' || t === 'Admin Documentation' || t === 'Audit Tools') {
+      b.style.display = 'none';
+    }
+  });
+
+  setInterval(() => {
       polishCriticalBadges();
       polishReportModal();
       polishReviewOnlyBadges();
