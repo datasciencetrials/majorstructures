@@ -328,7 +328,7 @@
           <select data-photo-year>${yearOptions}</select>
           <select data-photo-availability>
             <option value="Available" ${STATE.availability === "Available" ? "selected" : ""}>Available images</option>
-            <option value="All" ${STATE.availability === "All" ? "selected" : ""}>All indexed records</option>
+            <option value="All" ${STATE.availability === "All" ? "selected" : ""}>All indexed photos</option>
             
           </select>
         </div>
@@ -352,7 +352,7 @@
               </dl>
               ${photo.webAvailable ? `<a class="nbms-photo-open" href="${esc(photoUrl(photo))}" target="_blank" rel="noreferrer">Open full image</a>` : ""}
             </div>
-          </div>` : `<div class="nbms-photo-empty">No photo records match the current filters.</div>`}
+          </div>` : `<div class="nbms-photo-empty">No photos match the current filters.</div>`}
 
         <div class="nbms-photo-grid" aria-label="Bridge photo structures">
           ${visible.map((item) => {

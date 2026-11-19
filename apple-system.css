@@ -1169,3 +1169,130 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
   padding-right: 16px !important;
   box-sizing: border-box !important;
 }
+
+/* v112: Strict Apple HIG Light Theme Enforcement */
+:root {
+  --apple-page: #F5F5F7 !important;
+  --apple-surface: #FFFFFF !important;
+  --apple-surface-soft: #F8FAFC !important;
+  --apple-text: #0F172A !important;
+  --apple-muted: #475569 !important;
+  --apple-line: #E2E8F0 !important;
+  --apple-blue: #0071E3 !important;
+  --apple-green: #16A34A !important;
+  --apple-amber: #D97706 !important;
+  --apple-red: #DC2626 !important;
+  --apple-purple: #7C3AED !important;
+  --apple-teal: #0D9488 !important;
+  --bg-primary: #F5F5F7 !important;
+  --bg-secondary: #FFFFFF !important;
+  --surface: #FFFFFF !important;
+  --surface-1: #FFFFFF !important;
+  --surface-2: #F8FAFC !important;
+  --text-primary: #0F172A !important;
+  --text-secondary: #475569 !important;
+  --text-muted: #64748B !important;
+  --border-color: #E2E8F0 !important;
+  --border: #E2E8F0 !important;
+  --border-light: #E2E8F0 !important;
+  --ent-border: #E2E8F0 !important;
+  --accent: #0071E3 !important;
+  --accent-blue: #0071E3 !important;
+  --accent-primary: #0071E3 !important;
+  --accent-green: #16A34A !important;
+  --accent-yellow: #D97706 !important;
+  --accent-red: #DC2626 !important;
+  --accent-purple: #7C3AED !important;
+  --accent-teal: #0D9488 !important;
+}
+
+html, body, #root, #app, .page-content, .shell-main-horiz {
+  background-color: #F5F5F7 !important;
+  color: #0F172A !important;
+}
+
+/* Leaflet controls, popups, tooltips strictly light */
+.leaflet-container {
+  background: #F5F5F7 !important;
+}
+.leaflet-control,
+.leaflet-bar,
+.leaflet-bar a,
+.leaflet-control-layers,
+.leaflet-control-attribution,
+.leaflet-control-scale-line,
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.leaflet-tooltip {
+  background: rgba(255, 255, 255, 0.96) !important;
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08) !important;
+}
+.leaflet-bar a:hover {
+  background: #F1F5F9 !important;
+  color: #0071E3 !important;
+}
+
+/* ReactFlow Mind Map strictly light */
+.react-flow,
+.react-flow__pane,
+.react-flow__renderer {
+  background: #F5F5F7 !important;
+  color: #0F172A !important;
+}
+.react-flow__node,
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06) !important;
+}
+.react-flow__controls,
+.react-flow__controls-button,
+.react-flow__minimap {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+  fill: #0F172A !important;
+}
+.react-flow__controls-button svg {
+  fill: #0F172A !important;
+}
+
+/* Tooltips, modals, drawers, and schematic workspace strictly light */
+.twin-workspace,
+.twin-asset-pane,
+.twin-main,
+.twin-data-band,
+.twin-attributes,
+.twin-accuracy-note,
+.twin-mode-toolbar,
+.twin-measure-toolbar,
+.admin-algo-root,
+.algo-tech-card,
+.decision-tree,
+.dt-node,
+.code-block,
+.recharts-default-tooltip,
+.echarts-tooltip {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+}
+.twin-asset-list button {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+}
+.twin-asset-list button.active {
+  background: #EFF6FF !important;
+  color: #0071E3 !important;
+  border-color: #0071E3 !important;
+}
+.horiz-auth-badge,
+.horiz-logout {
+  display: none !important;
+}

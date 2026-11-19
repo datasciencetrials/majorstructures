@@ -1123,7 +1123,7 @@
                 <label class="wide">Plan name<input name="planName" required placeholder="Inspection plan name"></label>
                 <label class="wide">Structure<select name="structure" required><option value="">Select a structure</option>${structures.map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.id)} | ${escapeHtml(item.name)} | ${escapeHtml(item.type)} | ${escapeHtml(item.station || "Unassigned")}</option>`).join("")}</select></label>
                 <label>Inspection type<select name="inspectionType">${(state.workflow?.types || []).map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.name)}</option>`).join("")}</select></label>
-                <label>Assigned team<input name="team" placeholder="Team or inspector"></label>
+                <label>Assigned team<input name="team" placeholder="MoWT Engineering Unit"></label>
                 <label>Start date<input name="startDate" type="date" required></label>
                 <label>End date<input name="endDate" type="date" required></label>
                 <label class="wide">Scope notes<textarea name="notes" rows="3" placeholder="Members, access constraints and equipment"></textarea></label>
