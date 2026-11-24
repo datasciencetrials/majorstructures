@@ -1,6 +1,6 @@
 {
   "generated_at": "18/11/2026",
-  "source": "MoWT Unified SQL Database (Automated Weekly Refresh)",
+  "source": "National Road Network Unified SQL Database (Automated Weekly Refresh)",
   "condition_overall": {
     "Good": 247,
     "Satisfactory": 71,
@@ -80,7 +80,7 @@
     "verified_no_data_condition": 6
   },
   "bms_manual_analytics": {
-    "manual": "MoWT National Bridge Management System Standards Manual",
+    "manual": "National Road Network National Bridge Management System Standards Manual",
     "manual_section": "10 Ranking for Bridges / 10.1 Overall Rate Calculation",
     "manual_rules_applied": [
       "Overall rate is computed from approach, waterway, substructure, superstructure and roadway component ratings using the manual component weighting table.",

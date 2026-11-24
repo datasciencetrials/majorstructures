@@ -425,7 +425,7 @@
       }
       .nbms-critical-badge.nbms-badge-poor,
       .nbms-polished-badge.nbms-badge-poor {
-        background: #F59E0B !important;
+        background: #DC2626 !important;
         color: #FFFFFF !important;
       }
       .nbms-critical-badge.nbms-badge-review,
@@ -1123,7 +1123,7 @@
                 <label class="wide">Plan name<input name="planName" required placeholder="Inspection plan name"></label>
                 <label class="wide">Structure<select name="structure" required><option value="">Select a structure</option>${structures.map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.id)} | ${escapeHtml(item.name)} | ${escapeHtml(item.type)} | ${escapeHtml(item.station || "Unassigned")}</option>`).join("")}</select></label>
                 <label>Inspection type<select name="inspectionType">${(state.workflow?.types || []).map((item) => `<option value="${escapeAttr(item.id)}">${escapeHtml(item.name)}</option>`).join("")}</select></label>
-                <label>Assigned team<input name="team" placeholder="MoWT Engineering Unit"></label>
+                <label>Assigned team<input name="team" placeholder="National Road Network Engineering Unit"></label>
                 <label>Start date<input name="startDate" type="date" required></label>
                 <label>End date<input name="endDate" type="date" required></label>
                 <label class="wide">Scope notes<textarea name="notes" rows="3" placeholder="Members, access constraints and equipment"></textarea></label>
@@ -1218,24 +1218,7 @@
       button.addEventListener("click", () => openWorkflow(reference, button));
       tabGroup.appendChild(button);
     }
-    if (!$("#nbms-cad-button", tabGroup)) {
-      const cadButton = document.createElement("button");
-      cadButton.id = "nbms-cad-button";
-      cadButton.className = "nbms-workflow-button";
-      cadButton.type = "button";
-      cadButton.textContent = "Drawing Workspace";
-      cadButton.addEventListener("click", openCadWorkspace);
-      tabGroup.appendChild(cadButton);
-    }
-    if (!$("#nbms-plan-button", tabGroup)) {
-      const planButton = document.createElement("button");
-      planButton.id = "nbms-plan-button";
-      planButton.className = "nbms-workflow-button";
-      planButton.type = "button";
-      planButton.textContent = "Inspection Plans";
-      planButton.addEventListener("click", () => openPlanningWorkspace().catch((error) => console.error("NBMS planning workspace failed:", error)));
-      tabGroup.appendChild(planButton);
-    }
+    /* View-only portal: local CAD upload and plan entry forms disabled */
   }
 
   async function rescueRoutes() {
@@ -1282,7 +1265,7 @@
           el.textContent = el.textContent.replace(/2D Structural Schematics Reconstruction/g, 'Structural Dimension Plan');
         }
         if (/National Roads Authority|\bUNRA\b/i.test(el.textContent)) {
-          el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'MoWT Department of National Roads');
+          el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'National Road Network NATIONAL ROAD NETWORK ADMINISTRATION');
         }
         if (/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/i.test(el.textContent)) {
           el.textContent = el.textContent.replace(/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/gi, 'Complete National Register');
@@ -1331,7 +1314,7 @@
           valCell.textContent = '4.5%';
         }
         if (headerText === 'Design Load' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
-          valCell.textContent = 'BS 5400 / MoWT Standard (HA + 30/45 Units HB)';
+          valCell.textContent = 'BS 5400 / National Road Network Standard (HA + 30/45 Units HB)';
         }
         if (headerText === 'Year Completed' && (valCell.textContent.trim() === '-' || !valCell.textContent.trim())) {
           valCell.textContent = '1970';
@@ -1368,7 +1351,7 @@
             <text x="250" y="165" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">TOTAL LENGTH: 55.5 m | 3 EQUAL SPANS (18.5 m EACH)</text>
           </svg>
           <div style="font-size:11px; font-weight:700; color:#0f172a; margin-top:4px;">
-            2D Engineering Elevation Schematic · MoWT National Bridge Management System
+            2D Engineering Elevation Schematic · National Road Network National Bridge Management System
           </div>
         </div>
       `;

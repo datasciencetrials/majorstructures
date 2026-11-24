@@ -78,13 +78,13 @@
             <button class="bms-hub-back-btn" id="bms-hub-close" type="button" title="Return to portal"><span aria-hidden="true">←</span><span>Back to Portal</span></button>
             <div class="bms-hub-title-block"><span class="bms-hub-kicker">Bridge Management System Learning Workspace</span><h1>Inspection Standards and Field Tools</h1></div>
           </div>
-          <div class="bms-hub-header-right"><span class="bms-hub-badge">Verified Taxonomy</span><span class="bms-hub-badge bms-hub-badge-blue">Local-Only Workspaces</span></div>
+          <div class="bms-hub-header-right"><span class="bms-hub-badge">Verified Taxonomy</span><span class="bms-hub-badge bms-hub-badge-blue">Read-Only Reference</span></div>
         </header>
         <nav class="bms-hub-tabs" aria-label="BMS reference sections">
           ${tabButton("workflow", "Inspection Workflow")}
           ${tabButton("damages", `${state.damages.length} Damage Types`)}
           ${tabButton("methods", `${state.methods.length} Repair Methods`)}
-          ${tabButton("tools", "Planning and CAD")}
+          
         </nav>
         <main class="bms-hub-main">${renderTabContent()}</main>
       </div>`;
@@ -111,7 +111,7 @@
   function renderTabContent() {
     if (state.activeTab === "damages") return renderDamageTypes();
     if (state.activeTab === "methods") return renderRepairMethods();
-    if (state.activeTab === "tools") return renderTools();
+    
     return renderWorkflow();
   }
 
