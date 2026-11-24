@@ -1296,3 +1296,135 @@ html, body, #root, #app, .page-content, .shell-main-horiz {
 .horiz-logout {
   display: none !important;
 }
+
+
+/* ==========================================================================
+   Comprehensive True Apple HIG Light Theme & Visibility Overrides
+   ========================================================================== */
+
+/* 1. Global Canvas & Body */
+html, body, #root, #app, main, .app, .dashboard, .canvas, .main-content {
+  background-color: #F5F5F7 !important;
+  color: #0F172A !important;
+}
+
+/* 2. Neutralize all Tailwind & inline dark background utility classes */
+[class*="bg-slate-9"], [class*="bg-slate-8"], [class*="bg-gray-9"], [class*="bg-gray-8"],
+[class*="bg-zinc-9"], [class*="bg-zinc-8"], [class*="bg-neutral-9"], [class*="bg-neutral-8"],
+.bg-slate-900, .bg-slate-800, .bg-slate-950,
+.bg-gray-900, .bg-gray-800, .bg-gray-950,
+.bg-zinc-900, .bg-zinc-800, .bg-neutral-900, .bg-black {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+}
+
+/* Card, panel, and sidebar containers */
+.card, .panel, .sidebar, aside, .widget, [class*="card-"], [class*="panel-"],
+[class*="rounded-xl"], [class*="rounded-2xl"], [class*="rounded-lg"] {
+  background-color: #FFFFFF;
+  color: #0F172A;
+  border-color: #E2E8F0;
+}
+
+/* Modals, sheets, and popovers */
+.modal, .dialog, .drawer, .popover, .dropdown-menu,
+[class*="modal-content"], [class*="drawer-content"], [class*="sheet-content"] {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05) !important;
+}
+
+/* Backdrop / scrim: subtle translucent veil, never pitch black */
+.modal-backdrop, .dialog-backdrop, [class*="backdrop-blur"], [class*="bg-black/60"], [class*="bg-black/50"] {
+  background-color: rgba(15, 23, 42, 0.25) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+}
+
+/* 3. Text Contrast & Visibility */
+/* Faded and dim text classes -> crisp readable dark slate */
+[class*="text-slate-4"], [class*="text-slate-3"], [class*="text-gray-4"], [class*="text-gray-3"],
+[class*="text-zinc-4"], [class*="text-muted"], .text-slate-400, .text-slate-300, .text-gray-400, .text-gray-300 {
+  color: #334155 !important;
+}
+
+/* Secondary labels */
+.subtitle, .label-sub, .text-secondary, [class*="text-sm"], [class*="text-xs"] {
+  color: #475569;
+}
+
+/* Inverted white text inside white containers -> force dark slate */
+/* EXCEPT when inside a colored button, badge, or active pill! */
+.text-white:not(.btn-primary):not(.badge):not(.pill):not(.active):not([class*="bg-blue"]):not([class*="bg-emerald"]):not([class*="bg-amber"]):not([class*="bg-rose"]):not([class*="bg-[#0071E3]"]):not([class*="bg-[#16A34A]"]) {
+  color: #0F172A !important;
+}
+
+/* 4. Table Headers, Rows & Cells */
+table, .table {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+}
+th, thead, [class*="table-header"] {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+  border-bottom: 2px solid #E2E8F0 !important;
+  font-weight: 700 !important;
+}
+td, tbody tr {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+}
+tbody tr:hover {
+  background-color: #F8FAFC !important;
+}
+
+/* 5. Leaflet & Map Containers */
+.leaflet-container, .maplibregl-map, .mapboxgl-map {
+  background-color: #F5F5F7 !important;
+  outline: none !important;
+}
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08) !important;
+  border-radius: 12px !important;
+}
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+}
+
+/* 6. Vibrant Non-Neon Accents */
+.btn-primary, button.primary, .studio-button.primary, [class*="bg-blue-600"], .tab-btn.active, button.active {
+  background-color: #0071E3 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #0071E3 !important;
+  box-shadow: 0 2px 6px rgba(0, 113, 227, 0.25) !important;
+}
+.btn-primary:hover, button.primary:hover {
+  background-color: #005BB5 !important;
+}
+
+/* Green status / verified pills */
+.badge-good, .status-good, [class*="bg-emerald-"] {
+  background-color: #DCFCE7 !important;
+  color: #15803D !important;
+  border: 1px solid #BBF7D0 !important;
+}
+
+/* Amber / fair pills */
+.badge-fair, .status-fair, [class*="bg-amber-"] {
+  background-color: #FEF3C7 !important;
+  color: #B45309 !important;
+  border: 1px solid #FDE68A !important;
+}
+
+/* Red / poor pills */
+.badge-poor, .status-poor, [class*="bg-rose-"], [class*="bg-red-"] {
+  background-color: #FEE2E2 !important;
+  color: #B91C1C !important;
+  border: 1px solid #FECACA !important;
+}
