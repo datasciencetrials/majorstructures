@@ -159,7 +159,7 @@
 
 .bms-hub-tab.active {
   background: var(--apple-text-primary);
-  color: #FFFFFF;
+  color:#0F172A;
   border-color: var(--apple-text-primary);
   font-weight: 600;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -420,7 +420,7 @@
 
 .bms-image-frame {
   height: 220px;
-  background: #000;
+  background: #F5F5F7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -521,7 +521,7 @@
 
 .bms-pill.active {
   background: var(--apple-blue);
-  color: #FFFFFF;
+  color:#0F172A;
 }
 
 .bms-search-box input {
@@ -689,7 +689,7 @@
 
 .bms-detail-btn:hover {
   background: var(--apple-blue);
-  color: #FFFFFF;
+  color:#0F172A;
 }
 
 /* 3. Damage Types */
@@ -761,7 +761,7 @@
 
 .bms-damage-photo-frame {
   height: 120px;
-  background: #000;
+  background: #F5F5F7;
   border-radius: var(--apple-radius-md);
   overflow: hidden;
   margin-bottom: 10px;
@@ -1173,7 +1173,7 @@
   font-size: 13px;
   font-weight: 600;
   background: var(--apple-blue);
-  color: #FFFFFF;
+  color:#0F172A;
   border: none;
   border-radius: var(--apple-radius-pill);
   padding: 8px 20px;
