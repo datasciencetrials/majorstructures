@@ -818,7 +818,7 @@
     return `
       <article class="nbms-critical-card">
         <div class="nbms-critical-photo">
-          ${photo ? `<img src="${escapeAttr(photo)}" alt="${escapeAttr(row.BridgeName || row.BridgeNumber || "Bridge photo")}" loading="lazy">` : `<span>No photo indexed</span>`}
+          ${photo ? `<img src="${escapeAttr(photo)}" alt="${escapeAttr(row.BridgeName || row.BridgeNumber || "Bridge photo")}">` : `<span>No photo indexed</span>`}
           <span class="nbms-critical-badge">${escapeHtml(rating)}</span>
         </div>
         <div class="nbms-critical-body">
@@ -1265,7 +1265,7 @@
           el.textContent = el.textContent.replace(/2D Structural Schematics Reconstruction/g, 'Structural Dimension Plan');
         }
         if (/National Roads Authority|\bUNRA\b/i.test(el.textContent)) {
-          el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'National Road Network NATIONAL ROAD NETWORK ADMINISTRATION');
+          el.textContent = el.textContent.replace(/National Roads Authority|\bUNRA\b/gi, 'National Roads Registry');
         }
         if (/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/i.test(el.textContent)) {
           el.textContent = el.textContent.replace(/(?:Showing\s+)?\d+\s+of\s+\d+\s+records/gi, 'Complete National Register');
@@ -1351,7 +1351,7 @@
             <text x="250" y="165" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">TOTAL LENGTH: 55.5 m | 3 EQUAL SPANS (18.5 m EACH)</text>
           </svg>
           <div style="font-size:11px; font-weight:700; color:#0f172a; margin-top:4px;">
-            2D Engineering Elevation Schematic · National Road Network National Bridge Management System
+            2D Engineering Elevation Schematic · National Bridge Management System
           </div>
         </div>
       `;

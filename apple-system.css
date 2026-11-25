@@ -439,10 +439,18 @@ nav.context-subnav::-webkit-scrollbar {
 
 /* 2. Elimination of All Dark Theme Remnants */
 /* Architecture Canvas & Nodes */
-.react-flow__renderer,
-.react-flow__pane,
 .react-flow {
-  background-color: #F8FAFC !important;
+  background-color: #F5F5F7 !important;
+}
+.react-flow__renderer,
+.react-flow__pane {
+  background: transparent !important;
+}
+.react-flow__edges,
+.react-flow__edges svg {
+  max-width: none !important;
+  overflow: visible !important;
+  z-index: 3 !important;
 }
 .react-flow__node {
   background-color: #FFFFFF !important;
@@ -576,17 +584,22 @@ code {
 
 
 /* React Flow Architecture Light Theme In-depth Overrides */
-.react-flow__node,
-.react-flow__node > div,
-.react-flow__node div,
 .react-flow__node-default,
 .react-flow__node-input,
 .react-flow__node-output {
   background: #FFFFFF !important;
   background-color: #FFFFFF !important;
-  color: #111827 !important;
+  color: #0F172A !important;
   border: 1px solid #E2E8F0 !important;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05) !important;
+}
+.react-flow__node-engineNode {
+  width: auto !important;
+  min-width: 240px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
 .react-flow__node h3,
@@ -1235,13 +1248,15 @@ html, body, #root, #app, .page-content, .shell-main-horiz {
 }
 
 /* ReactFlow Mind Map strictly light */
-.react-flow,
-.react-flow__pane,
-.react-flow__renderer {
+.react-flow {
   background: #F5F5F7 !important;
   color: #0F172A !important;
 }
-.react-flow__node,
+.react-flow__pane,
+.react-flow__renderer {
+  background: transparent !important;
+  color: #0F172A !important;
+}
 .react-flow__node-default,
 .react-flow__node-input,
 .react-flow__node-output {
